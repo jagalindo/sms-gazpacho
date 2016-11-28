@@ -43,7 +43,7 @@ public class UpdateDatabase {
 		}
 		
 		//Write down the database
-		p.writeDatabase(merged, "./out_new.bib");
+		p.writeDatabase(merged, "./done.bib");
 	}
 
 }
