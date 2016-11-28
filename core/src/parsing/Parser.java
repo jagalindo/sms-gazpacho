@@ -3,20 +3,26 @@ package parsing;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
 import org.jbibtex.BibTeXDatabase;
 import org.jbibtex.BibTeXEntry;
+import org.jbibtex.BibTeXFormatter;
 import org.jbibtex.Key;
 import org.jbibtex.ParseException;
 import org.jbibtex.StringValue;
 import org.jbibtex.TokenMgrException;
+import org.jbibtex.Value;
 
 public class Parser {
 
-	public static BibTeXDatabase readDatabase(String file) {
+	public BibTeXDatabase readDatabase(String file) {
 		java.io.Reader reader = null;
 		org.jbibtex.BibTeXParser bibtexParser;
 		try {
@@ -24,7 +30,7 @@ public class Parser {
 			bibtexParser = new org.jbibtex.BibTeXParser();
 			return bibtexParser.parse(reader);
 		} catch (FileNotFoundException e) {
-			System.err.println("The file you u.sed does not exist");
+			System.err.println("The file you used does not exist.");
 			e.printStackTrace();
 		} catch (TokenMgrException | ParseException e) {
 			System.err.println("There was a problem parsing this file.");
@@ -34,11 +40,27 @@ public class Parser {
 
 	}
 
-	public static int countNumberOfPapers(BibTeXDatabase db) {
+	public void  writeDatabase(BibTeXDatabase db,String file){
+
+		Writer writer;
+		try {
+			writer = new FileWriter(new File(file));
+			BibTeXFormatter bibtexFormatter = new org.jbibtex.BibTeXFormatter();
+			bibtexFormatter.format(db, writer);
+		} catch (IOException e) {
+			System.err.println("It was impossible to write out the database.");
+			e.printStackTrace();
+		}
+
+	
+	}
+	
+	public int countNumberOfPapers(BibTeXDatabase db) {
 		return db.getEntries().size();
 	}
 
-	public static BibTeXDatabase importEntries(BibTeXDatabase from, BibTeXDatabase to) {
+	
+	public BibTeXDatabase importEntries(BibTeXDatabase from, BibTeXDatabase to) {
 
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> fromMap = from.getEntries();
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> toMap = to.getEntries();
@@ -75,6 +97,26 @@ public class Parser {
 		return to;
 	}
 
+	public Map<String,Integer> countByKey(BibTeXDatabase db, String key){
+		Map<String,Integer> res = new HashMap<String,Integer>();
+		
+		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = db.getEntries();
+		Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
+		for (org.jbibtex.BibTeXEntry entry : entries) {
+			org.jbibtex.Value value = entry.getField(new Key(key));
+			if(value!=null){
+				Integer count = res.get(value.toUserString());
+				if (count == null) {
+				    res.put(value.toUserString(), 1);
+				}
+				else {
+				    res.put(value.toUserString(), count + 1);
+				}
+			}
+		}
+		return res;
+		
+	}
 	public BibTeXDatabase addInformation(BibTeXDatabase db, String information) {
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = db.getEntries();
 		for (org.jbibtex.BibTeXEntry entry : entryMap.values()) {
@@ -98,24 +140,65 @@ public class Parser {
 		return count;
 	}
 
-	public static void main(String[] args) throws FileNotFoundException, TokenMgrException, ParseException {
+	
+	public BibTeXDatabase merge(BibTeXDatabase ... inputs ) {
 
-		BibTeXDatabase database = readDatabase("./testdata/papers.bib");
-		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = database.getEntries();
+		BibTeXDatabase res = new BibTeXDatabase();
+		for(BibTeXDatabase in:inputs){
+			res.getEntries().putAll(in.getEntries());
+		}
+		return res;
+	}
+	
+	
+	public BibTeXDatabase mergeIntelligently(BibTeXDatabase ... inputs ) {
 
+		BibTeXDatabase res = new BibTeXDatabase();
+		for(BibTeXDatabase in:inputs){
+			Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = in.getEntries();
+			Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
+			for (org.jbibtex.BibTeXEntry entry : entries) {
+				if(!contains(res,entry)){
+					res.addObject(entry);
+				}
+			}
+		}
+		return res;
+	}
+
+	private boolean contains(BibTeXDatabase res, BibTeXEntry in) {
+		Value in_value = in.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
+		
+		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = res.getEntries();
 		Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
 		for (org.jbibtex.BibTeXEntry entry : entries) {
-			// org.jbibtex.Value value =
-			// entry.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
-			org.jbibtex.Value value = entry.getField(new Key("review"));
-
-			if (value == null) {
-				continue;
+			org.jbibtex.Value value = entry.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
+			if(value!=null){
+				if(value.toUserString().equalsIgnoreCase(in_value.toUserString())){
+					return true;
+				}
 			}
-			// Do something with the title value
-
-			System.out.println(value.toUserString());
 		}
+		
+		return false;
+	}
+
+	public void remove(BibTeXDatabase db, BibTeXDatabase db2) {
+		Collection<BibTeXEntry> toRemove = new LinkedList<BibTeXEntry>();
+
+		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = db.getEntries();
+		Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
+		for (org.jbibtex.BibTeXEntry entry : entries) {
+			if(!contains(db2,entry)){
+				toRemove.add(entry);
+			}
+			
+		}
+		
+		for(BibTeXEntry e: toRemove){
+			db.removeObject(e);
+		}
+			
 	}
 
 }
