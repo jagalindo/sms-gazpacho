@@ -8,8 +8,10 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Set;
 
 import org.jbibtex.BibTeXDatabase;
 import org.jbibtex.BibTeXEntry;
@@ -40,7 +42,7 @@ public class Parser {
 
 	}
 
-	public void  writeDatabase(BibTeXDatabase db,String file){
+	public void writeDatabase(BibTeXDatabase db, String file) {
 
 		Writer writer;
 		try {
@@ -52,14 +54,12 @@ public class Parser {
 			e.printStackTrace();
 		}
 
-	
 	}
-	
+
 	public int countNumberOfPapers(BibTeXDatabase db) {
 		return db.getEntries().size();
 	}
 
-	
 	public BibTeXDatabase importEntries(BibTeXDatabase from, BibTeXDatabase to) {
 
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> fromMap = from.getEntries();
@@ -97,26 +97,28 @@ public class Parser {
 		return to;
 	}
 
-	public Map<String,Integer> countByKey(BibTeXDatabase db, String key){
-		Map<String,Integer> res = new HashMap<String,Integer>();
-		
+	public Map<String, Set<BibTeXEntry>> countByKey(BibTeXDatabase db, String key) {
+		Map<String, Set<BibTeXEntry>> res = new HashMap<String, Set<BibTeXEntry>>();
+
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = db.getEntries();
 		Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
 		for (org.jbibtex.BibTeXEntry entry : entries) {
 			org.jbibtex.Value value = entry.getField(new Key(key));
-			if(value!=null){
-				Integer count = res.get(value.toUserString());
+			if (value != null) {
+				Set<BibTeXEntry> count = res.get(value.toUserString());
 				if (count == null) {
-				    res.put(value.toUserString(), 1);
-				}
-				else {
-				    res.put(value.toUserString(), count + 1);
+					Set<BibTeXEntry> set = new HashSet<BibTeXEntry>();
+					set.add(entry);
+					res.put(value.toUserString(), set);
+				} else {
+					count.add(entry);
 				}
 			}
 		}
 		return res;
-		
+
 	}
+
 	public BibTeXDatabase addInformation(BibTeXDatabase db, String information) {
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = db.getEntries();
 		for (org.jbibtex.BibTeXEntry entry : entryMap.values()) {
@@ -126,7 +128,7 @@ public class Parser {
 		return db;
 	}
 
-	public int countNumberOfPapers(BibTeXDatabase database, String... conditions) {
+	public int countNumberOfPapersWithReview(BibTeXDatabase database, String... conditions) {
 		int count = 0;
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = database.getEntries();
 
@@ -140,25 +142,23 @@ public class Parser {
 		return count;
 	}
 
-	
-	public BibTeXDatabase merge(BibTeXDatabase ... inputs ) {
+	public BibTeXDatabase merge(BibTeXDatabase... inputs) {
 
 		BibTeXDatabase res = new BibTeXDatabase();
-		for(BibTeXDatabase in:inputs){
+		for (BibTeXDatabase in : inputs) {
 			res.getEntries().putAll(in.getEntries());
 		}
 		return res;
 	}
-	
-	
-	public BibTeXDatabase mergeIntelligently(BibTeXDatabase ... inputs ) {
+
+	public BibTeXDatabase mergeIntelligently(BibTeXDatabase... inputs) {
 
 		BibTeXDatabase res = new BibTeXDatabase();
-		for(BibTeXDatabase in:inputs){
+		for (BibTeXDatabase in : inputs) {
 			Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = in.getEntries();
 			Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
 			for (org.jbibtex.BibTeXEntry entry : entries) {
-				if(!contains(res,entry)){
+				if (!contains(res, entry)) {
 					res.addObject(entry);
 				}
 			}
@@ -168,18 +168,18 @@ public class Parser {
 
 	private boolean contains(BibTeXDatabase res, BibTeXEntry in) {
 		Value in_value = in.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
-		
+
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = res.getEntries();
 		Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
 		for (org.jbibtex.BibTeXEntry entry : entries) {
 			org.jbibtex.Value value = entry.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
-			if(value!=null){
-				if(value.toUserString().equalsIgnoreCase(in_value.toUserString())){
+			if (value != null) {
+				if (value.toUserString().equalsIgnoreCase(in_value.toUserString())) {
 					return true;
 				}
 			}
 		}
-		
+
 		return false;
 	}
 
@@ -189,16 +189,58 @@ public class Parser {
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = db.getEntries();
 		Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
 		for (org.jbibtex.BibTeXEntry entry : entries) {
-			if(!contains(db2,entry)){
+			if (!contains(db2, entry)) {
 				toRemove.add(entry);
 			}
-			
+
 		}
-		
-		for(BibTeXEntry e: toRemove){
+
+		for (BibTeXEntry e : toRemove) {
 			db.removeObject(e);
 		}
-			
+
+	}
+	public Collection<BibTeXEntry> filterJournals(Collection<BibTeXEntry> values) {
+		Collection<BibTeXEntry> res = new LinkedList<BibTeXEntry>();
+
+		for (BibTeXEntry entry : values) {
+			if (entry.getType().getValue().equals("Article")) {
+				res.add(entry);
+			}
+		}
+
+		return res;
+	}
+	public Collection<BibTeXEntry> filterByConference(Collection<BibTeXEntry> values, String rf) {
+		Collection<BibTeXEntry> res = new LinkedList<BibTeXEntry>();
+
+		for (BibTeXEntry entry : values) {
+			if (entry.getType().getValue().equals("InProceedings")) {
+				Value booktitle = entry.getField(BibTeXEntry.KEY_BOOKTITLE);
+				String conferenceName=booktitle.toUserString();
+				if(conferenceName.equalsIgnoreCase(rf)){
+					res.add(entry);
+				}
+			}
+		}
+
+		return res;
+	}
+
+	public Collection<BibTeXEntry> filterByReview(Collection<BibTeXEntry> values, String rf) {
+		Collection<BibTeXEntry> res = new LinkedList<BibTeXEntry>();
+
+		for (BibTeXEntry entry : values) {
+			Value review = entry.getField(new Key("review"));
+			if (review != null) {
+				String reviewString = review.toUserString();
+				if (reviewString.contains(rf)) {
+					res.add(entry);
+				}
+			}
+		}
+
+		return res;
 	}
 
 }

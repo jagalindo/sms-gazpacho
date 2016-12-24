@@ -2,8 +2,10 @@ package main;
 
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import org.jbibtex.BibTeXDatabase;
+import org.jbibtex.BibTeXEntry;
 
 import parsing.Parser;
 
@@ -37,9 +39,9 @@ public class UpdateDatabase {
 		p.importEntries(june16, merged);
 		
 		//Get some scores
-		Map<String, Integer> countByKey = p.countByKey(merged, "year");
-		for(Entry<String,Integer> years:countByKey.entrySet()){
-			System.out.println(years.getKey()+" "+years.getValue());
+		Map<String, Set<BibTeXEntry>> countByKey = p.countByKey(merged, "year");
+		for(Entry<String,Set<BibTeXEntry>> years:countByKey.entrySet()){
+			System.out.println(years.getKey()+" "+years.getValue().size());
 		}
 		
 		//Write down the database
