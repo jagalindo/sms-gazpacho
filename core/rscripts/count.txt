@@ -1,0 +1,116 @@
+COUNT ; LINE; University
+18 ; irisa.fr; Institut National de Recherche en Informatique et Automatique de Rennes, IRISA
+16 ; us.es; University of Seville
+13 ; jku.at; Johannes Kepler Universitaet
+7 ; lero.ie; Lero - The Irish Software Research Centre
+7 ; uni.lu; Université du Luxembourg
+6 ; issi.uned.es;Universidad Nacional de Educación a Distancia
+5 ; lboro.ac.uk;Loughborough University
+5 ; ovgu.de; Otto-von-Guericke-Universitaet Magdeburg
+5 ; ph.tum.de; Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften
+5 ; unamur.be;Université de Namur
+5 ; univ-paris1.fr;Université Paris 1 Panthéon-Sorbonne
+4 ; birzeit.edu;Birzeit University
+3 ; ecust.edu.cn;East china university of science and technology
+3 ; garvan.org.au;Garvan institute
+3 ; gsd.uwaterloo.ca;University of Waterloo
+3 ; mutah.edu.jo;Mutah University
+3 ; polimi.it;Politecnico di Milano
+3 ; ryerson.ca;Ryerson University
+3 ; sbu.ac.ir;Shahid Beheshti University
+3 ; stevenshe.ca; x.ai in New York.
+3 ; tu-braunschweig.de; Technishche Universitat Braunschweig
+3 ; um.es;University of Murcia
+3 ; uni-passau.de;Universität Passau
+2 ; ch-versailles.fr;Centre Hospitalier de Versailles 
+2 ; colorado.edu;University of colorado boulder
+2 ; cs.cmu.edu;Carnegie Mellon University
+2 ; cs.toronto.edu;University of Toronto
+2 ; csiro.au;Commonwealth Scientific and Industrial Research Organisation
+2 ; d3s.mff.cuni.cz; Univerzita Karlova
+2 ; fim.uni-passau.de; University of Passau
+2 ; fmvz.unesp.br;universidade estadual paulista "Julio de mesquita filho"
+2 ; fundp.ac.be;Vrije Universiteit Brussel
+2 ; gradcenter.cuny.edu;The city university of New York
+2 ; iastate.edu;Iowa state university
+2 ; inductive.no; INDUCTIVE AS
+2 ; irb.hr; Institut Ruder Boskovic
+2 ; ist.tugraz.at; Graz University of Technology
+2 ; lip6.fr;Pierre et Marie Curie University
+2 ; mail.neu.edu.cn; China Northeastern University
+2 ; mpq.mpg.de;Max Planck Institutes
+2 ; siemens.com; Siemens
+2 ; sse.uni-hildesheim.de;Universität Hildesheim
+2 ; ualberta.ca;University of Alberta
+2 ; ufc.br;Universidade Federal do Ceará
+2 ; uni-wh.de;Universität Witten/Herdecke
+2 ; uoc.edu;Universitat Oberta de Catalunya
+2 ; upf.br;Universidade de Passo Fundo
+2 ; uri.edu;University of Rhode Island
+2 ; wzu.edu.cn;Wenzhou University
+1 ; aalto.fi;Aalto University
+1 ; asu.edu.jo;Applied Science University
+1 ; bahia.fiocruz.br;Fiocruz Bahia
+1 ; bham.ac.uk;University of Birmingham
+1 ; ccny.cuny.edu;The City College of New York
+1 ; ce.sharif.edu;SHARIF UNIVERSITY OF TECHNOLOGY
+1 ; cea.fr;French Alternative Energies and Atomic Energy Commission
+1 ; cetic.be; Centre d'Excellence en Technologies de l'Information et de la Communication
+1 ; cin.ufpe.br;Universidade Federal de Pernambuco
+1 ; crti.dz;Centre de recherche en technologies industrielles CRTI
+1 ; cs.fau.de;Friedrich-Alexander-Universitat Erlangen-Nurnberg
+1 ; cs.kuleuven.be;University of Leuven
+1 ; cs.ox.ac.uk;University of Oxford
+1 ; cs.unict.it;Università degli Studi di Catania
+1 ; cs.york.ac.uk;The University of York
+1 ; dcc.ufba.br;Universidade Federal da Bahia
+1 ; disi.unitn.it;Università degli Studi di Trento
+1 ; energiency.com;Energiency
+1 ; epfl.ch;École polytechnique fédérale de Lausanne
+1 ; eq.ufrj.br;Universidade Federal do Rio de Janeiro
+1 ; etri.re.kr; Electronics and telecommunications research institute
+1 ; farmacia.ufmg.br;Universidade Federal de Minas Gerais
+1 ; gatech.edu;Georgia Tech
+1 ; genmymodel.com;GenMyModel
+1 ; gig.ac.cn; Guangzhou Institute of Geochemistry Chinese Academy of Sciences
+1 ; hqu.edu.cn;Huaqiao University
+1 ; hsph.harvard.edu;Harvard University
+1 ; iagoabal.eu; university of Copenhagen
+1 ; inf.puc-rio.br;Pontifícia Universidade Católica do Rio de Janeiro
+1 ; inf.ufes.br;Universidade Federal do Espirito Santo
+1 ; inria.fr; Institut national de recherche en informatique
+1 ; iti.cs.uni-magdeburg.de; University of magdeburg
+1 ; itu.dk;University of Copenhagen
+1 ; korea.ac.kr; Korea University
+1 ; lancaster.ac.uk;Lancaster University
+1 ; lncc.br;Laboratório Nacional de Computação Científica
+1 ; mail.cs.uni-magdeburg.de;University of magdeburg
+1 ; mcgill.ca;McGill University
+1 ; mcmaster.ca;McMaster University
+1 ; mdanderson.org;Anderson Cancer Center
+1 ; med.wayne.edu;Wayne State
+1 ; ntu.edu.sg;Nanyang University of Singapore
+1 ; ntu.edu.tw;National Taiwan University
+1 ; nus.edu.sg;National University of Singapore
+1 ; okstate.edu;Oklahoma State University
+1 ; onmu.odessa.ua;Odessa National Maritime University
+1 ; osumc.edu;The Ohio State University
+1 ; paluno.uni-due.de;Universität Duisburg-Essen
+1 ; phd.einstein.yu.edu;Albert Einstein College of Medicine
+1 ; post.harvard.edu; Harvard univeristy
+1 ; qu.edu.sa;Qassim University
+1 ; rug.nl;Rijksuniversiteit Groningen
+1 ; tcs.com;TCS: IT Services, Consulting and Business Solutions
+1 ; tdt.edu.vn;TON DUC THANG UNIVERSITY
+1 ; tu-berlin.de;Technische Universität Berlin
+1 ; tu-dresden.de;Technische Universität Dresden
+1 ; tudelft.nl;Delft University of Technology
+1 ; uam.es;Universidad Autónoma de Madrid
+1 ; uni-bayreuth.de;Universität Bayreuth Startseite
+1 ; uni-paderborn.de;Universität Paderborn
+1 ; uni-weimar.de;Bauhaus-Universität Weimar
+1 ; unijui.edu.br;Universidade Regional do Noroeste do Estado do Rio Grande
+1 ; unist.ac.kr;Ulsan National Institute of Science and Technology
+1 ; urjc.es;Universidad Rey Juan Carlos
+1 ; usp.br;Universidade de São Paulo
+1 ; virginia.edu; University of Virginia

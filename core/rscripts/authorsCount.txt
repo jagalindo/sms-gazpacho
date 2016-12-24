@@ -1,0 +1,221 @@
+\# papers & Author\\\hline
+15 & Acher, Mathieu\\\hline
+9 & Lopez-Herrejon, Roberto E\\\hline
+9 & Segura, Sergio\\\hline
+6 & Henard, Christopher\\\hline
+5 & Heradio, Ruben\\\hline
+5 & Ter Beek, Maurice H\\\hline
+5 & Thum, Thomas\\\hline
+5 & Wang, Shuai\\\hline
+4 & Arnaud Hubaux\\\hline
+4 & Galindo, Jose A\\\hline
+4 & Karatas, Ahmet Serkan\\\hline
+4 & Mazo, Raul\\\hline
+4 & Pleuss, Andreas\\\hline
+4 & Sayyad, Abdel Salam\\\hline
+4 & Schroter, Reimar\\\hline
+3 & Bagheri, Ebrahim\\\hline
+3 & Guo, Jianmei\\\hline
+3 & Nguyen, Tuan\\\hline
+3 & Perrouin, Gilles\\\hline
+3 & Sabouri, Hamideh\\\hline
+3 & Sanchez, Ana B\\\hline
+3 & Schaefer, Ina\\\hline
+3 & She, Steven\\\hline
+2 & Al-Msie'Deen, R\\\hline
+2 & Apel, Sven\\\hline
+2 & Arcaini, Paolo\\\hline
+2 & Asadi, Mohsen\\\hline
+2 & Baresi, Luciano\\\hline
+2 & Berger, T\\\hline
+2 & Bezerra, Carla I M\\\hline
+2 & Boskovi, Marko\\\hline
+2 & Clarke, D\\\hline
+2 & Cordy, Maxime\\\hline
+2 & Dhungana, Deepak\\\hline
+2 & Dubslaff, Clemens\\\hline
+2 & Eichelberger, Holger\\\hline
+2 & Evelyn Nicole Haslinger\\\hline
+2 & Felfernig, Alexander\\\hline
+2 & Garcia-Galan, J\\\hline
+2 & Gomez, Abel\\\hline
+2 & Johansen, Martin Fagereng\\\hline
+2 & Kastner, C\\\hline
+2 & Liu, YJ\\\hline
+2 & Lochau, Malte\\\hline
+2 & Maazoun, Jihen\\\hline
+2 & Mefteh, Mariem\\\hline
+2 & Michel, Raphael\\\hline
+2 & Nadi, Sarah\\\hline
+2 & Oster, Sebastian\\\hline
+2 & Pascual, G.G\\\hline
+2 & Paskevicius, Paulius\\\hline
+2 & Passos, Leonardo\\\hline
+2 & Pohl, R\\\hline
+2 & Quinton, C\\\hline
+2 & Ribeiro, Marcio\\\hline
+2 & Ryssel, Uwe\\\hline
+2 & Schroeter, J\\\hline
+2 & Soltani, Samaneh\\\hline
+2 & Urli, Simon\\\hline
+2 & Von Rhein, Alexander\\\hline
+2 & White, J\\\hline
+2 & Wittern, E\\\hline
+2 & Yi, Li\\\hline
+2 & Zhang, G\\\hline
+2 & Ziadi, T\\\hline
+1 & Abal, I\\\hline
+1 & Abbasi, EK\\\hline
+1 & Abele, Andreas\\\hline
+1 & Al-Bashayreh, Mahmood Ghaleb\\\hline
+1 & Al-Hajjaji, Mustafa\\\hline
+1 & Alferez, M\\\hline
+1 & Andersen, N\\\hline
+1 & Andres, C\\\hline
+1 & Antkiewicz, M\\\hline
+1 & Araar, Imad Eddine\\\hline
+1 & Aranega, V\\\hline
+1 & Ardagna, Claudio A\\\hline
+1 & Bak, Kacper\\\hline
+1 & Bakar, N.H\\\hline
+1 & Becan, Guillaume\\\hline
+1 & Benavides, David\\\hline
+1 & Bodden, E\\\hline
+1 & Bottcher, Bjorn\\\hline
+1 & Botterweck, G\\\hline
+1 & Boucher, Q\\\hline
+1 & Brabrand, C\\\hline
+1 & Buchmann, Thomas\\\hline
+1 & Burdek, Johannes\\\hline
+1 & Calvagna, Andrea\\\hline
+1 & Cao, Weijuan\\\hline
+1 & Capilla, R\\\hline
+1 & Chen, S\\\hline
+1 & Chimiak-Opoka, JD\\\hline
+1 & Classen, A\\\hline
+1 & Combemale, B\\\hline
+1 & Costa, Gabriella Castro B\\\hline
+1 & Czarnecki, Krzysztof\\\hline
+1 & Dammagh, M El\\\hline
+1 & De Mello, Rafael M\\\hline
+1 & Del-Rio-Ortega, A\\\hline
+1 & Dermeval, D\\\hline
+1 & Diaz, J\\\hline
+1 & Dintzner, Nicolas\\\hline
+1 & Dougherty, Brian\\\hline
+1 & Dumitrescu, Cosmin\\\hline
+1 & Dumitru, H\\\hline
+1 & Dunlap, R\\\hline
+1 & El-Sharkawy, Sascha\\\hline
+1 & Ensan, Faezeh\\\hline
+1 & Ernst, NA\\\hline
+1 & Famelis, Michalis\\\hline
+1 & Fernandes, Paula\\\hline
+1 & Fernandez-Amoros, D\\\hline
+1 & Filho, Joao Bosco Ferreira\\\hline
+1 & Font, Jaime\\\hline
+1 & Gey, Fatih\\\hline
+1 & Ghezzi, Carlo\\\hline
+1 & Grebhahn, A\\\hline
+1 & Gunther, S\\\hline
+1 & Haslinger, Evelyn Nicole\\\hline
+1 & Heider, Wolfgang\\\hline
+1 & Hervieu, A\\\hline
+1 & Heymans, Patrick\\\hline
+1 & Hidaka, Soichiro\\\hline
+1 & Hu, Jie\\\hline
+1 & Huber, N\\\hline
+1 & Istoan, P\\\hline
+1 & Jean-Marc Davril\\\hline
+1 & Jezequel, Jean-Marc\\\hline
+1 & Kamoun, Akram\\\hline
+1 & Kang\\\hline
+1 & Karol, Sven\\\hline
+1 & Kattepur, A\\\hline
+1 & Kim, CHP\\\hline
+1 & Kim, Jin Hyun\\\hline
+1 & Kolesnikov, Sergiy S\\\hline
+1 & Kumara, I\\\hline
+1 & Le, Duc Minh\\\hline
+1 & Lee, Hyesun\\\hline
+1 & Lee, Jaejoon\\\hline
+1 & Lee, Kwanwoo\\\hline
+1 & Leitner, Andrea\\\hline
+1 & Lettner, D\\\hline
+1 & Liebig, J\\\hline
+1 & Linsbauer, L\\\hline
+1 & Lisboa, Liana Barachisio\\\hline
+1 & Lorea Belategi\\\hline
+1 & Lotufo, Rafael\\\hline
+1 & Luo, Shutong\\\hline
+1 & Ma, Zhiyi\\\hline
+1 & Machado, I.D.C\\\hline
+1 & Maiani de Mello, R\\\hline
+1 & Marinho, Fabiana G\\\hline
+1 & Meinicke, J\\\hline
+1 & Mendonca, M\\\hline
+1 & Menkyna, Radoslav\\\hline
+1 & Merschen, Daniel\\\hline
+1 & Metzger, A\\\hline
+1 & Millo, JV\\\hline
+1 & Mohalik, Swarup\\\hline
+1 & Moriz, Natalia\\\hline
+1 & Mussbacher, Gunter\\\hline
+1 & Nakajima, S\\\hline
+1 & Nohrer, Alexander\\\hline
+1 & Noorian, Mehdi\\\hline
+1 & Nummenmaa, J\\\hline
+1 & Papakonstantinou, Nikolaos\\\hline
+1 & Park, J\\\hline
+1 & Parra, C\\\hline
+1 & Peng, Junjie\\\hline
+1 & Pereira, Juliana Alves\\\hline
+1 & Ra'Fat, AL\\\hline
+1 & Rauber, TW\\\hline
+1 & Razzaq, Abdul\\\hline
+1 & Reinfrank, Florian\\\hline
+1 & Rincon, LF\\\hline
+1 & Ripon, S\\\hline
+1 & Romero, D\\\hline
+1 & Roos-Frantz, F\\\hline
+1 & Rose, LM\\\hline
+1 & Rosenmuller, Marko\\\hline
+1 & Saeed, Mazin\\\hline
+1 & Salay, R\\\hline
+1 & Salinesi, C\\\hline
+1 & Sanchez, Luis Emiliano\\\hline
+1 & Sannier, N\\\hline
+1 & Schmid, K\\\hline
+1 & Schneeweiss, D\\\hline
+1 & Seidl, Christoph\\\hline
+1 & Shao, Zehui\\\hline
+1 & Shi, Runyu\\\hline
+1 & Siegmund, Norbert\\\hline
+1 & Simmonds, J\\\hline
+1 & Sincero, J\\\hline
+1 & Stein, Jacob\\\hline
+1 & Tanhaei, Mohammad\\\hline
+1 & Tawhid, R\\\hline
+1 & Teixeira, Leopoldo\\\hline
+1 & Tekinerdogan, Bedir\\\hline
+1 & Tizzei, Leonardo P\\\hline
+1 & Tran, Le Minh Sang\\\hline
+1 & Van den Broek, PM\\\hline
+1 & Varela-Vaca, A.J\\\hline
+1 & Varela, Patricia\\\hline
+1 & Varshosaz, M\\\hline
+1 & Vasconcelos, R\\\hline
+1 & Vierhauser, Michael\\\hline
+1 & Vijaya, Aparna\\\hline
+1 & Wanderley, F\\\hline
+1 & Wang, B\\\hline
+1 & Wang, R\\\hline
+1 & Wulf-Hadash, Ora\\\hline
+1 & Xue, Yinxing\\\hline
+1 & Yan, Hua\\\hline
+1 & Yang, Guanzhong\\\hline
+1 & Ying, Guo\\\hline
+1 & Yu, Wenjing\\\hline
+1 & Zhang, Guoheng\\\hline
+1 & Zhang, Jun\\\hline
+1 & Zhou, F\\\hline
