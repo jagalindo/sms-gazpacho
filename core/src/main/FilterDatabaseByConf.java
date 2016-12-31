@@ -14,7 +14,7 @@ public class FilterDatabaseByConf {
 		Parser p = new Parser();
 		BibTeXDatabase db = p.readDatabase("./output_data/done.bib");
 		System.out.println("Initial size :"+db.getEntries().size());
-		String[] selectedConferences = { "SPLC", "ICSE", "VAMOS", "ISSTA", "ICSR", "ASE", "ICSE" };
+		String[] selectedConferences = { "SPLC", "ICSE", "VAMOS", "ASE" };
 		Collection<BibTeXEntry> filtered = new LinkedList<BibTeXEntry>();
 		filtered.addAll(p.filterJournals(db.getEntries().values()));
 

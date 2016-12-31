@@ -30,7 +30,7 @@ public class GenAll {
 			for(BibTeXEntry be: rfc){
 				table_var.write(be.getKey().getValue()+",");
 			}
-			table_var.write("}"+"\\hline\r\n");
+			table_var.write("}"+"\\\\\\hline\r\n");
 		}				
 		
 		table_var.close();
@@ -49,7 +49,7 @@ public class GenAll {
 			for(BibTeXEntry be: rfc){
 				table_res.write(be.getKey().getValue()+",");
 			}
-			table_res.write("}"+"\\hline\r\n");
+			table_res.write("}"+"\\\\\\hline\r\n");
 		}				
 		
 		table_res.close();

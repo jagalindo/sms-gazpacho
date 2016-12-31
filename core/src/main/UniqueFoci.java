@@ -1,11 +1,13 @@
 package main;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Properties;
 
 import org.jbibtex.BibTeXDatabase;
 import org.jbibtex.BibTeXEntry;
@@ -18,7 +20,8 @@ public class UniqueFoci {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		String CURRENT_DIR = "C:\\Users\\malawito\\Documents\\Repositorios\\sms-gazpacho\\core\\";
 		String R_HOME = "C:\\Program Files\\R\\R-3.3.2\\bin\\x64";
-
+		Properties prop = new Properties();
+		prop.load(new FileReader("./data/abbreviation"));
 		Parser p = new Parser();
 		BibTeXDatabase db = p.readDatabase("./output_data/done.bib");
 		FileWriter csvwriter = new FileWriter(new File("./output_data/conferenceTable.tex"));
@@ -50,11 +53,11 @@ public class UniqueFoci {
 		}
 
 		for(Entry<String, Integer> e:conferences.entrySet()){
-			csvwriter.write(e.getKey()+" & "+e.getValue()+"\r\n");
+			csvwriter.write(e.getValue()+" & "+prop.getProperty(e.getKey())+"\r\n");
 		}
-		csvwriter.write("\\");
+		csvwriter.write("Journals\\\r\n");
 		for(Entry<String, Integer> e:journals.entrySet()){
-			csvwriter.write(e.getKey()+" & "+e.getValue()+"\r\n");
+			csvwriter.write(e.getValue()+" & "+prop.getProperty(e.getKey())+"\r\n");
 		}
 	
 
