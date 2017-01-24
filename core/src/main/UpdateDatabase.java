@@ -39,7 +39,7 @@ public class UpdateDatabase {
 		p.importEntries(june16, merged);
 		
 		//Get some scores
-		Map<String, Set<BibTeXEntry>> countByKey = p.countByKey(merged, "year");
+		Map<String, Set<BibTeXEntry>> countByKey = p.countByKey(merged.getEntries().values(), "year");
 		for(Entry<String,Set<BibTeXEntry>> years:countByKey.entrySet()){
 			System.out.println(years.getKey()+" "+years.getValue().size());
 		}

@@ -25,7 +25,7 @@ public class GenerateBarPlot {
 		FileWriter csvwriter = new FileWriter(new File("./output_data/barplot.csv"));
 //		csvwriter.write("year;journal;qac;nqac\r\n");
 		csvwriter.write("year;papers;type\r\n");
-		Map<String, Set<BibTeXEntry>> years_papers = p.countByKey(db, "year");
+		Map<String, Set<BibTeXEntry>> years_papers = p.countByKey(db.getEntries().values(), "year");
 		for (Entry<String, Set<BibTeXEntry>> entry : years_papers.entrySet()) {
 
 			System.out.println("The year :" + entry.getKey());

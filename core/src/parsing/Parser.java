@@ -97,11 +97,9 @@ public class Parser {
 		return to;
 	}
 
-	public Map<String, Set<BibTeXEntry>> countByKey(BibTeXDatabase db, String key) {
+	public Map<String, Set<BibTeXEntry>> countByKey(Collection<BibTeXEntry> entries, String key) {
 		Map<String, Set<BibTeXEntry>> res = new HashMap<String, Set<BibTeXEntry>>();
 
-		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = db.getEntries();
-		Collection<org.jbibtex.BibTeXEntry> entries = entryMap.values();
 		for (org.jbibtex.BibTeXEntry entry : entries) {
 			org.jbibtex.Value value = entry.getField(new Key(key));
 			if (value != null) {
@@ -237,6 +235,18 @@ public class Parser {
 				if (reviewString.contains(rf)) {
 					res.add(entry);
 				}
+			}
+		}
+
+		return res;
+	}
+
+	public Collection<BibTeXEntry> filterConferences(Collection<BibTeXEntry> values) {
+		Collection<BibTeXEntry> res = new LinkedList<BibTeXEntry>();
+
+		for (BibTeXEntry entry : values) {
+			if (entry.getType().getValue().equals("InProceedings")) {
+					res.add(entry);
 			}
 		}
 

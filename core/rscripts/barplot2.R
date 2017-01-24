@@ -30,11 +30,11 @@ map_facets<-c(
 
 plot<-ggplot(data, aes(x = as.numeric(year), y = papers))  +
   theme_bw() +
-  geom_line(aes(color=factor(type)),stat = "identity") +
-  scale_color_discrete(labels=map_facets)+
+  geom_line(aes(linetype=factor(type)),stat = "identity") +
+  scale_linetype_discrete(labels=map_facets)+
   ylab("# variability facet papers/ # year papers") + 
   xlab("Year of publication") + 
-  labs(color = "Variablity facet")+
+  labs(linetype = "Variablity facet")+
   theme(legend.position="bottom") +
   scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016))  + theme(aspect.ratio=0.5)+
   theme(text = element_text(size=10),axis.text.x = element_text(angle=60, hjust=1))
