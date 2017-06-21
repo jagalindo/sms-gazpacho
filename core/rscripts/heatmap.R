@@ -17,13 +17,17 @@ map_facets<-c(
   "k-philosophical" = "Philosophical\nPaper",
   "k-solution" = "Solution\nProposal",
   "k-validation" = "Validation\nResearch",
-  "k-vis" = "Beyond product\nline analysis",
+  "k-vis" = "Variability-intensive\n systems analysis",
   "k-testing" = "Testing and\nevolution",
   "k-reverse" = "Reverse\nengineering",
   "k-mmodel" = "Multi-model\nvariability analysis",
-  "k-modeling" = "Variability and\nmodeling expressivenes",
+  "k-modeling" = "Variability \nmodelling",
   "k-configuration" = "Product configuration\nand derivation"
   )
+
+#Order like in the rest of sections
+data$vf <- factor(data$vf, levels = rev(c("k-configuration","k-testing","k-reverse","k-mmodel","k-modeling","k-vis")))
+data$rf <- factor(data$rf, levels = c("k-opinion","k-philosophical","k-solution","k-evaluation","k-validation","k-experience"))
 
 ggplot(data, aes(rf, vf)) + 
   geom_tile(aes(fill = count),colour = "white") + 

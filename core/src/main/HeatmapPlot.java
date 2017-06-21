@@ -18,9 +18,10 @@ public class HeatmapPlot {
 		BibTeXDatabase db = p.readDatabase("./output_data/filtered.bib");
 
 		FileWriter csvwriter = new FileWriter(new File("./output_data/heatmap.csv"));
-
-		String[] research_facet={"k-experience","k-philosophical","k-opinion","k-solution","k-evaluation","k-validation"};
-		String[] variability_facet={"k-vis","k-mmodel","k-configuration","k-testing","k-modeling","k-reverse"};
+		String[] variability_facet={"k-configuration","k-testing","k-reverse","k-mmodel","k-modeling","k-vis"};
+		
+		String[] research_facet={"k-opinion","k-philosophical","k-solution","k-evaluation","k-validation","k-experience"};
+		
 		
 		
 		csvwriter.write("rf;vf;count"+"\r\n");

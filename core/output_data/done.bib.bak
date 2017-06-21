@@ -71,7 +71,7 @@
 
 @InProceedings{Acher201245,
   Title                    = {On extracting feature models from product descriptions},
-  Author                   = {Acher, M.a and Cleve, A.a and Perrouin, G.a and Heymans, P.b and Vanbeneden, C.a and Collet, P.c and Lahire, P.c},
+  Author                   = {Acher, M and Cleve, A and Perrouin, G and Heymans, P and Vanbeneden, C and Collet, P and Lahire, P.c},
   Booktitle                = {VAMOS},
   Year                     = {2012},
   Note                     = {cited By 3},
@@ -92,7 +92,7 @@
 
 @Article{Acher2012689,
   Title                    = {Composing multiple variability artifacts to assemble coherent workflows},
-  Author                   = {Acher, M.a and Collet, P.a and Gaignard, A.a and Lahire, P.a and Montagnat, J.a and France, R.B.b},
+  Author                   = {Acher, M and Collet, P and Gaignard, A and Lahire, P and Montagnat, J and France, R.B.b},
   Journal                  = {SQJ},
   Year                     = {2012},
   Note                     = {cited By 5},
@@ -124,7 +124,7 @@
 
 @InProceedings{Acher2011424,
   Title                    = {Slicing feature models},
-  Author                   = {Acher, M.a and Collet, P.a and Lahire, P.a and France, R.B.b},
+  Author                   = {Acher, M and Collet, P and Lahire, P and France, R.B.b},
   Booktitle                = {ASE},
   Year                     = {2011},
   Note                     = {cited By 7},
@@ -147,7 +147,7 @@
 
 @InProceedings{Acher2011600,
   Title                    = {Decomposing feature models: Language, environment, and applications},
-  Author                   = {Acher, M.a and Collet, P.a and Lahire, P.a and France, R.B.b},
+  Author                   = {Acher, M and Collet, P and Lahire, P and France, R.B.b},
   Booktitle                = {ASE},
   Year                     = {2011},
   Note                     = {cited By 2},
@@ -189,13 +189,13 @@ for this language is discussed and its main constructs are
 presented through examples. We show how the DSL can be
 used to realize a non trivial scenario in which multiple SPLs
 are managed.},
-  Journal                  = {SAC’11 March 21-25, 2011, TaiChung, Taiwan},
+  Journal                  = {SACâ€™11 March 21-25, 2011, TaiChung, Taiwan},
   Url                      = {http://dl.acm.org/citation.cfm?id=1982473}
 }
 
 @InProceedings{AcherColletLahireEtAl2011g,
   Title                    = {Managing feature models with familiar: A demonstration of the language and its tool support},
-  Author                   = {Acher, M.a and Collet, P.a and Lahire, P.a and France, R.B.b},
+  Author                   = {Acher, M and Collet, P and Lahire, P and France, R.B.b},
   Booktitle                = {VAMOS},
   Year                     = {2011},
   Note                     = {cited By 1},
@@ -298,7 +298,7 @@ and clearly stands out by its qualities.},
 
 @InProceedings{AlferezLopezHerrejonMoreiraEtAl2011b,
   Title                    = {Supporting consistency checking between features and software product line use scenarios},
-  Author                   = {Alf{\'e}rez, M.a and Lopez-Herrejon, R.E.b and Moreira, A.a and Amaral, V.a and Egyed, A.b},
+  Author                   = {Alf{\'e}rez, M and Lopez-Herrejon, R.E and Moreira, A and Amaral, V and Egyed, A.b},
   Booktitle                = {ICSR},
   Year                     = {2011},
   Note                     = {cited By 3},
@@ -358,7 +358,7 @@ and clearly stands out by its qualities.},
 
 @InProceedings{Andersen2012106,
   Title                    = {Efficient synthesis of feature models},
-  Author                   = {Andersen, N.a and Czarnecki, K.b and She, S.b and Wa̧sowski, A.a},
+  Author                   = {Andersen, N and Czarnecki, K and She, S and WaÌ§sowski, A.a},
   Booktitle                = {SPLC},
   Year                     = {2012},
   Note                     = {cited By 4},
@@ -454,7 +454,7 @@ and clearly stands out by its qualities.},
   title     = {Using feature model to build model transformation chains},
   booktitle = {MODELS},
   year      = {2012},
-  abstract  = {Model transformations are intrinsically related to model-driven engineering. According to the increasing size of standardised meta-model, large transformations need to be developed to cover them. Several approaches promote separation of concerns in this context, that is, the definition of small transformations in order to master the overall complexity. Unfortunately, the decomposition of transformations into smaller ones raises new issues: organising the increasing number of transformations and ensuring their composition (i.e. the chaining). In this paper, we propose to use feature models to classify model transformations dedicated to a given business domain. Based on this feature models, automated techniques are used to support the designer, according to two axis: (i)the definition of a valid set of model transformations and (ii) the generation of an executable chain of model transformation that accurately implement designer’s intention. This approach is validated on Gaspard2, a tool dedicated to the design of embedded system.},
+  abstract  = {Model transformations are intrinsically related to model-driven engineering. According to the increasing size of standardised meta-model, large transformations need to be developed to cover them. Several approaches promote separation of concerns in this context, that is, the definition of small transformations in order to master the overall complexity. Unfortunately, the decomposition of transformations into smaller ones raises new issues: organising the increasing number of transformations and ensuring their composition (i.e. the chaining). In this paper, we propose to use feature models to classify model transformations dedicated to a given business domain. Based on this feature models, automated techniques are used to support the designer, according to two axis: (i)the definition of a valid set of model transformations and (ii) the generation of an executable chain of model transformation that accurately implement designerâ€™s intention. This approach is validated on Gaspard2, a tool dedicated to the design of embedded system.},
   journal   = {Int. Conf. Model Driven},
   url       = {http://link.springer.com/chapter/10.1007/978-3-642-33666-9{\_}36},
 }
@@ -501,7 +501,7 @@ and clearly stands out by its qualities.},
 
 @InProceedings{AsadiBagheriMohabbatiEtAl2012b,
   Title                    = {Requirements engineering in feature oriented software product lines: An initial analytical study},
-  Author                   = {Asadi, M.a and Bagheri, E.b and Mohabbati, B.a and Ga{\v s}evi, D.b},
+  Author                   = {Asadi, M and Bagheri, E and Mohabbati, B and Ga{\v s}evi, D.b},
   Booktitle                = {SPLC},
   Year                     = {2012},
   Note                     = {cited By 1},
@@ -612,14 +612,14 @@ and clearly stands out by its qualities.},
   volume    = {24},
   number    = {4},
   pages     = {375--400},
-  abstract  = {Feature modeling an attractive technique for capturing commonality as well as variability within an application domain for generative programming and software product line engineering. Feature models symbolize an overarching representation of the possible application configuration space, and can hence be customized based on specific domain requirements and stakeholder goals. Most interactive or semi-automated feature model customization processes neglect the need to have a holistic approach towards the integration and satisfaction of the stakeholder's soft and hard constraints, and the application-domain integrity constraints. In this paper, we will show how the structure and constraints of a feature model can be modeled uniformly through Propositional Logic extended with concrete domains, called Pscr(&#55349;&#56489;). Furthermore, we formalize the representation of soft constraints in fuzzy &#55349;&#56491;(&#55349;&#56489;) and explain how semi-automated feature model customization is performed in this setting. The model configuration derivation process that we propose respects the soundness and completeness properties. Copyright © 2011 John Wiley & Sons, Ltd.},
+  abstract  = {Feature modeling an attractive technique for capturing commonality as well as variability within an application domain for generative programming and software product line engineering. Feature models symbolize an overarching representation of the possible application configuration space, and can hence be customized based on specific domain requirements and stakeholder goals. Most interactive or semi-automated feature model customization processes neglect the need to have a holistic approach towards the integration and satisfaction of the stakeholder's soft and hard constraints, and the application-domain integrity constraints. In this paper, we will show how the structure and constraints of a feature model can be modeled uniformly through Propositional Logic extended with concrete domains, called Pscr(&#55349;&#56489;). Furthermore, we formalize the representation of soft constraints in fuzzy &#55349;&#56491;(&#55349;&#56489;) and explain how semi-automated feature model customization is performed in this setting. The model configuration derivation process that we propose respects the soundness and completeness properties. Copyright Â© 2011 John Wiley & Sons, Ltd.},
   publisher = {Wiley Online Library},
   review    = {k-philosophical k-rmodel k-modeling},
 }
 
 @Article{Bagheri2011579,
   Title                    = {Assessing the maintainability of software product line feature models using structural metrics},
-  Author                   = {Bagheri, E.a b and Gasevic, D.a},
+  Author                   = {Bagheri, E b and Gasevic, D.a},
   Journal                  = {SQJ},
   Year                     = {2011},
   Note                     = {cited By 35},
@@ -640,7 +640,7 @@ and clearly stands out by its qualities.},
 }
 
 @Article{BakarKasirunSalleh2015,
-  author          = {Bakar, N.H.a b and Kasirun, Z.M.a and Salleh, N.c},
+  author          = {Bakar, N.H b and Kasirun, Z.M and Salleh, N.c},
   title           = {Feature extraction approaches from natural language requirements for reuse in software product lines: A systematic literature review},
   journal         = {JSS},
   year            = {2015},
@@ -662,7 +662,7 @@ and clearly stands out by its qualities.},
 
 @Article{Baresi201242,
   Title                    = {Service-oriented dynamic software product lines},
-  Author                   = {Baresi, L.a and Guinea, S.a and Pasquale, L.b},
+  Author                   = {Baresi, L and Guinea, S and Pasquale, L.b},
   Journal                  = {Computer},
   Year                     = {2012},
   Note                     = {cited By 19},
@@ -775,7 +775,7 @@ and Morisio, Maurizio},
 
 @Article{Berger20131611,
   Title                    = {A study of variability models and languages in the systems software domain},
-  Author                   = {Berger, T.a and She, S.b and Lotufo, R.b and Wasowski, A.a and Czarnecki, K.b},
+  Author                   = {Berger, T and She, S and Lotufo, R and Wasowski, A and Czarnecki, K.b},
   Journal                  = {TSE},
   Year                     = {2013},
   Note                     = {cited By 9},
@@ -798,7 +798,7 @@ and Morisio, Maurizio},
 
 @InProceedings{Berger201073,
   Title                    = {Variability modeling in the real: A perspective from the operating systems domain},
-  Author                   = {Berger, T.a and She, S.b and Lotufo, R.b and Wa̧sowski, A.c and Czarnecki, K.b},
+  Author                   = {Berger, T and She, S and Lotufo, R and WaÌ§sowski, A and Czarnecki, K.b},
   Booktitle                = {ASE},
   Year                     = {2010},
   Note                     = {cited By 49},
@@ -820,7 +820,7 @@ and Morisio, Maurizio},
 
 @InProceedings{BezerraAndradeMonteiro2014,
   Title                    = {Measures for quality evaluation of feature models},
-  Author                   = {Bezerra, C.I.M.a b and Andrade, R.M.C.a b and Monteiro, J.M.S.b},
+  Author                   = {Bezerra, C.I.M b and Andrade, R.M.C b and Monteiro, J.M.S.b},
   Booktitle                = {ICSR},
   Year                     = {2014},
   Note                     = {cited By 1},
@@ -901,7 +901,7 @@ This paper presents an approach for extending model-driven product line engineer
 
 @InProceedings{BoucherPerrouinHeymans2012b,
   Title                    = {Deriving configuration interfaces from feature models: A vision paper},
-  Author                   = {Boucher, Q.a and Perrouin, G.a and Heymans, P.a b},
+  Author                   = {Boucher, Q and Perrouin, G and Heymans, P b},
   Booktitle                = {VAMOS},
   Year                     = {2012},
   Note                     = {cited By 1},
@@ -981,7 +981,7 @@ This paper presents an approach for extending model-driven product line engineer
 
 @Article{Capilla20143,
   Title                    = {An overview of Dynamic Software Product Line architectures and techniques: Observations from research and industry},
-  Author                   = {Capilla, R.a and Bosch, J.b and Trinidad, P.c and Ruiz-Cort{\'e}s, A.c and Hinchey, M.d},
+  Author                   = {Capilla, R and Bosch, J and Trinidad, P and Ruiz-Cort{\'e}s, A and Hinchey, M.d},
   Journal                  = {JSS},
   Year                     = {2014},
   Note                     = {cited By 3},
@@ -1037,7 +1037,7 @@ This paper presents an approach for extending model-driven product line engineer
   title     = {Variability modelling in the ABS language},
   booktitle = {FMCO},
   year      = {2010},
-  abstract  = {The HATS project aims at developing a model-centric methodology for the design, implementation and verification of highly configurable systems, such as software product lines, centred around the Abstract Behavioural Specification (ABS) modelling Language. This article describes the variability modelling features of the ABS Modelling framework. It consists of four languages, namely, <em>μ</em> TVL for describing feature models at a high level of abstraction, the Delta Modelling Language DML for describing variability of the ‘code' base in terms of delta modules, the Product Line Configuration Language CL for linking feature models and delta modules together and the Product Selection Language PSL for describing a specific product to extract from a product line. Both formal semantics and examples of each language are presented.},
+  abstract  = {The HATS project aims at developing a model-centric methodology for the design, implementation and verification of highly configurable systems, such as software product lines, centred around the Abstract Behavioural Specification (ABS) modelling Language. This article describes the variability modelling features of the ABS Modelling framework. It consists of four languages, namely, <em>Î¼</em> TVL for describing feature models at a high level of abstraction, the Delta Modelling Language DML for describing variability of the â€˜code' base in terms of delta modules, the Product Line Configuration Language CL for linking feature models and delta modules together and the Product Selection Language PSL for describing a specific product to extract from a product line. Both formal semantics and examples of each language are presented.},
   journal   = {Symp. Form. {\ldots}},
   url       = {http://link.springer.com/chapter/10.1007/978-3-642-25271-6{\_}11},
 }
@@ -1220,7 +1220,7 @@ ECSA 2011: Software Architecture pp 114-129},
 }
 
 @Article{DermevalTenorioBittencourtEtAl2015,
-  author          = {Dermeval, D.a b and Ten{\'o}rio, T.c and Bittencourt, I.I.c and Silva, A.c and Isotani, S.d and Ribeiro, M.c},
+  author          = {Dermeval, D b and Ten{\'o}rio, T and Bittencourt, I.I and Silva, A and Isotani, S and Ribeiro, M.c},
   title           = {Ontology-based feature modeling: An empirical study in changing scenarios},
   journal         = {ESA},
   year            = {2015},
@@ -1238,29 +1238,6 @@ ECSA 2011: Software Architecture pp 114-129},
   review          = {k-modeling k-evaluation k-method},
   source          = {Scopus},
   url             = {https://www.scopus.com/inward/record.url?eid=2-s2.0-84924777581&partnerID=40&md5=98f6106532ade1eaca24ddf4792f3555},
-}
-
-@InProceedings{Dhungana2011120,
-  Title                    = {Configuration of multi product lines by bridging heterogeneous variability modeling approaches},
-  Author                   = {Dhungana, D.a and Seichter, D.b and Botterweck, G.b and Rabiser, R.c and Gr{\"u}nbacher, P.c and Benavides, D.d and Galindo, J.A.d},
-  Booktitle                = {SPLC},
-  Year                     = {2011},
-  Note                     = {cited By 8},
-  Pages                    = {120-129},
-
-  Abstract                 = {In industrial settings, products are rarely developed by one organization alone. Software vendors and suppliers typically maintain their own product lines, which can contribute to a larger (multi) product line. The teams involved often use different approaches and tools to manage the variability of their systems. It is unrealistic to assume that all participating units can use a standardized and prescribed variability modeling technique. The configuration of products based on several models in different notations and with different semantics is not well supported by existing approaches. In this paper we present an integrative approach that provides a unified perspective to users configuring products in multi product line environments, regardless of the different modeling methods and tools used internally. We also present a technical infrastructure and a prototypic implementation based on Web Services. We show the feasibility of the approach and its implementation by using it with two different variability modeling approaches (one feature-based and one decision-oriented approach) on an example derived from industrial experience. {\copyright} 2011 IEEE.},
-  Affiliation              = {Siemens AG {\"O}sterreich, Corporate Technology, Vienna, Austria; Lero - The Irish Software Engineering Research Center, University of Limerick, Limerick, Ireland; Christian Doppler Laboratory for Automated Software Engineering, Johannes Kepler University, Linz, Austria; Department of Computer Languages and Systems, University of Seville, Seville, Spain},
-  Art_number               = {6030053},
-  Author_keywords          = {configuration services; end-user product configuration; multi product lines; variability model composition},
-  Bdsk-url-1               = {http://www.scopus.com/inward/record.url?eid=2-s2.0-80054087897&partnerID=40&md5=365d9ae94a2da67b495c74a3929fc206},
-  Bdsk-url-2               = {http://dx.doi.org/10.1109/SPLC.2011.22},
-  Date-modified            = {2015-06-12 14:48:44 +0000},
-  Document_type            = {Conference Paper},
-  Doi                      = {10.1109/SPLC.2011.22},
-  Journal                  = {SPLC},
-  Review                   = {k-mmodel k-tool k-evaluation},
-  Source                   = {Scopus},
-  Url                      = {http://www.scopus.com/inward/record.url?eid=2-s2.0-80054087897&partnerID=40&md5=365d9ae94a2da67b495c74a3929fc206}
 }
 
 @InProceedings{DhunganaSeichterBotterweckEtAl2013,
@@ -1291,7 +1268,7 @@ ECSA 2011: Software Architecture pp 114-129},
   volume    = {28},
   number    = {2},
   pages     = {371--378},
-  abstract  = {Cloud computing can reduce power consumption by using virtualized computational resources to provision an application’s computational resources on-demand. Autoscaling is an important cloud computing technique that dynamically allocates computational resources to applications to match their current loads precisely, thereby removing resources that would otherwise remain idle and waste power. This paper presents a model-driven engineering approach to optimizing the configuration, energy consumption, and operating cost of cloud auto-scaling infrastructure to create greener computing enviornments that reduce emissions resulting from superfluous idle resources. The paper provides four contributions to the study of model-driven configuration of cloud auto-scaling infrastructure by (1) explaining how virtual machine configurations can be captured in feature models, (2) describing how these models can be transformed into constraint satisfaction problems (CSPs) for configuration and energy consumption optimization, (3) showing how optimal auto-scaling configurations can be derived from these CSPs with a constraint solver, and (4) presenting a case-study showing the energy consumption/cost reduction produced by this model-driven approach},
+  abstract  = {Cloud computing can reduce power consumption by using virtualized computational resources to provision an applicationâ€™s computational resources on-demand. Autoscaling is an important cloud computing technique that dynamically allocates computational resources to applications to match their current loads precisely, thereby removing resources that would otherwise remain idle and waste power. This paper presents a model-driven engineering approach to optimizing the configuration, energy consumption, and operating cost of cloud auto-scaling infrastructure to create greener computing enviornments that reduce emissions resulting from superfluous idle resources. The paper provides four contributions to the study of model-driven configuration of cloud auto-scaling infrastructure by (1) explaining how virtual machine configurations can be captured in feature models, (2) describing how these models can be transformed into constraint satisfaction problems (CSPs) for configuration and energy consumption optimization, (3) showing how optimal auto-scaling configurations can be derived from these CSPs with a constraint solver, and (4) presenting a case-study showing the energy consumption/cost reduction produced by this model-driven approach},
   publisher = {Elsevier},
   review    = {k-method k-vis k-evaluation k-modeling},
 }
@@ -1455,7 +1432,7 @@ ECSA 2011: Software Architecture pp 114-129},
 
 @Article{FernandezAmorosHeradioCerradaEtAl2014,
   Title                    = {A Scalable Approach to Exact Model and Commonality Counting for Extended Feature Models},
-  Author                   = {Fernandez-Amoros, D.a and Heradio, R.b and Cerrada, J.A.b and Cerrada, C.b},
+  Author                   = {Fernandez-Amoros, D and Heradio, R and Cerrada, J.A and Cerrada, C.b},
   Journal                  = {TSE},
   Year                     = {2014},
   Note                     = {cited By 2},
@@ -1507,7 +1484,7 @@ ECSA 2011: Software Architecture pp 114-129},
 
 @Article{Gomez20141101,
   Title                    = {A framework for variable content document generation with multiple actors},
-  Author                   = {G{\'o}mez, A.a and Penad{\'e}s, M.C.b and Can{\'o}s, J.H.b and Borges, M.R.S.c and Llavador, M.d},
+  Author                   = {G{\'o}mez, A and Penad{\'e}s, M.C and Can{\'o}s, J.H and Borges, M.R.S and Llavador, M.d},
   Journal                  = {IST},
   Year                     = {2014},
   Note                     = {cited By 2},
@@ -1570,18 +1547,9 @@ ECSA 2011: Software Architecture pp 114-129},
   review    = {k-testing k-evaluation k-method k-tool},
 }
 
-@InProceedings{Galindo2014,
-  Title                    = {A variability-based testing approach for synthesizing video sequences},
-  Author                   = {Galindo, JA and Alf{\'{e}}rez, M and Acher, M and Baudry, B},
-  Booktitle                = {ISSTA},
-  Year                     = {2014},
-
-  Journal                  = {ISSTA},
-  Url                      = {http://dl.acm.org/citation.cfm?id=2610411}
-}
 
 @Article{GalindoDhunganaRabiserEtAl2015,
-  author          = {Galindo, J.A.a e and Dhungana, D.b and Rabiser, R.d and Benavides, D.a and Botterweck, G.c and Gr{\"u}nbacher, P.d},
+  author          = {Galindo, J.A e and Dhungana, D and Rabiser, R and Benavides, D and Botterweck, G and Gr{\"u}nbacher, P.d},
   title           = {Supporting distributed product configuration by integrating heterogeneous variability modeling approaches},
   journal         = {IST},
   year            = {2015},
@@ -1652,7 +1620,7 @@ ECSA 2011: Software Architecture pp 114-129},
 }
 
 @Article{Guo20124987,
-  author          = {Guo, J.a and Wang, Y.a and Trinidad, P.b and Benavides, D.b},
+  author          = {Guo, J and Wang, Y and Trinidad, P and Benavides, D.b},
   title           = {Consistency maintenance for evolving feature models},
   journal         = {ESA},
   year            = {2012},
@@ -1789,7 +1757,7 @@ the issues that still need to be addressed.},
 
 @Article{Henard2014650,
   Title                    = {Bypassing the combinatorial explosion: Using similarity to generate and prioritize t-wise test configurations for software product lines},
-  Author                   = {Henard, C.a and Papadakis, M.a and Perrouin, G.b and Klein, J.a and Heymans, P.b and Traon, Y.L.a},
+  Author                   = {Henard, C and Papadakis, M and Perrouin, G and Klein, J and Heymans, P and Traon, Y.L.a},
   Journal                  = {TSE},
   Year                     = {2014},
   Note                     = {cited By 4},
@@ -1812,7 +1780,7 @@ the issues that still need to be addressed.},
 
 @InProceedings{Henard20131245,
   Title                    = {Towards automated testing and fixing of re-engineered Feature Models},
-  Author                   = {Henard, C.a and Papadakis, M.a and Perrouin, G.b and Klein, J.a and Le Traon, Y.a},
+  Author                   = {Henard, C and Papadakis, M and Perrouin, G and Klein, J and Le Traon, Y.a},
   Booktitle                = {ICSE},
   Year                     = {2013},
   Note                     = {cited By 7},
@@ -1835,7 +1803,7 @@ the issues that still need to be addressed.},
 
 @InProceedings{Henard201362,
   Title                    = {Multi-objective test generation for software product lines},
-  Author                   = {Henard, C.a and Papadakis, M.a and Perrouin, G.b and Klein, J.a and Le Traon, Y.a},
+  Author                   = {Henard, C and Papadakis, M and Perrouin, G and Klein, J and Le Traon, Y.a},
   Booktitle                = {SPLC},
   Year                     = {2013},
   Note                     = {cited By 2},
@@ -1866,7 +1834,7 @@ the issues that still need to be addressed.},
 
 @Article{HeradioFernandezAmorosCerradaEtAl2013,
   Title                    = {A literature review on feature diagram product counting and its usage in software product line economic models},
-  Author                   = {Heradio, R.a and Fernandez-Amoros, D.b and Cerrada, J.A.a and Abad, I.a},
+  Author                   = {Heradio, R and Fernandez-Amoros, D and Cerrada, J.A and Abad, I.a},
   Journal                  = {IJSEKE},
   Year                     = {2013},
   Note                     = {cited By 3},
@@ -1920,7 +1888,7 @@ the issues that still need to be addressed.},
 }
 
 @Article{Heradio20127919,
-  author          = {Heradio, R.a d and Fernandez-Amoros, D.b d d and Torre-Cubillo, L.c d d and Perez Garcia-Plaza, A.b d d},
+  author          = {Heradio, R d and Fernandez-Amoros, D d d and Torre-Cubillo, L d d and Perez Garcia-Plaza, A d d},
   title           = {Improving the accuracy of COPLIMO to estimate the payoff of a software product line},
   journal         = {ESA},
   year            = {2012},
@@ -2024,7 +1992,7 @@ the issues that still need to be addressed.},
 }
 
 @Article{Hubaux2013641,
-  author          = {Hubaux, A.a and Heymans, P.a b and Schobbens, P.-Y.a and Deridder, D.c and Abbasi, E.K.a},
+  author          = {Hubaux, A and Heymans, P b and Schobbens, P.-Y and Deridder, D and Abbasi, E.K.a},
   title           = {Supporting multiple perspectives in feature-based configuration},
   journal         = {SOSYM},
   year            = {2013},
@@ -2072,7 +2040,7 @@ lead to a unified configuration approach},
 }
 
 @Article{Hubaux2013,
-  author          = {Hubaux, A.a and Tun, T.T.a b and Heymans, P.a},
+  author          = {Hubaux, A and Tun, T.T b and Heymans, P.a},
   title           = {Separation of concerns in feature diagram languages: A systematic survey},
   journal         = {ACMS},
   year            = {2013},
@@ -2198,7 +2166,7 @@ lead to a unified configuration approach},
 }
 
 @Article{Karatas2013,
-  author  = {Karataş, AS and Oğuzt{\"{u}}z{\"{u}}n, H and Doğru, A},
+  author  = {KarataÅŸ, AS and OÄŸuzt{\"{u}}z{\"{u}}n, H and DoÄŸru, A},
   title   = {From extended feature models to constraint logic programming},
   journal = {SCP},
   year    = {2013},
@@ -2206,7 +2174,7 @@ lead to a unified configuration approach},
 }
 
 @InProceedings{Karatas2010a,
-  author    = {Karataş, AS and Oğuzt{\"{u}}z{\"{u}}n, H and Doğru, A},
+  author    = {KarataÅŸ, AS and OÄŸuzt{\"{u}}z{\"{u}}n, H and DoÄŸru, A},
   title     = {Global constraints on feature models},
   booktitle = {CP},
   year      = {2010},
@@ -2217,7 +2185,7 @@ lead to a unified configuration approach},
 
 @Article{Karatas2016,
   Title                    = {Attribute-based variability in feature models},
-  Author                   = {Karataş, Ahmet Serkan and Oğuzt{\"{u}}z{\"{u}}n, Halit},
+  Author                   = {KarataÅŸ, Ahmet Serkan and OÄŸuzt{\"{u}}z{\"{u}}n, Halit},
   Journal                  = {REJ},
   Year                     = {2016},
 
@@ -2244,7 +2212,7 @@ lead to a unified configuration approach},
 }
 
 @Article{Kastner201467,
-  author          = {Kastner, C.a and Dreiling, A.b and Ostermann, K.c},
+  author          = {Kastner, C and Dreiling, A and Ostermann, K.c},
   title           = {Variability mining: Consistent semi-automatic detection of product-line features},
   journal         = {TSE},
   year            = {2014},
@@ -2341,7 +2309,7 @@ process that takes the assets of a product line as input and
 determines the products that fall into the category denoted
 by the given predictor (e.g., products with high memory
 consumption). We propose to use predictors to make the
-process of finding “acceptable” products more efficient. We
+process of finding â€œacceptableâ€� products more efficient. We
 discuss and compare several strategies to incorporate predictors
 in the sampling process.},
   review       = {k-solution k-reverse k-method},
@@ -2356,15 +2324,14 @@ in the sampling process.},
   url       = {http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=6649742},
 }
 
-@InCollection{LeLeeKangEtAl2013,
-  Title                    = {Validating consistency between a feature model and its implementation},
-  Author                   = {Le, Duc Minh and Lee, Hyesun and Kang, Kyo Chul and Keun, Lee},
-  Booktitle                = {ICSR},
-  Publisher                = {Springer},
-  Year                     = {2013},
-  Pages                    = {1--16},
-
-  Review                   = {k-testing k-validation}
+@InProceedings{LeLeeKangEtAl2013,
+  author    = {Le, Duc Minh and Lee, Hyesun and Kang, Kyo Chul and Keun, Lee},
+  title     = {Validating consistency between a feature model and its implementation},
+  booktitle = {ICSR},
+  year      = {2013},
+  pages     = {1--16},
+  publisher = {Springer},
+  review    = {k-testing k-validation},
 }
 
 @Article{Lee2014,
@@ -2382,17 +2349,16 @@ in the sampling process.},
 }
 
 @Article{LeeKotonya2010,
-  Title                    = {Combining service-orientation with product line engineering},
-  Author                   = {Lee, Jaejoon and Kotonya, Gerald},
-  Journal                  = {Software, IEEE},
-  Year                     = {2010},
-  Number                   = {3},
-  Pages                    = {35--41},
-  Volume                   = {27},
-
-  Abstract                 = {Software product line engineering (SPLE) is a paradigm of software reuse for developing a family of products with reduced time to market and improved quality. Most SPLE approaches, however, have focused on developing statically configured products using core assets. That is, all variations are instantiated before a product is delivered to the customers, making it difficult for them to make any changes to the product. However, various application areas are increasing the demand for dynamic product reconfiguration. A service-oriented product line (SOPL) is a DSPL application domain that's built on services and a service-oriented architecture. An example of an application area for an SOPL approach is a virtual office (VO). A VO includes many business peripherals with various services that interact with one another and that respond to their various environments to assist office workers.},
-  Publisher                = {IEEE},
-  Review                   = {k-vis k-philosophical k-method}
+  author    = {Lee, Jaejoon and Kotonya, Gerald},
+  title     = {Combining service-orientation with product line engineering},
+  journal   = {Software-IEEE},
+  year      = {2010},
+  volume    = {27},
+  number    = {3},
+  pages     = {35--41},
+  abstract  = {Software product line engineering (SPLE) is a paradigm of software reuse for developing a family of products with reduced time to market and improved quality. Most SPLE approaches, however, have focused on developing statically configured products using core assets. That is, all variations are instantiated before a product is delivered to the customers, making it difficult for them to make any changes to the product. However, various application areas are increasing the demand for dynamic product reconfiguration. A service-oriented product line (SOPL) is a DSPL application domain that's built on services and a service-oriented architecture. An example of an application area for an SOPL approach is a virtual office (VO). A VO includes many business peripherals with various services that interact with one another and that respond to their various environments to assist office workers.},
+  publisher = {IEEE},
+  review    = {k-vis k-philosophical k-method},
 }
 
 @InProceedings{LeeKang2010,
@@ -2451,7 +2417,7 @@ in the sampling process.},
   Pages                    = {1--13},
   Volume                   = {52},
 
-  Abstract                 = {The domain analysis process is used to identify and document common and variable characteristics of systems in a specific domain. In order to achieve an effective result, it is necessary to collect, organize and analyze several sources of information about different applications in this domain. Consequently, this process involves distinct phases and activities and also needs to identify which artifacts, arising from these activities, have to be traceable and consistent. In this context, performing a domain analysis process without tool support increases the risks of failure, but the used tool should support the complete process and not just a part of it. This article presents a systematic review of domain analysis tools that aims at finding out how the available tools offer support to the process. As a result, the review identified that these tools are usually focused on supporting only one process and there are still gaps in the complete process support. Furthermore, the results can provide insights for new research in the domain engineering area for investigating and defining new tools, and the study also aids in the identification of companies’ needs for a domain analysis tool.},
+  Abstract                 = {The domain analysis process is used to identify and document common and variable characteristics of systems in a specific domain. In order to achieve an effective result, it is necessary to collect, organize and analyze several sources of information about different applications in this domain. Consequently, this process involves distinct phases and activities and also needs to identify which artifacts, arising from these activities, have to be traceable and consistent. In this context, performing a domain analysis process without tool support increases the risks of failure, but the used tool should support the complete process and not just a part of it. This article presents a systematic review of domain analysis tools that aims at finding out how the available tools offer support to the process. As a result, the review identified that these tools are usually focused on supporting only one process and there are still gaps in the complete process support. Furthermore, the results can provide insights for new research in the domain engineering area for investigating and defining new tools, and the study also aids in the identification of companiesâ€™ needs for a domain analysis tool.},
   Publisher                = {Elsevier},
   Review                   = {k-modeling k-method k-solution}
 }
@@ -2473,7 +2439,7 @@ representation and reasoning across domains in CE. An implementation
 of the proposed semantic feature model is presented to demonstrate its
 advantage in knowledge representation by feature transformation across
 domains in CE.
-Note to Practitioners—In this paper, an important problem in manufacturing
+Note to Practitionersâ€”In this paper, an important problem in manufacturing
 industry is addressed: how semantic features can be used across
 different domains in CE. The proposed hierarchical feature model in this
 paper offers a solution to two aspects in this problem: (a) how to capture the
@@ -2484,7 +2450,7 @@ a practical solution to this difficult problem in industry.},
   Url                      = {http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=5439907}
 }
 
-@Conference{Liu2014,
+@InProceedings{Liu2014,
   author    = {Liu, Y and Su, Y and Yin, X and Mussbacher, G},
   title     = {Combined goal and feature model reasoning with the User Requirements Notation and jUCMNav},
   booktitle = {RE},
@@ -2566,14 +2532,14 @@ a practical solution to this difficult problem in industry.},
 
 @Article{LopezHerrejonLinsbauerGalindoEtAl2015b,
   Title                    = {An assessment of search-based techniques for reverse engineering feature models},
-  Author                   = {Lopez-Herrejon, R.E.a and Linsbauer, L.a and Galindo, J.A.b and Parejo, J.A.b and Benavides, D.b and Segura, S.b and Egyed, A.a},
+  Author                   = {Lopez-Herrejon, R.E and Linsbauer, L and Galindo, J.A and Parejo, J.A and Benavides, D and Segura, S and Egyed, A.a},
   Journal                  = {JSS},
   Year                     = {2015},
   Note                     = {cited By 3},
   Pages                    = {353-369},
   Volume                   = {103},
 
-  Abstract                 = {Successful software evolves from a single system by adding and changing functionality to keep up with users' demands and to cater to their similar and different requirements. Nowadays it is a common practice to offer a system in many variants such as community, professional, or academic editions. Each variant provides different functionality described in terms of features. Software Product Line Engineering (SPLE) is an effective software development paradigm for this scenario. At the core of SPLE is variability modelling whose goal is to represent the combinations of features that distinguish the system variants using feature models, the de facto standard for such task. As SPLE practices are becoming more pervasive, reverse engineering feature models from the feature descriptions of each individual variant has become an active research subject. In this paper we evaluated, for this reverse engineering task, three standard search based techniques (evolutionary algorithms, hill climbing, and random search) with two objective functions on 74 SPLs. We compared their performance using precision and recall, and found a clear trade-off between these two metrics which we further reified into a third objective function based on Fβ, an information retrieval measure, that showed a clear performance improvement. We believe that this work sheds light on the great potential of search-based techniques for SPLE tasks. {\copyright} 2014 Elsevier Inc. All rights reserved.},
+  Abstract                 = {Successful software evolves from a single system by adding and changing functionality to keep up with users' demands and to cater to their similar and different requirements. Nowadays it is a common practice to offer a system in many variants such as community, professional, or academic editions. Each variant provides different functionality described in terms of features. Software Product Line Engineering (SPLE) is an effective software development paradigm for this scenario. At the core of SPLE is variability modelling whose goal is to represent the combinations of features that distinguish the system variants using feature models, the de facto standard for such task. As SPLE practices are becoming more pervasive, reverse engineering feature models from the feature descriptions of each individual variant has become an active research subject. In this paper we evaluated, for this reverse engineering task, three standard search based techniques (evolutionary algorithms, hill climbing, and random search) with two objective functions on 74 SPLs. We compared their performance using precision and recall, and found a clear trade-off between these two metrics which we further reified into a third objective function based on FÎ², an information retrieval measure, that showed a clear performance improvement. We believe that this work sheds light on the great potential of search-based techniques for SPLE tasks. {\copyright} 2014 Elsevier Inc. All rights reserved.},
   Affiliation              = {Institute for Software Systems Engineering, Johannes Kepler University Linz, Altenbergerstr. 69, Linz, Austria; Department of Computer Languages and Systems, University of Seville, Av Reina Mercedes S/N, Seville, Spain},
   Author_keywords          = {Feature model; Reverse engineering; Search Based Software Engineering},
   Bdsk-url-1               = {https://www.scopus.com/inward/record.url?eid=2-s2.0-84924858053&partnerID=40&md5=6887e2270ea620201f397e6912b392ea},
@@ -2588,7 +2554,7 @@ a practical solution to this difficult problem in industry.},
 
 @InProceedings{Lopez-Herrejon2011181,
   Title                    = {From requirements to features: An exploratory study of feature-oriented refactoring},
-  Author                   = {Lopez-Herrejon, R.E.a and Montalvillo-Mendizabal, L.b and Egyed, A.a},
+  Author                   = {Lopez-Herrejon, R.E and Montalvillo-Mendizabal, L and Egyed, A.a},
   Booktitle                = {SPLC},
   Year                     = {2011},
   Note                     = {cited By 8},
@@ -2711,7 +2677,7 @@ a practical solution to this difficult problem in industry.},
 }
 
 @Article{Machado20141183,
-  author          = {Machado, I.D.C.a and McGregor, J.D.b and Cavalcanti, Y.C.c and De Almeida, E.S.a},
+  author          = {Machado, I.D.C and McGregor, J.D and Cavalcanti, Y.C and De Almeida, E.S.a},
   title           = {On strategies for testing software product lines: A systematic literature review},
   journal         = {IST},
   year            = {2014},
@@ -2805,7 +2771,7 @@ of the paper is double (a) to show the rules for transforming extended feature m
 }
 
 @Article{MazoSalinesiDiazEtAl2012,
-  author          = {Mazo, R.a and Salinesi, C.a and Diaz, D.a and Djebbi, O.a and Lora-Michiels, A.b},
+  author          = {Mazo, R and Salinesi, C and Diaz, D and Djebbi, O and Lora-Michiels, A.b},
   title           = {Constraints: The heart of domain and application engineering in the product lines engineering strategy},
   journal         = {IJISMD},
   year            = {2012},
@@ -2838,17 +2804,17 @@ of the paper is double (a) to show the rules for transforming extended feature m
   isbn      = {9781450331968},
 }
 
-@InProceedings{Mefteh2014,
+@Article{Mefteh2014,
   author    = {Mefteh, Mariem and Bouassida, Nadia and Ben-Abdallah, Han{\^{e}}ne},
   title     = {Feature model extraction from documented UML use case diagrams},
-  booktitle = {AUJ},
+  journal   = {AUJ},
   year      = {2014},
   volume    = {35},
   number    = {2},
   pages     = {107--116},
-  publisher = {Ada-Europe},
-  abstract  = {The development of a feature model for a software product line requires a thorough domain analysis which needs a high expertise. Indeed, analysts must not only understand the requirements for one particular application, but they must also identify variable ways in which the requirements can be combined in all applications in the domain. Such an expertise being often hard to acquire, analysts need approaches that provide assistance based on any existing artefacts produced during the development of applications in the domain of the product line. In this paper, we present a fully automated approach that assists domain analysts in specifying the feature model of a software product line. Our approach exploits the use case diagrams of existing applications along with their textual documentation. Besides using the natural language documentation of the requirements, it has the merit of overcoming the possible incompleteness of such documentation.},
   issn      = {13816551},
+  abstract  = {The development of a feature model for a software product line requires a thorough domain analysis which needs a high expertise. Indeed, analysts must not only understand the requirements for one particular application, but they must also identify variable ways in which the requirements can be combined in all applications in the domain. Such an expertise being often hard to acquire, analysts need approaches that provide assistance based on any existing artefacts produced during the development of applications in the domain of the product line. In this paper, we present a fully automated approach that assists domain analysts in specifying the feature model of a software product line. Our approach exploits the use case diagrams of existing applications along with their textual documentation. Besides using the natural language documentation of the requirements, it has the merit of overcoming the possible incompleteness of such documentation.},
+  publisher = {Ada-Europe},
 }
 
 @InProceedings{Meinicke2014,
@@ -2954,7 +2920,7 @@ problems to the satisfiability problem over SMT theories.},
   Url                      = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.378.6031{\&}rep=rep1{\&}type=pdf{\#}page=111}
 }
 
-@Conference{Millo2013,
+@InProceedings{Millo2013,
   author    = {Millo, JV and Ramesh, S and Krishna, SN},
   title     = {Compositional verification of software product lines},
   booktitle = {IFM},
@@ -3112,7 +3078,7 @@ challenges: reducing complexity, automated validation
 and dynamic deployment. We exploit techniques from
 Software Product Line (SPL) domain, particularly feature
 modeling techniques, to design our framework. Feature
-modeling allows to abstract variability in consumers’
+modeling allows to abstract variability in consumersâ€™
 requirements to simplify customization processes, while
 automated analysis on feature models helps to validate
 customizations. The use of feature models at runtime
@@ -3205,7 +3171,7 @@ introduced to demonstrate the feasibility of our approach.},
 
 @InProceedings{Oster2010196,
   Title                    = {Automated incremental pairwise testing of software product lines},
-  Author                   = {Oster, S.a and Markert, F.b and Ritter, P.a},
+  Author                   = {Oster, S and Markert, F and Ritter, P.a},
   Booktitle                = {SPLC},
   Year                     = {2010},
   Note                     = {cited By 20},
@@ -3287,7 +3253,7 @@ Pages 2252-2256},
 
 @Article{PascualLopezHerrejonPintoEtAl2015,
   Title                    = {Applying multiobjective evolutionary algorithms to dynamic software product lines for reconfiguring mobile applications},
-  Author                   = {Pascual, G.G.a and Lopez-Herrejon, R.E.b and Pinto, M.a and Fuentes, L.a and Egyed, A.b},
+  Author                   = {Pascual, G.G and Lopez-Herrejon, R.E and Pinto, M and Fuentes, L and Egyed, A.b},
   Journal                  = {JSS},
   Year                     = {2015},
   Note                     = {cited By 4},
@@ -3337,7 +3303,7 @@ Pages 2252-2256},
   Organization             = {ACM},
   Pages                    = {17},
 
-  Abstract                 = {In this paper, we develop a vision of software evolution based on a feature-oriented perspective. From the fact that features provide a common ground to all stakeholders, we derive a hypothesis that changes can be effectively managed in a feature-oriented manner. Assuming that the hypothesis holds, we argue that feature-oriented software evolution relying on automatic traceability, analyses, and recommendations reduces existing challenges in understanding and managing evolution. We illustrate these ideas using an automotive example and raise research questions for the community. © 2013 ACM.},
+  Abstract                 = {In this paper, we develop a vision of software evolution based on a feature-oriented perspective. From the fact that features provide a common ground to all stakeholders, we derive a hypothesis that changes can be effectively managed in a feature-oriented manner. Assuming that the hypothesis holds, we argue that feature-oriented software evolution relying on automatic traceability, analyses, and recommendations reduces existing challenges in understanding and managing evolution. We illustrate these ideas using an automotive example and raise research questions for the community. Â© 2013 ACM.},
   Date-modified            = {2015-06-12 14:35:43 +0000},
   Review                   = {k-testing k-opinion k-method}
 }
@@ -3350,7 +3316,7 @@ Pages 2252-2256},
   Organization             = {ACM},
   Pages                    = {2},
 
-  Abstract                 = {Many variability modeling tasks can be supported by automated analyses of models. Unfortunately, most analyses for Boolean variability models are NP-hard, while analyses for non-Boolean models easily become undecidable. It is thus crucial to exploit the properties of realistic models to construct viable analysis algorithms. Unfortunately, little work exists about non-Boolean models, and no benchmarks are available for such. We present the non-Boolean aspects of 116 variability models available in the codebase of eCos-a real time embedded operating system. We characterize the types of non- Boolean features in the models, kinds and quantities of non- Boolean constraints in use, and the impact of these characteristics on the hardness of this model from analysis perspective. This way we provide researchers and practitioners with a basis for discussion of relevance of non-Boolean models and their analyses, along with the first ever benchmark for effectiveness of such analyses. Copyright © 2011 ACM.},
+  Abstract                 = {Many variability modeling tasks can be supported by automated analyses of models. Unfortunately, most analyses for Boolean variability models are NP-hard, while analyses for non-Boolean models easily become undecidable. It is thus crucial to exploit the properties of realistic models to construct viable analysis algorithms. Unfortunately, little work exists about non-Boolean models, and no benchmarks are available for such. We present the non-Boolean aspects of 116 variability models available in the codebase of eCos-a real time embedded operating system. We characterize the types of non- Boolean features in the models, kinds and quantities of non- Boolean constraints in use, and the impact of these characteristics on the hardness of this model from analysis perspective. This way we provide researchers and practitioners with a basis for discussion of relevance of non-Boolean models and their analyses, along with the first ever benchmark for effectiveness of such analyses. Copyright Â© 2011 ACM.},
   Date-modified            = {2015-06-12 14:35:38 +0000},
   Review                   = {k-vis k-evaluation k-rmodel}
 }
@@ -3381,7 +3347,7 @@ Pages 2252-2256},
 }
 
 @Article{Perrouin2012605,
-  author          = {Perrouin, G.a and Oster, S.b and Sen, S.c and Klein, J.d and Baudry, B.e and le Traon, Y.d},
+  author          = {Perrouin, G and Oster, S and Sen, S and Klein, J and Baudry, B and le Traon, Y.d},
   title           = {Pairwise testing for software product lines: Comparison of two approaches},
   journal         = {SQJ},
   year            = {2012},
@@ -3435,7 +3401,7 @@ Pages 2252-2256},
 }
 
 @Article{Pleuss20122261,
-  author          = {Pleuss, A.a and Botterweck, G.a and Dhungana, D.b and Polzer, A.c and Kowalewski, S.c},
+  author          = {Pleuss, A and Botterweck, G and Dhungana, D and Polzer, A and Kowalewski, S.c},
   title           = {Model-driven support for product line evolution on feature level},
   journal         = {JSS},
   year            = {2012},
@@ -3522,12 +3488,13 @@ Pages 2252-2256},
   Url                      = {https://www.scopus.com/inward/record.url?eid=2-s2.0-84892693494&partnerID=40&md5=ac3e8e9c251b4e227b6d7fa758c57f33}
 }
 
-@Article{Quinton2014,
-  author  = {Quinton, C and Pleuss, A and Berre, DL and Duchien, L},
-  title   = {Consistency checking for the evolution of cardinality-based feature models},
-  journal = {SPLC},
-  year    = {2014},
-  url     = {http://dl.acm.org/citation.cfm?id=2648524},
+@InProceedings{Quinton2014,
+  author    = {Quinton, C and Pleuss, A and Berre, DL and Duchien, L},
+  title     = {Consistency checking for the evolution of cardinality-based feature models},
+  booktitle = {SPLC},
+  year      = {2014},
+  journal   = {SPLC},
+  url       = {http://dl.acm.org/citation.cfm?id=2648524},
 }
 
 @InProceedings{QuintonRomeroDuchien2013b,
@@ -3552,15 +3519,14 @@ Pages 2252-2256},
   Url                      = {https://www.scopus.com/inward/record.url?eid=2-s2.0-84883865735&partnerID=40&md5=26f60053ac6893cabc0c49f39e08ab38}
 }
 
-@InCollection{RaFatSeriaiHuchardEtAl2013,
-  Title                    = {Feature location in a collection of software product variants using formal concept analysis},
-  Author                   = {Ra'Fat, AL and Seriai, Abdelhak and Huchard, Marianne and Urtado, Christelle and Vauttier, Sylvain and Salman, Hamzeh Eyal},
-  Booktitle                = {ICSR},
-  Publisher                = {Springer},
-  Year                     = {2013},
-  Pages                    = {302--307},
-
-  Review                   = {k-solution k-modeling k-configuration}
+@InProceedings{RaFatSeriaiHuchardEtAl2013,
+  author    = {Ra'Fat, AL and Seriai, Abdelhak and Huchard, Marianne and Urtado, Christelle and Vauttier, Sylvain and Salman, Hamzeh Eyal},
+  title     = {Feature location in a collection of software product variants using formal concept analysis},
+  booktitle = {ICSR},
+  year      = {2013},
+  pages     = {302--307},
+  publisher = {Springer},
+  review    = {k-solution k-modeling k-configuration},
 }
 
 @Article{Rauber2015,
@@ -3645,7 +3611,7 @@ Pages 2252-2256},
 }
 
 @Article{Roos-Frantz2012519,
-  author          = {Roos-Frantz, F.a and Benavides, D.a and Ruiz-Cort{\'e}s, A.a and Heuer, A.b and Lauenroth, K.b},
+  author          = {Roos-Frantz, F and Benavides, D and Ruiz-Cort{\'e}s, A and Heuer, A and Lauenroth, K.b},
   title           = {Quality-aware analysis in product line engineering with the orthogonal variability model},
   journal         = {SQJ},
   year            = {2012},
@@ -3743,7 +3709,7 @@ Pages 2252-2256},
 }
 
 @Article{SabouriKhosravi2014,
-  author          = {Sabouri, H.a and Khosravi, R.a b},
+  author          = {Sabouri, H and Khosravi, R b},
   title           = {Reducing the verification cost of evolving product families using static analysis techniques},
   journal         = {SCP},
   year            = {2014},
@@ -3763,7 +3729,7 @@ Pages 2252-2256},
 }
 
 @Article{Sabouri2013207,
-  author          = {Sabouri, H.a and Khosravi, R.a b},
+  author          = {Sabouri, H and Khosravi, R b},
   title           = {Modeling and verification of reconfigurable actor families},
   journal         = {JUCS},
   year            = {2013},
@@ -3945,7 +3911,7 @@ FASE 2013},
   Pages                    = {85--92},
   Volume                   = {10},
 
-  Abstract                 = {Model-driven development of software-intensive systems aims at designing systems by stepwise model re- finement. In order to create software product lines by model-driven development, product variability has to be represented on every modelling level and preserved under model refinement. In this paper, we propose ∆-modelling as an generally applicable variability modelling concept that is orthogonal to model refinement. Products on each modelling level are represented by a core model and a set of ∆- models specifying changes to the core to incorporate product features. Core and ∆-models can be refined independently to obtain a more detailed model of the product line. Based on a formalization of ∆-modelling, we establish conditions that model refinement and model configuration commute resulting in an incremental model-driven development process},
+  Abstract                 = {Model-driven development of software-intensive systems aims at designing systems by stepwise model re- finement. In order to create software product lines by model-driven development, product variability has to be represented on every modelling level and preserved under model refinement. In this paper, we propose âˆ†-modelling as an generally applicable variability modelling concept that is orthogonal to model refinement. Products on each modelling level are represented by a core model and a set of âˆ†- models specifying changes to the core to incorporate product features. Core and âˆ†-models can be refined independently to obtain a more detailed model of the product line. Based on a formalization of âˆ†-modelling, we establish conditions that model refinement and model configuration commute resulting in an incremental model-driven development process},
   Date-modified            = {2015-06-12 14:44:39 +0000},
   Journal                  = {VaMoS},
   Review                   = {k-process k-modeling k-solution}
@@ -3963,7 +3929,7 @@ FASE 2013},
 }
 
 @Article{SchaeferRabiserClarkeEtAl2012b,
-  author          = {Schaefer, I.a and Rabiser, R.b and Clarke, D.c and Bettini, L.d and Benavides, D.e and Botterweck, G.f and Pathak, A.g and Trujillo, S.h and Villela, K.i},
+  author          = {Schaefer, I and Rabiser, R and Clarke, D and Bettini, L and Benavides, D and Botterweck, G and Pathak, A and Trujillo, S and Villela, K},
   title           = {Software diversity: State of the art and perspectives},
   journal         = {STTT},
   year            = {2012},
@@ -3986,7 +3952,7 @@ FASE 2013},
 
 @InProceedings{Schmid2011119,
   Title                    = {A comparison of decision modeling approaches in product lines},
-  Author                   = {Schmid, K.a and Rabiser, R.b and Gr{\"u}nbacher, P.c},
+  Author                   = {Schmid, K and Rabiser, R and Gr{\"u}nbacher, P.c},
   Booktitle                = {VAMOS},
   Year                     = {2011},
   Note                     = {cited By 7},
@@ -4144,7 +4110,7 @@ VELVET by our prototype VeAnalyzer},
 }
 
 @Article{Segura20111124,
-  author          = {Segura, S.a and Hierons, R.M.b and Benavides, D.a and Ruiz-Cort{\'e}s, A.a},
+  author          = {Segura, S and Hierons, R.M and Benavides, D and Ruiz-Cort{\'e}s, A.a},
   title           = {Mutation testing on an object-oriented framework: An experience report},
   journal         = {IST},
   year            = {2011},
@@ -4166,7 +4132,7 @@ VELVET by our prototype VeAnalyzer},
 
 @Article{Segura2011245,
   Title                    = {Automated metamorphic testing on the analyses of feature models},
-  Author                   = {Segura, S.a and Hierons, R.M.b and Benavides, D.a and Ruiz-Cort{\'e}s, A.a},
+  Author                   = {Segura, S and Hierons, R.M and Benavides, D and Ruiz-Cort{\'e}s, A.a},
   Journal                  = {IST},
   Year                     = {2011},
   Note                     = {cited By 22},
@@ -4199,7 +4165,7 @@ VELVET by our prototype VeAnalyzer},
 
 @Article{Segura20143975,
   Title                    = {Automated generation of computationally hard feature models using evolutionary algorithms},
-  Author                   = {Segura, S.a and Parejo, J.A.a and Hierons, R.M.b and Benavides, D.a and Ruiz-Cort{\'e}s, A.a},
+  Author                   = {Segura, S and Parejo, J.A and Hierons, R.M and Benavides, D and Ruiz-Cort{\'e}s, A.a},
   Journal                  = {ESA},
   Year                     = {2014},
   Note                     = {cited By 4},
@@ -4285,7 +4251,7 @@ Feature model synthesis is the process of building a feature model for a given s
 
 @InProceedings{She2011461,
   Title                    = {Reverse engineering feature models},
-  Author                   = {She, S.a and Lotufo, R.a and Berger, T.b and Wa̧sowski, A.c and Czarnecki, K.a},
+  Author                   = {She, S and Lotufo, R and Berger, T and WaÌ§sowski, A and Czarnecki, K.a},
   Booktitle                = {ICSE},
   Year                     = {2011},
   Note                     = {cited By 67},
@@ -4368,7 +4334,7 @@ Our evaluation results demonstrate the scalability and practicability of the app
 
 @InProceedings{Soltani2011536,
   Title                    = {Automated planning for feature model configuration based on stakeholders' business concerns},
-  Author                   = {Soltani, S.a and Asadi, M.a and Hatala, M.a and Ga{\v s}evi{\'c}, D.b and Bagheri, E.b},
+  Author                   = {Soltani, S and Asadi, M and Hatala, M and Ga{\v s}evi{\'c}, D and Bagheri, E.b},
   Booktitle                = {ASE},
   Year                     = {2011},
   Note                     = {cited By 4},
@@ -4415,7 +4381,7 @@ Our evaluation results demonstrate the scalability and practicability of the app
 
 @InProceedings{Tawhid201180,
   Title                    = {Automatic derivation of a product performance model from a software product line model},
-  Author                   = {Tawhid, R.a and Petriu, D.C.b},
+  Author                   = {Tawhid, R and Petriu, D.C.b},
   Booktitle                = {SPLC},
   Year                     = {2011},
   Note                     = {cited By 5},
@@ -4452,7 +4418,7 @@ Our evaluation results demonstrate the scalability and practicability of the app
 
 @InProceedings{Tekinerdogan2011,
   Title                    = {Modeling and reasoning about design alternatives of software as a service architectures},
-  Author                   = {Tekinerdogan, Bedir and {\"{O}}zt{\"{u}}rk, Karahan and Doǧru, Ali},
+  Author                   = {Tekinerdogan, Bedir and {\"{O}}zt{\"{u}}rk, Karahan and DoÇ§ru, Ali},
   Booktitle                = {MODELSWARD},
   Year                     = {2011},
   Pages                    = {312--319},
@@ -4499,7 +4465,7 @@ Our evaluation results demonstrate the scalability and practicability of the app
 
 @Article{Thum2014,
   Title                    = {A classification and survey of analysis strategies for software product lines},
-  Author                   = {Th{\"u}m, T.a and Apel, S.b and K{\"a}stner, C.c and Schaefer, I.d and Saake, G.a},
+  Author                   = {Th{\"u}m, T and Apel, S and K{\"a}stner, C and Schaefer, I and Saake, G.a},
   Journal                  = {ACMCS},
   Year                     = {2014},
   Note                     = {cited By 11},
@@ -4532,7 +4498,7 @@ Our evaluation results demonstrate the scalability and practicability of the app
 
 @InProceedings{Thum2011191,
   Title                    = {Abstract features in feature modeling},
-  Author                   = {Th{\"u}m, T.a and K{\"a}stner, C.b and Erdweg, S.b and Siegmund, N.a},
+  Author                   = {Th{\"u}m, T and K{\"a}stner, C and Erdweg, S and Siegmund, N.a},
   Booktitle                = {SPLC},
   Year                     = {2011},
   Note                     = {cited By 15},
@@ -4696,7 +4662,7 @@ Our evaluation results demonstrate the scalability and practicability of the app
 
 @InProceedings{VonRheinGrebhahnApelEtAl2015,
   Title                    = {Presence-condition simplification in highly configurable systems},
-  Author                   = {Von Rhein, A.a and Grebhahn, A.a and Apel, S.a and Siegmund, N.a and Beyer, D.a and Berger, T.b},
+  Author                   = {Von Rhein, A and Grebhahn, A and Apel, S and Siegmund, N and Beyer, D and Berger, T.b},
   Booktitle                = {ICSE},
   Year                     = {2015},
   Note                     = {cited By 1},
@@ -4793,7 +4759,7 @@ Pages 181-195},
 }
 
 @Article{WangAliGotlieb2015,
-  author          = {Wang, S.a b and Ali, S.a and Gotlieb, A.a},
+  author          = {Wang, S b and Ali, S and Gotlieb, A.a},
   title           = {Cost-effective test suite minimization in product lines using search techniques},
   journal         = {JSS},
   year            = {2015},
@@ -4814,7 +4780,7 @@ Pages 181-195},
 
 @Article{White20101094,
   Title                    = {Automated diagnosis of feature model configurations},
-  Author                   = {White, J.a and Benavides, D.c and Schmidt, D.C.b and Trinidad, P.c and Dougherty, B.b and Ruiz-Cortes, A.c},
+  Author                   = {White, J and Benavides, D and Schmidt, D.C and Trinidad, P and Dougherty, B and Ruiz-Cortes, A.c},
   Journal                  = {JSS},
   Year                     = {2010},
   Note                     = {cited By 24},
@@ -4835,7 +4801,7 @@ Pages 181-195},
 }
 
 @Article{White2014119,
-  author          = {White, J.a and Galindo, J.A.b and Saxena, T.a and Dougherty, B.a and Benavides, D.b and Schmidt, D.C.a},
+  author          = {White, J and Galindo, J.A and Saxena, T and Dougherty, B and Benavides, D and Schmidt, D.C.a},
   title           = {Evolving feature model configurations in software product lines},
   journal         = {JSS},
   year            = {2014},

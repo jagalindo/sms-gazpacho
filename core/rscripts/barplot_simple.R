@@ -14,11 +14,11 @@ map_facets<-c(
   "k-philosophical" = "Philosophical\nPaper",
   "k-solution" = "Solution\nProposal",
   "k-validation" = "Validation\nResearch",
-  "k-vis" = "Beyond product\nline analysis",
+  "k-vis" = "Variability-intensive systems analysis",
   "k-testing" = "Testing and\nevolution",
   "k-reverse" = "Reverse\nengineering",
   "k-mmodel" = "Multi-model\nvariability analysis",
-  "k-modeling" = "Variability and\nmodeling expressivenes",
+  "k-modeling" = "Variability \nmodelling",
   "k-configuration" = "Product configuration\nand derivation"
 )
 

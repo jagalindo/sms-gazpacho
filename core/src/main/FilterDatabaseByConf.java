@@ -16,8 +16,10 @@ public class FilterDatabaseByConf {
 		System.out.println("Initial size :"+db.getEntries().size());
 		String[] selectedConferences = { "SPLC", "ICSE", "VAMOS", "ASE" };
 		Collection<BibTeXEntry> filtered = new LinkedList<BibTeXEntry>();
+		
 		filtered.addAll(p.filterJournals(db.getEntries().values()));
-
+		System.out.println("We found "+filtered.size()+" journals");
+		
 		for (String conf : selectedConferences) {
 			filtered.addAll(p.filterByConference(db.getEntries().values(), conf));
 		}

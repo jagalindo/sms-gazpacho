@@ -21,11 +21,16 @@ public class GenerateBarPlot {
 		
 		Parser p = new Parser();
 		BibTeXDatabase db = p.readDatabase("./output_data/done.bib");
-		String[] selectedConferences = { "SPLC", "ICSE", "VAMOS", "ISSTA", "ICSR", "ASE", "ICSE" };
+		String[] selectedConferences = { "SPLC", "ICSE", "VAMOS", "ASE" };
 		FileWriter csvwriter = new FileWriter(new File("./output_data/barplot.csv"));
 //		csvwriter.write("year;journal;qac;nqac\r\n");
 		csvwriter.write("year;papers;type\r\n");
 		Map<String, Set<BibTeXEntry>> years_papers = p.countByKey(db.getEntries().values(), "year");
+		int tjournal = 0;
+		int tconferences = 0;
+		int tqac = 0;
+		int tnqac = 0;
+
 		for (Entry<String, Set<BibTeXEntry>> entry : years_papers.entrySet()) {
 
 			System.out.println("The year :" + entry.getKey());
@@ -52,7 +57,11 @@ public class GenerateBarPlot {
 
 			System.out.println("Journal: " + journal + "; Conferences: " + conferences + "; QAConferences: " + qac
 					+ "; NQAConferences: " + nqac);
-
+			tjournal+=journal;
+			tconferences+=conferences;
+			tqac+=qac;
+			tnqac+=nqac;
+			
 //			csvwriter.write(entry.getKey() + ";" + journal + ";" + qac + ";" + nqac+"\r\n");
 			csvwriter.write(entry.getKey() + ";" + journal + ";" + "Journal"+" \r\n");
 			csvwriter.write(entry.getKey() + ";" + qac + ";" + "Variability Related Conference" +"\r\n");
@@ -61,7 +70,9 @@ public class GenerateBarPlot {
 		}
 		csvwriter.flush();
 		csvwriter.close();
-
+		System.out.println("TOTAL Journal: " + tjournal + "; Conferences: " + tconferences + "; QAConferences: " + tqac
+				+ "; NQAConferences: " + tnqac);
+		
 //		ProcessBuilder pb = new ProcessBuilder(R_HOME+"\\Rscript.exe "+CURRENT_DIR+"rscripts\\barplot.R");
 //		pb.redirectOutput(Redirect.INHERIT);
 //		pb.redirectError(Redirect.INHERIT);

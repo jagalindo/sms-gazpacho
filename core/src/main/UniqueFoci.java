@@ -4,7 +4,12 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Properties;
@@ -37,7 +42,7 @@ public class UniqueFoci {
 				if (integer == null) {
 					journals.put(journalV.toUserString(), 1);
 				} else {
-					journals.put(journalV.toUserString(), integer+1);
+					journals.put(journalV.toUserString(), integer + 1);
 				}
 
 			} else if (bte.getType().getValue().equals("InProceedings")) {
@@ -47,27 +52,39 @@ public class UniqueFoci {
 				if (integer == null) {
 					conferences.put(booktitleV.toUserString(), 1);
 				} else {
-					conferences.put(booktitleV.toUserString(), integer+1);
+					conferences.put(booktitleV.toUserString(), integer + 1);
 				}
 			}
 		}
-
-		for(Entry<String, Integer> e:conferences.entrySet()){
-			csvwriter.write(e.getValue()+" & "+prop.getProperty(e.getKey())+"\r\n");
+		int i = 1;
+		int c = 0;
+		System.out.println("There are: " + conferences.size() + " conferences and " + journals.size());
+		conferences=sortByValue(conferences);
+		for (Entry<String, Integer> e : conferences.entrySet()) {
+			csvwriter.write(i + " & " + e.getValue() + " & " + prop.getProperty(e.getKey()) + "\\\\ \\hline \r\n");
+			c += e.getValue();
+			i++;
 		}
+		System.out.println("There is a total of " + c + "conference papers");
+		i = 1;
+		int j = 0;
 		csvwriter.write("Journals\\\r\n");
-		for(Entry<String, Integer> e:journals.entrySet()){
-			csvwriter.write(e.getValue()+" & "+prop.getProperty(e.getKey())+"\r\n");
+		journals=sortByValue(journals);
+		for (Entry<String, Integer> e : journals.entrySet()) {
+			csvwriter.write(i + " & " +e.getValue() + " & " + prop.getProperty(e.getKey()) + "\\\\ \\hline \r\n");
+			j += e.getValue();
+			i++;
 		}
-	
+		System.out.println("There is a total of " + j + "journal papers");
 
-		csvwriter.flush();csvwriter.close();
+		csvwriter.flush();
+		csvwriter.close();
 
-	// ProcessBuilder pb = new ProcessBuilder(R_HOME+"\\Rscript.exe
-	// "+CURRENT_DIR+"rscripts\\barplot.R");
-	// pb.redirectOutput(Redirect.INHERIT);
-	// pb.redirectError(Redirect.INHERIT);
-	// Process exec = pb.start();
+		// ProcessBuilder pb = new ProcessBuilder(R_HOME+"\\Rscript.exe
+		// "+CURRENT_DIR+"rscripts\\barplot.R");
+		// pb.redirectOutput(Redirect.INHERIT);
+		// pb.redirectError(Redirect.INHERIT);
+		// Process exec = pb.start();
 
 	}
 
@@ -80,6 +97,21 @@ public class UniqueFoci {
 		}
 		return false;
 
+	}
+
+	public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
+		List<Map.Entry<K, V>> list = new LinkedList<Map.Entry<K, V>>(map.entrySet());
+		Collections.sort(list, new Comparator<Map.Entry<K, V>>() {
+			public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2) {
+				return (o2.getValue()).compareTo(o1.getValue());
+			}
+		});
+
+		Map<K, V> result = new LinkedHashMap<K, V>();
+		for (Map.Entry<K, V> entry : list) {
+			result.put(entry.getKey(), entry.getValue());
+		}
+		return result;
 	}
 
 }

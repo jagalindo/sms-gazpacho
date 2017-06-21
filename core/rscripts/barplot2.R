@@ -9,7 +9,6 @@ setwd(script.dir);
 #------------- Read data ----------
 
 data = read.csv("../output_data/barplot2.csv", header = TRUE,sep=';')
-
 map_facets<-c(
   "k-evaluation" = "Evaluation\nResearch", 
   "k-experience" = "Experience\nReport",
@@ -17,27 +16,32 @@ map_facets<-c(
   "k-philosophical" = "Philosophical\nPaper",
   "k-solution" = "Solution\nProposal",
   "k-validation" = "Validation\nResearch",
-  "k-vis" = "Beyond product\nline analysis",
+  "k-vis" = "Variability-intensive systems\nanalysis",
   "k-testing" = "Testing and\nevolution",
   "k-reverse" = "Reverse\nengineering",
   "k-mmodel" = "Multi-model\nvariability analysis",
-  "k-modeling" = "Variability and\nmodeling expressivenes",
+  "k-modeling" = "Variability \nmodelling",
   "k-configuration" = "Product configuration\nand derivation"
 )
 
+#Order like in the rest of sections
+data$type <- factor(data$type, levels = c("k-configuration","k-testing","k-reverse","k-mmodel","k-modeling","k-vis"))
 
 #------------- Generate Graph ----------
 
 plot<-ggplot(data, aes(x = as.numeric(year), y = papers))  +
   theme_bw() +
   geom_line(aes(linetype=factor(type)),stat = "identity") +
-  scale_linetype_discrete(labels=map_facets)+
-  ylab("# variability facet papers/ # year papers") + 
+  geom_point(mapping=aes(x=as.numeric(year), y=papers, shape=factor(type)), size=3)+
+  scale_linetype_discrete(labels=map_facets,guide=FALSE)+
+  scale_shape_discrete(labels=map_facets)+
+  scale_y_continuous(labels = scales::percent)+
+  ylab("# variability context facet papers/ # year papers") + 
   xlab("Year of publication") + 
-  labs(linetype = "Variablity facet")+
-  theme(legend.position="bottom") +
-  scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016))  + theme(aspect.ratio=0.5)+
-  theme(text = element_text(size=10),axis.text.x = element_text(angle=60, hjust=1))
+  labs(shape = "Variablity facet")+
+  theme(legend.position="bottom",legend.text=element_text(size=15)) +
+  scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016)) + theme(aspect.ratio=0.45)+
+  theme(text = element_text(size=13),axis.text.x = element_text(angle=60, hjust=1))+guides(shape=guide_legend(nrow=1,byrow=TRUE))
 #------------- Write to pdf ----------
 
-ggsave("temporal_var.pdf",  width = 10)
+ggsave("temporal_var.pdf",  width = 12)
