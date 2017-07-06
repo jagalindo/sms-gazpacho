@@ -1,0 +1,1493 @@
+{HATARI: Raising Risk Awareness};3
+{S-IDE: A tool framework for optimizing deployment architecture of High Level Architecture based simulation systems};21
+{Model-driven processes and tools to design robot-based generative learning objects for computer science education};23
+{Adoption of Object-oriented Software Metrics for Ontology Evaluation};3
+{Case handling: a new paradigm for business process support};33
+{A modular package manager architecture};15
+{Dependency solving: A separate concern in component evolution management};12
+{Interplay between usability and software development};3
+{Evaluation of the Pattern-based method for Secure Development (PbSD): A controlled experiment};14
+{Controlled experiments comparing black-box testing strategies for software product lines};24
+{On the specification of modal systems: A comparison of three frameworks};19
+{FAMILIAR: A domain-specific language for large scale management of feature models};24
+{Decomposing Feature Models: Language, Environment, and Applications};3
+{Feature model differences};16
+{Selecting SPL modeling languages: A practical guide};5
+{From business processes to software services and vice versa—an improved transition through service-oriented requirements engineering};21
+{Effective requirements elicitation in product line application engineering - An experiment};16
+{Intelligent software product line configurations: A literature review};18
+{Preface};1
+{Classification and comparison of architecture evolution reuse knowledge—a systematic review};37
+{Handling constraints in combinatorial interaction testing in the presence of multi objective particle swarm and multithreading};16
+{Organizational behavior {\&} software product line engineering: An empirical study};7
+{The software product line architecture: An empirical investigation of key process activities};15
+{Best practices of RUP {\textregistered} in software product line development};3
+{Managing the business of software product line: An empirical investigation of key business factors};14
+{The Business of Software Product Family: An Empirical Survey};4
+{Institutionalization of software product line: An empirical investigation of key organizational factors};13
+{A Case Study Comparison of Variability Representation Mechanisms with the HeRA Product Line};7
+{Evolution support mechanisms for software product line process};17
+{Automatic promotional specialization, generalization and analysis of extended feature models with cardinalities in Alloy};27
+{Reusing class-based test cases for testing object-oriented framework interface classes};27
+{Impact analysis and change propagation in service-oriented enterprises: A systematic review};30
+{Modelling a family of systems for crisis management with concern-oriented reuse};14
+{Why Do Information Technology Projects Fail?};9
+{A multi-domain incremental analysis engine and its application to incremental resource analysis};23
+{Quantifying usability of domain-specific languages: An empirical study on software maintenance};14
+{A Digital Game Maturity Model (DGMM)};18
+{Engineering context-aware systems and applications: A survey};28
+{Utilizing Business Process Analysis and Feature Analysis in Software Product Assessment};5
+{Systematic reuse of web services through software product line engineering};7
+{Dynamic adaptation of service compositions with variability models};23
+{Evaluating scenario-based SPL requirements approaches: the case for modularity, stability and expressiveness};21
+{Multi-view composition language for software product line requirements};19
+{Context-aware autonomous web services in software product lines};9
+{IncLing: Efficient Product-line Testing Using Incremental Pairwise Sampling};11
+{Similarity-based Prioritization in Software Product-line Testing};9
+{A systematic review of comparative evidence of aspect-oriented programming};16
+{A comparative survey of economic models for software product lines};3
+{Binary multi-objective PSO and GA for adding new features into an existing product line};4
+{Automatic code generation for real-time systems: A development approach based on components, models, and frameworks [Generaci{\'{o}}n autom{\'{a}}tica de software para sistemas de tiempo real: Un enfoque basado en componentes, modelos y frameworks]};11
+{An Automated Mechanism for Organizing and Retrieving Core Asset Artifacts for Product Derivation in SPL};5
+{A method to optimize the scope of a software product platform based on end-user features};27
+{1.2.3 Towards a semantic-based representation and computation of quantitative indexes for quality management of requirements};13
+{Prioritizing test cases for early detection of refactoring faults};24
+{Experiences with Mobile Games Product Line Development at Meantime};9
+{Refactoring Product Lines};9
+{Requirements engineering for software product lines: A systematic literature review};14
+{A preliminary assessment of variability implementation mechanisms in service-oriented computing};16
+{Platform-variant applications from platform-independent models via templates};22
+{A socio-cognitive interpretation of the potential effects of downsizing on software quality performance};26
+{Development of service-oriented architectures using model-driven development: A mapping study};24
+{Scenario-based decision making for architectural variability in product families};16
+{A survey and proposed reusability assessment framework for aspect oriented product line core assets};3
+{A mixed method study to identify factors affecting software reusability in reuse intensive development};5
+{Achieving dynamic adaptation via management and interpretation of runtime models};17
+{An empirical investigation on the reusability of design patterns and software packages};18
+{Software engineering research for computer games: A systematic review};13
+{An orchestrated survey of methodologies for automated software test case generation};23
+{An evaluation of aspect-oriented programming as a product line implementation technology};15
+{The Unified Enterprise Modelling Language—Overview and further work};12
+{Experience from model and software reuse in aircraft simulator product line engineering};11
+{Development and use of dynamic product-line architectures};13
+{A formal framework for software product lines};22
+{A framework for analysis and design of software reference architectures};14
+{Can we ask you to collaborate? Analyzing app developer relationships in commercial platform ecosystems};15
+{Model-driven rapid prototyping with programmed graph transformations};21
+{When to Use Features and Aspects?: A Case Study};9
+{Model superimposition in software product lines};15
+{Access control in feature-oriented programming};13
+{Generic feature modules: Two-staged program customization};5
+{Aspectual feature modules};18
+{Feature-interaction detection based on feature-based specifications};10
+{A Software Maintenance Maturity Model (S3M): Measurement Practices at Maturity Levels 3 and 4};14
+{Utilization of Software Product Lines for Generation of Patient Monitoring Systems and Sending Alerts};6
+{Generating Test Cases and Procedures from Use Cases in Dynamic Software Product Lines};5
+{Advanced Modularity for Building SPL Feature Models: A Model-driven Approach};7
+{Fundamentals of Software Engineering (selected papers of {\{}FSEN{\}} 2011)};1
+{A novel use of equivalent mutants for static anomaly detection in software artifacts};12
+{Collaborative Development of Feature Models and Evaluation of Performance Bounds};5
+{Achieving Knowledge Evolution in Dynamic Software Product Lines};11
+{Software product lines: A case study};22
+{Classification-based Mining of Reusable Components on Software Product Lines};6
+{Predicting Fault-prone Components in a Java Legacy System};9
+{Pragmatic source code reuse via execution record and replay};22
+{Scoping software process lines};16
+{Test Control Algorithms for the Validation of Cyber-physical Systems Product Lines};9
+{Search-based Test Case Selection of Cyber-physical System Product Lines for Simulation-based Validation};9
+{Predicting dependences using domain-based coupling};26
+{Goal-oriented modeling and verification of feature-oriented product lines};22
+{Development and validation of customized process models};19
+{The effects of visualization and interaction techniques on feature model configuration};37
+{Toward automated feature model configuration with optimizing non-functional requirements};21
+{Generic Adaptable Test Cases for Software Product Line Testing: Software Product Line};3
+{Generic adaptable test cases for software product line testing};2
+{Agile Collaborative Systems Engineering -Motivation for a Novel Approach to Systems Engineering};14
+{Measuring Cooperative Gameplay Pacing in World of Warcraft};6
+{A multi-objective optimization approach for the integration and test order problem};20
+{Extracting Variability-Safe Feature Models from Source Code Dependencies in System Variants};7
+{Utilizing clone detection for domain analysis of simulation systems};4
+{9.2.1 Developing Product Lines in Engine Control Systems: Systems Engineering Challenges};14
+{A multi-level approach to modeling language extension in the Enterprise Systems Domain};18
+{A hybrid approach for resource-based comparison of adaptable Java applications};22
+{Characteristics of software ecosystems for Federated Embedded Systems: A case study};18
+{Quality assurance in software ecosystems: A systematic literature mapping and research agenda};12
+{VIVACE: A framework for the systematic evaluation of variability support in process-aware information systems};28
+{Refinement of software product line architectures through recursive modeling techniques};11
+{A Systematic Review of Web Resource Estimation};9
+{Breathing ontological knowledge into feature model synthesis: an empirical study};47
+{Synthesis of Attributed Feature Models from Product Descriptions};9
+{Ambient Abstract State Machines with applications};20
+{Reasoning about product-line evolution using complex feature model differences};46
+{A Survey of Open Source Multiphysics Frameworks in Engineering};9
+{The Missing Links: Bugs and Bug-fix Commits};9
+{A framework for social commerce design};18
+{Stratified analytic hierarchy process: Prioritization and selection of software features};15
+{Dynamic decision models for staged software product line configuration};25
+{Modular feature models: Representation and configuration};31
+{Grammar-based Test Generation for Software Product Line Feature Models};14
+{Assessing the maintainability of software product line feature models using structural metrics};33
+{Formalizing interactive staged feature model configuration};25
+{Feature extraction approaches from natural language requirements for reuse in software product lines: A systematic literature review};17
+{Extracting features from online software reviews to aid requirements reuse};18
+{Continuous Software Quality Supervision Using SourceInventory and Columbus};1
+{Building Families of Software Products for e-Learning Platforms: A Case Study};7
+{Aspect-oriented programming and pluggable software units: a comparison based on design patterns};25
+{Steps, techniques, and technologies for the development of intelligent applications based on Semantic Web Services: A case study in e-learning systems};12
+{An Approach to Addressing Entity Model Variability within Software Product Lines};6
+{Scope Extension of an Existing Product Line};7
+{A Cloud-Based Immersive Learning Environment for Distributed Systems Algorithms};9
+{Dynamic Software Product Line Engineering: A Reference Framework};43
+{Artefacts and agile method tailoring in large-scale offshore software development programmes};15
+{A semantic recommendation algorithm for the PaaSport platform-as-a-service marketplace};24
+{Generative Adaptation of Model Transformation Assets: Experiences, Lessons and Drawbacks};7
+{Automated design of multi-layered web information systems};25
+{Software product lines adoption in small organizations};16
+{Foreword to the Special Issue on Formal Methods for Software Product Line Engineering};1
+{Modularizing theorems for software product lines: The jbook case study};23
+{Comparing reuse practices in two large software-producing companies};37
+{A comprehensive framework for cloud computing migration using Meta-synthesis approach};18
+{9.2.2 When “Yes�? is the Wrong Answer};14
+{A middleware architecture for disseminating delay-constrained information in wireless sensor networks};8
+{The Effects of Development Team Skill on Software Product Quality};4
+{Applying the Product Lines Paradigm to the Quantitative Analysis of Collective Adaptive Systems};5
+{Challenges in modelling and analyzing quantitative aspects of bike-sharing systems};16
+{Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints};4
+{On the reliability estimation of nano-circuits using neural networks};11
+{A comparison of a conventional taxonomy with a 3D visualization for use by children};8
+{Model Based Analysis Process for Embedded Software Product Lines};9
+{Embedded software product lines: domain and application engineering model-based analysis processes};14
+{Coherent branching feature bisimulation};16
+{A Practical High Volume Software Product Line};9
+{Model-based mutation testing—Approach and case studies};23
+{Improving Productivity in Design and Development of Information Technology (IT) Service Delivery Simulation Models};14
+{MatrixMiner: A Red Pill to Architect Informal Product Descriptions in the Matrix};3
+{Automated analysis of feature models 20 years later: A literature review};21
+{Automated analysis of feature models 20 years later: A literature review};1
+{Understanding software maintenance and evolution by analyzing individual changes: a literature review};29
+{Co-evolution analysis for software product lines};6
+{Analyzing trends in software product lines evolution using a cladistics based approach};13
+{Input–output conformance testing for software product lines};22
+{Basic behavioral models for software product lines: Expressiveness and testing pre-orders};18
+{Evidence-based SMarty support for variability identification and representation in component models};7
+{Variability Modeling in the Wild};8
+{What is a Feature?: A Qualitative Study of Features in Industrial Software Product Lines};9
+{Three cases of feature-based variability modeling in industry};17
+{Variability mechanisms in software ecosystems};15
+{A Study of Variability Models and Languages in the Systems Software Domain};29
+{To Connect or Not to Connect: Experiences from Modeling Topological Variability};9
+{Persistent problems and practices in information systems development: a study of mobile applications development and distribution};19
+{Software architecture as a means of communication in a globally distributed software development context};14
+{Delta Rhapsody};16
+{Similarity testing for access control};17
+{Towards formal safety analysis in feature-oriented product line development};18
+{Combining traits with boxes and ownership types in a Java-like setting};29
+{TraitRecordJ: A programming language with traits and records};20
+{Evaluating the Efficacy of Test-driven Development: Industrial Case Studies};7
+{A survey on impact of lines of code on software complexity};3
+{Systematic knowledge engineering: Building bodies of knowledge from published research};38
+{Software process improvement in Europe: potential of the new V-modell XT and research issues};9
+{Maximizing customer satisfaction in maintenance of software product family};3
+{Enabling improved IR-based feature location};12
+{Topics in Software, Systems and Services Process Improvement};3
+{Snapshot of industrial experiences shared at the 20th anniversary EuroSPI conference};4
+{LINKSTER: Enabling Efficient Manual Inspection and Annotation of Mined Data};1
+{A multi-case study of agile requirements engineering and the use of test cases as requirements};18
+{Are you biting off more than you can chew? A case study on causes and effects of overscoping in large-scale software engineering};17
+{Agent-oriented compositional approaches to services-based cross-organizational workflow};19
+{Parameterized interfaces for open system veri .cation of product lines};9
+{Delta-oriented monitor specification};15
+{SPLLIFT: Statically Analyzing Software Product Lines in Minutes Instead of Years};9
+{A software product line life cycle cost estimation model};8
+{Synergies and tradeoffs in software reuse – a systematic mapping study};14
+{Modeling Scenario Variability As Crosscutting Mechanisms};11
+{Empirical assessment of two approaches for specifying software product line use case scenarios};26
+{An Approach to Clustering Feature Model Based on Adaptive Behavior for Dynamic Software Product Line};3
+{A theory of software product line refinement};28
+{Software ecosystems: Taking software development beyond the boundaries of the organization};1
+{Achieving Speed in Legacy Systems};0
+{Software variability: process and management};2
+{Staged adoption of software product families};17
+{From integration to composition: On the impact of software product lines, global development and ecosystems};9
+{Introducing agile customer-centered development in a legacy software product line};11
+{Product instantiation in software product lines: A case study};14
+{Software product lines (SPLC 2010)};1
+{Software architecture – Engineering quality attributes};3
+{User Involvement throughout the Innovation Process in High-Tech Industries};14
+{Model-driven Derivation of Product Architectures};3
+{SPL driven approach for variability in database design};10
+{Composition of architectural models: Empirical analysis and language support};19
+{An aspect-oriented model-driven approach for building adaptable context-aware service-based applications};25
+{Simulated Annealing for Improving Software Quality Prediction};7
+{Intraprocedural Dataflow Analysis for Software Product Lines};11
+{Incorporating Certification in Feature Modelling of an Unmanned Aerial Vehicle Product Line};9
+{Transformation patterns for multi-staged model driven software development};9
+{Studying Volatility Predictors in Open Source Software};9
+{Load-aware inter-co-processor parallelism in database query processing};19
+{A systematic review of software architecture evolution research};24
+{Architectural support in industry: a reflection using C-POSH};22
+{Reliability Prediction for Fault-tolerant Software Architectures};9
+{Combining Architecture-based Software Reliability Predictions with Financial Impact Calculations};14
+{A reuse-oriented development process for component-based robotic systems};13
+{Automated software development with XML and the Java* language};11
+{Geographic e-services development through product-line engineering and standardization};7
+{Towards systematic software reuse of GIS: Insights from a case study};11
+{MOD2-SCM: A model-driven product line for software configuration management systems};20
+{Model-driven development of software configuration management systems: A case study in model-driven engineering};7
+{Encapsulating targeted component abstractions using software Reflexion Modelling};27
+{SSQSA Architecture};3
+{A Valuable 'Data Experience'};2
+{Product variation sequence modelling using feature diagrams and modal logic};4
+{A Variation Mechanism Based on Adaptive Object Model for Software Product Line of Brazilian Satellite Launcher};7
+{A variability management strategy for software product lines of Brazilian satellite luncher vehicles};13
+{Facilitating controlled tests of website design changes using aspect-oriented software development and software product lines};19
+{Facilitating controlled tests of website design changes: A systematic approach};8
+{Specification and automated design-time analysis of the business process human resource perspective};27
+{The Baseline: The Milestone of Software Product Lines for Expert Systems Automatic Development};7
+{Variability management in software product lines for decision support systems construction};7
+{Improving the testing and testability of software product lines};14
+{Blending design patterns with aspects: A quantitative study};22
+{Composing Design Patterns: A Scalability Study of Aspect-oriented Programming};12
+{Feature dependencies as change propagators: An exploratory study of software product lines};12
+{Inferring Test Results for Dynamic Software Product Lines};3
+{The Effect of Code Coverage on Fault Detection Under Different Testing Profiles};6
+{Domain analysis: A case study of engineering RFID systems in supply chain};7
+{Evaluating Advantages of Test Driven Development: A Controlled Experiment with Professionals};7
+{An overview of Dynamic Software Product Line architectures and techniques: Observations from research and industry};20
+{A retrospective view of software maintenance and reengineering research – a selection of papers from European Conference on Software Maintenance and Reengineering 2010};5
+{Managing software development information in global configuration management activities};13
+{Viability for codifying and documenting architectural design decisions with tool support};38
+{10 years of software architecture knowledge management: Practice and future};14
+{Rapid system development via product line architecture implementation};15
+{Comparing frameworks and layered refinement};9
+{Performance-driven instrumentation and mapping strategies using the LARA aspect-oriented programming approach};36
+{From e-Gov Web SPL to e-Gov Mobile SPL};22
+{Current and Future Challenges of Software Engineering for Services and Applications};8
+{Service-oriented Product Lines: A Systematic Mapping Study};5
+{On the modularization and reuse of exception handling with aspects};40
+{Changing attitudes towards the generation of architectural models};16
+{F-STREAM: A flexible process for deriving architectures from requirements models};11
+{Special Issue: Soft computing in software engineering};2
+{Unlabelled extra data do not always mean extra performance for semi-supervised fault prediction};13
+{A meta-model for dataflow-based rules in smart environments: Evaluating user comprehension and performance};20
+{Factors Leading to Integration Failures in Global Feature-oriented Development: An Empirical Analysis};9
+{Architecting in Software Ecosystems: Interface Translucence As an Enabler for Scalable Collaboration};7
+{Exploiting Software Product Lines to Develop Cloud Computing Applications};8
+{Challenges and opportunities for software change request repositories: a systematic mapping study};33
+{Towards semi-automated assignment of software change requests};19
+{Semantics of {\{}UML{\}} 2.0 Interactions with Variabilities};14
+{Prototyping Dynamic Software Product Lines to evaluate run-time reconfigurations};14
+{Designing and prototyping dynamic software product lines: Techniques and guidelines};14
+{Building ubiquitous QoC-aware applications through model-driven software engineering};17
+{Contemplating Systematic Software Reuse in a Project-centric Company};10
+{Engineering a Production Method for a Software Product Line};9
+{Managing trade-offs among architectural tactics using feature models and feature-solution graphs};8
+{Using Multiple Feature Models to Specify Configuration Options for Electrical Transformers: An Experience Report};8
+{Modeling and Reasoning about Software Systems Containing Uncertainty and Variability};0
+{Uncertainty handling in goal-driven self-optimization – Limiting the negative effect on adaptation};13
+{A holistic approach to managing software change impact};16
+{Continuous Delivery: Overcoming adoption challenges};14
+{A systematic review of evaluation of variability management approaches in software product lines};18
+{Variability management in software product lines: An investigation of contemporary industrial challenges};14
+{An Error-tolerant Type System for Variational Lambda Calculus};11
+{A software product line process simulator};24
+{Design and evaluation of a cognitive system to teach software change control};8
+{Requirements Reuse: The State of the Practice};7
+{Investigating the success of {\{}ERP{\}} systems: Case studies in three Taiwanese high-tech industries};10
+{On the Evolution of Software and Systems Product Line Standards};3
+{Software engineering aids to accelerate educational technologies};1
+{A software engineering perspective for accelerating educational technologies};1
+{Retrieving reusable components with variation points from software product lines};4
+{Phase Wise Effort Estimation for Software Maintenance: An Extended SMEEM Model};5
+{Can Complexity, Coupling, and Cohesion Metrics Be Used As Early Indicators of Vulnerabilities?};6
+{Assessment of institutions, scholars, and contributions on agile software development (2001–2012)};17
+{Automating the product derivation process of multi-agent systems product lines};18
+{Selecting components in large {\{}COTS{\}} repositories};8
+{A text-based approach to feature modelling: Syntax and semantics of {\{}TVL{\}}};13
+{Formal semantics, modular specification, and symbolic verification of product-line behaviour};23
+{Model Checking Lots of Systems: Efficient Verification of Temporal Properties in Software Product Lines};9
+{A Virtual Factory for Smart City Service Integration};3
+{Managing crosscutting concerns in component based systems using a model driven development approach};21
+{Product Line Engineering Comes to the Industrial Mainstream};14
+{A Product Line engineering practices model};14
+{Performance Analysis of TLS Web Servers};30
+{From requirements to architecture for software product lines};7
+{Unveiling and taming liabilities of aspects in the presence of exceptions: A static analysis based approach};20
+{Combinatorial Test Design in Practice};1
+{Search Based Design of Software Product Lines Architectures};3
+{A feature-driven crossover operator for multi-objective and evolutionary optimization of product line architectures};17
+{A Feature-Driven Crossover Operator for Product Line Architecture Design Optimization};9
+{Applying search based optimization to software product line architectures: Lessons learned};7
+{Search Based Software Engineering: Review and analysis of the field in Brazil};14
+{Cooperation, collaboration and pair-programming: Field studies on backup behavior};10
+{On the relationship of concern metrics and requirements maintainability};26
+{An empirical study of two software product line tools};7
+{Editorial};1
+{Counterexample Guided Abstraction Refinement of Product-line Behavioural Models};11
+{Evaluating {\{}REST{\}} architectures—Approach, tooling and guidelines};24
+{A Scientific Software Product Line for the Bioinformatics domain};25
+{PL-science: A scientific software product line};9
+{Effort Estimation Modeling Techniques: A Case Study for Web Applications};7
+{Extracting software product lines: A case study using conditional compilation};9
+{Assessing Quality in Use in a Consistent Way};7
+{Toward the adaptation of component-based architectures by model transformation: behind smart user interfaces};41
+{Component-based software engineering — new challenges in software development};6
+{Research synthesis in software engineering: A tertiary study};15
+{Composition and self-adaptation of service-based systems with feature models};16
+{Reconfiguration of Service Failures in DAMASCo Using Dynamic Software Product Lines};7
+{An “abstract process�? approach to algebraic dynamic architecture description};37
+{Evaluating refactorings for spreadsheet models};16
+{Using classic problems to teach Java framework design};22
+{An analysis of the factors determining software product quality: A comparative study};8
+{An Evaluation of the Internal Quality of Business Applications: Does Size Matter?};4
+{Formalizing cardinality-based feature models and their specialization};22
+{Staged configuration through specialization and multilevel configuration of feature models};26
+{Modularity analysis of use case implementations};15
+{Agile product line engineering—a systematic literature review};20
+{A model for tracing variability from features to product-line architectures: A case study in smart grids};20
+{Agile product-line architecting in practice: A case study in smart grids};21
+{Towards Architectural Styles for Android App Software Product Lines};4
+{A systematic mapping study of software product lines testing};16
+{25 years of software engineering in Brazil: Beyond an insider's view};17
+{Using a multi-method approach to understand agile software product lines};15
+{Generation of scripts for performance testing based on UML models};5
+{Middleware Specialization for Product-Lines Using Feature-Oriented Reverse Engineering};5
+{Software process: the next level};1
+{A framework for table driven testing of Java classes};28
+{Estimating the coverage of the framework application reusable cluster-based test cases};9
+{Consistent merging of model versions};18
+{Balancing uncertainty of context in ERP project estimation: an approach and a case study};28
+{Empirical research methodologies and studies in Requirements Engineering: How far did we come?};8
+{Exploring modal worlds};18
+{4.4.1 A Hybrid Requirements Capture Process};13
+{Mapping features to reusable components: A problem frames-based approach};15
+{10.1.2 Towards a framework for variability management and integration in Systems Engineering};13
+{Classifying metrics for assessing Object-Oriented Software Maintainability: A family of metrics' catalogs};16
+{A hybrid approach to suggest software product line portfolios};12
+{On the impact of trace-based feature location in the performance of software maintainers};14
+{Selected and extended papers of the Brazilian Symposium on Programming Languages 2012};1
+{Agreements for Software Reuse in Corporations};3
+{Interpretative case studies on agile team productivity and management};15
+{A Variability Management Process for Software Product Lines};16
+{Product derivation in practice};18
+{Extracting finite state models from i* models};15
+{Variability assessment in software product families};23
+{Product derivation in software product families: A case study};21
+{Experiences in Software Product Families: Problems and Issues during Product Derivation};17
+{A product derivation framework for software product families};11
+{COSVAM: A technique for assessing software variability in software product families};4
+{Tooling Support for Variability and Architectural Patterns in Systems Engineering};3
+{Continuous evolution through software architecture evaluation: a case study};32
+{Co-evolution of metamodels and models through consistent change propagation};16
+{Method Association Approach: Situational construction and evaluation of an implementation method for software products};11
+{Addressing domain evolution challenges in software product lines};14
+{Complement Service Composition through Domain Template and Requirement Context};5
+{Compositional reasoning for weighted Markov decision processes};42
+{Testing and Inspecting Reusable Product Line Components: First Empirical Results};9
+{Requirements-driven incremental adoption of variability management techniques and tools: an industrial experience report};21
+{Adopting Feature-centric Reuse of Requirements Assets: An Industrial Experience Report};7
+{Towards Model-centric Engineering of a Dynamic Access Control Product Line};4
+{Ontology-based feature modeling: An empirical study in changing scenarios};14
+{Experiences with conducting project postmortems: reports versus stories};12
+{A Critical View on PLM/ALM Convergence in Practice and Research};7
+{An Empirical Study of Pre-release Software Faults in an Industrial Product Line};9
+{Statistical prioritization for software product line testing: an experience report};18
+{REASSURE: Requirements elicitation for adaptive socio-technical systems using repertory grid};19
+{Recovering commit dependencies for selective code integration in software product lines};9
+{Structuring the modeling space and supporting evolution in software product line engineering};14
+{Architectural knowledge in product line engineering: An industrial case study};7
+{Generating blogs out of product catalogues: An {\{}MDE{\}} approach};12
+{A Software Product Line Approach for Semantic Specification of Block Libraries in Dataflow Languages};9
+{A Methodical Approach to Product Line Adoption};9
+{Knowledge-based approaches in software documentation: A systematic literature review};22
+{Towards a reasoning framework for software product line testing};3
+{Strategies for Testing Products in Software Product Lines};7
+{On strategies for testing software product lines: A systematic literature review};16
+{Product selection based on upper confidence bound MOEA/D-DRA for testing software product lines};7
+{Integrating Variability and Safety Analysis Models Using Commercial UML-based Tools};9
+{Customizing Domain Analysis for Assessing the Reuse Potential of Industrial Software Systems: Experience Report};9
+{The use of software product lines for business process management: A systematic literature review};18
+{Model-driven auto-scaling of green cloud computing infrastructure};7
+{Yellow is the New Green: Meaningful Indicator Threshold from the Operations Perspective};7
+{An Exploratory Study of Cloning in Industrial Software Product Lines};9
+{A Framework for Characterization and Analysis of Software System Scalability};9
+{Probabilistic Model Checking for Energy Analysis in Software Product Lines};11
+{Bridging the Gap Between Product Lines and Systems Engineering: An Experience in Variability Management for Automotive Model Based Systems Engineering};9
+{Integration of collaboration and interaction analysis mechanisms in a concern-based architecture for groupware systems};16
+{Language features for software evolution and aspect-oriented interfaces: An exploratory study};35
+{An Exploratory Study of the Design Impact of Language Features for Aspect-oriented Interfaces};11
+{The impact of agile principles on market-driven software product development};27
+{Metrics based variability assessment of code assets};9
+{Comprehensibility of variability in model fragments for product configuration};14
+{Research on Augmenting the MDD Process with Variability Modeling};5
+{Product Innovation through Internal Startup in Large Software Companies: A Case Study};7
+{Flexible resource monitoring of Java programs};23
+{Guidelines on the aesthetic quality of {\{}UML{\}} class diagrams};12
+{Architecture for embedded open software ecosystems};14
+{Architecting automotive product lines: Industrial practice};12
+{Understanding design patterns — what is the problem?};34
+{A rule-based approach to detect and prevent inconsistency in the domain-engineering process};10
+{Experience from Implementing a Complex Eclipse Extension for Software Product Line Engineering};5
+{Analysing the Kconfig Semantics and Its Analysis Tools};9
+{A methodology for modeling VVT risks and costs};16
+{Advancing Architecture Options Theory: Six Industrial Case Studies};18
+{Test overlay in an emerging software product line-An industrial case study};13
+{Software product line testing – A systematic mapping study};11
+{Development and evaluation of a framework for generation usability testing for mobile application};9
+{Evaluating and comparing language workbenches: Existing results and benchmarks for the future};23
+{Managing requirements specifications for product lines - An approach and industry case study};12
+{Use Cases for Systems Engineering—An Approach and Empirical Evaluation};21
+{Utilizing architectural styles to enhance the adaptation support of middleware platforms};15
+{Optimizing software product line architectures with OPLA-tool};6
+{AspectJ code analysis and verification with {\{}GASR{\}}};16
+{A contribution to the adoption of software product lines in the development of mobile learning applications};7
+{Migrating automotive product lines: A case study};15
+{Multi-variability Modeling and Realization for Software Derivation in Industrial Automation Management};10
+{Web service E-contract establishment using features};15
+{WS-contract establishment with QOS:};34
+{A Feature-based Approach to Electronic Contracts};0
+{Comprehensive configuration management model for software product line};21
+{Configuration Management Model in Evolutionary Software Product Line};22
+{Methodologies for agile product line engineering: A survey and evaluation};19
+{Assessing the Impact of Aspects on Model Composition Effort};11
+{A design pattern coupling role and component concepts: Application to medical software};16
+{Product-line requirements specification (PRS): an approach and case study};7
+{Software product line migration and deployment};22
+{Do background colors improve program comprehension in the {\#}ifdef hell?};46
+{Using background colors to support program comprehension in software product lines};9
+{Perpetual development: A model of the Linux kernel life cycle};16
+{Smooth quality oriented component integration through product line based aspect-oriented component adaptation};5
+{Reviewing product line architectures: Experience report of ATAM in an automotive context};18
+{Model-Driven Development for secure information systems};5
+{Empirical validation of a usability inspection method for model-driven Web development};25
+{Towards the practical mutation testing of AspectJ programs};23
+{Do {\#}Ifdefs Influence the Occurrence of Vulnerabilities? An Empirical Study of the Linux Kernel};8
+{On the use of feature-oriented programming for evolving software product lines — A comparative study};20
+{A mutation approach to feature testing of software product lines};5
+{Evolving Software Product Lines with Aspects: An Empirical Study on Design Stability};9
+{Detecting architecture instabilities with concern traces: An exploratory study};3
+{On the Impact of Crosscutting Concern Projection on Code Measurement};11
+{Applying and evaluating concern-sensitive design heuristics};16
+{InTml: A Case Study on Virtual Reality Development};1
+{Assessing Product Line Derivation Operators Applied to Java Source Code: An Empirical Study};9
+{Special Issue on Graph Transformation and Visual Modeling Techniques: Guest Editors' introduction};1
+{The role of software updates in information systems continuance — An experimental study from a user perspective};13
+{Playing MUSIC — building context-aware and self-adaptive mobile applications};29
+{Ten Years of Product Line Engineering at Danfoss: Lessons Learned and Way Ahead};9
+{Architecting for usability: a survey};17
+{A framework for capturing the relationship between usability and software architecture};20
+{Leveraging variability modeling to address metamodel revisions in Model-based Software Product Lines};18
+{Addressing Metamodel Revisions in Model-based Software Product Lines};9
+{Processes versus people: How should agile software development maturity be defined?};15
+{Progressive Outcomes: A framework for maturing in agile software development};20
+{Dealing with variability in context-aware mobile software};21
+{An industrial study of reuse, quality, and productivity};7
+{On the design of a maintainable software development kit to implement integration solutions};15
+{A brief history of A-MOST Special Issue containing selected papers from A-MOST 2008};7
+{Lifting transformational models of product lines: A case study};14
+{Lifting transformational models of product lines: A case study};14
+{Failure prediction based on log files using Random Indexing and Support Vector Machines};9
+{A model-driven process for the modernization of component-based systems};22
+{Improving Digital Game Development with Software Product Lines};7
+{Streamlining domain analysis for digital games product lines};14
+{A framework for variable content document generation with multiple actors};20
+{A domain-specific language for model mutation and its application to the automated generation of exercises};21
+{rbFeatures: Feature-oriented programming with Ruby};21
+{Describing the design space of mechanical computational design synthesis problems};9
+{Modeling Aerospace Systems Product Lines in SysML};9
+{A quantitative and qualitative assessment of aspectual feature modules for evolving software product lines};23
+{Supporting distributed product configuration by integrating heterogeneous variability modeling approaches};22
+{An industrial case study on variability handling in large enterprise software systems};15
+{Constraints for the design of variability-intensive service-oriented reference architectures – An industrial case study};13
+{Architectural evolution of FamiWare using cardinality-based feature models};17
+{An analysis of unit tests of a flight software product line};20
+{Discovering Organizational Aspects from the Source Code History Log during the Product Line Planning Phase--A Case Study};9
+{Predicting Return-on-Investment for Product Line Generations};9
+{Process model fragmentization, clustering and merging: An empirical study};11
+{Software process modeling languages: A systematic literature review};13
+{{\{}TALISMAN{\}} MDE: Mixing {\{}MDE{\}} principles};12
+{Automated configuration support for infrastructure migration to the cloud};12
+{FTS-SOCI: An agent-based framework for simulating teaching strategies with evolutions of sociograms};17
+{Software Engineering in Brazil: Retrospective and prospective views};2
+{Software test maturity assessment and test process improvement: A multivocal literature review};26
+{A systematic literature review of literature reviews in software testing};21
+{When and what to automate in software testing? A multi-vocal literature review};25
+{Challenges and best practices in industry-academia collaborations in software engineering: A systematic literature review};21
+{Embracing the C preprocessor during refactoring};19
+{An analysis of a project reuse approach in an industrial setting};7
+{Model-Based Software Product Line Testing by Coupling Feature Models with Hierarchical Markov Chain Usage Models};5
+{The {\{}SDL{\}} pattern approach – a reuse-driven {\{}SDL{\}} design methodology};18
+{Checklist-based inspection of SMarty variability models proposal and empirical feasibility study};8
+{Self-adaptation in software-intensive cyber–physical systems: From system goals to architecture configurations};19
+{Functional Analysis and Design Approach for an Optimal Virtual IP Multimedia Subsystem (IMS) Architecture};13
+{Editorial};2
+{Extreme product line engineering - Refactoring for variability: A test-driven approach};14
+{Extreme Product Line Engineering: Managing Variability and Traceability via Executable Specifications};7
+{Making the leap to a software platform strategy: Issues and challenges};16
+{ArchFeature: Integrating Features into Product Line Architecture};6
+{Balancing platform control and external contribution in third-party development: the boundary resources model};19
+{A survey on cloud service description};13
+{A software product line approach for configuring cloud robotics applications};7
+{Model-based verification of quantitative non-functional properties for software product lines};16
+{Cloud migration process—A survey, evaluation framework, and open challenges};38
+{Method-level Bug Prediction};9
+{Product Portfolio Scope Optimization Based on Features and Goals};9
+{Towards an Executable Algebra for Product Lines};7
+{Pairwise testing for systems with data derived from real-valued variable inputs};22
+{Domain-specific runtime variability in product line architectures};12
+{Special Issue on the 2015 International Conference on Generative Programming: Concepts {\&} Experiences (GPCE)};1
+{Defining and validating a multimodel approach for product architecture derivation and improvement};16
+{ScapeGoat: Spotting abnormal resource usage in component-based reconfigurable software systems};17
+{Validating a model-driven software architecture evaluation and improvement method: A family of experiments};24
+{A work product pool approach to methodology specification and enactment};17
+{Requirements engineering: In search of the dependent variables};8
+{Quantitative defects management in iterative development with BiDefect};14
+{Component-based Software Engineering: A Quantitative Approach};1
+{Validation of user intentions in process orchestration and choreography};16
+{Modeling and validation of business process families};17
+{An exploratory study on ontology engineering for software architecture documentation};11
+{How organisation of architecture documentation affects architectural knowledge retrieval};24
+{Clustering with proximity knowledge and relational knowledge};11
+{A quantitative analysis of the unit verification perspective on fault distributions in complex software systems: an operational replication};28
+{The More You Do, the More You Save: The Superlinear Cost Avoidance Effect of Systems Product Line Engineering};7
+{The Best of Both Worlds: Agile Development Meets Product Line Engineering at Lockheed Martin};14
+{An Integrated Aspect-oriented Model-driven Software Product Line Tool Suite};1
+{Aspect-oriented model-driven software product line engineering};41
+{Low-disruptive dynamic updating of Java applications};12
+{Improving software product line configuration: A quality attribute-driven approach};21
+{A reference architecture for organizing the internal structure of metadata-based frameworks};17
+{A service-oriented framework for developing cross cloud migratable software};14
+{A systematic review on the engineering of software for ubiquitous systems};25
+{A pattern-driven mutation operator for search-based product line architecture design};14
+{A multi-objective and evolutionary hyper-heuristic applied to the Integration and Test Order Problem};13
+{Agile engineering of internal Domain-Specific Languages with dynamic programming languages};6
+{A semantic approach for automated test oracle generation};15
+{A dynamic stochastic model for automatic grammar-based test generation};28
+{Consistency maintenance for evolving feature models};11
+{A genetic algorithm for optimized feature selection with resource constraints in software product lines};13
+{An examination of change profiles in reusable and non-reusable software systems};21
+{Reducing behavioural to structural properties of programs with procedures};34
+{Design erosion: problems and causes};14
+{Design, implementation and evolution of object oriented frameworks: concepts and guidelines};23
+{Design preservation over subsequent releases of a software product: a case study of Baan ERP};29
+{Comparing practices for reuse in integration-oriented software product lines and large open source software projects};27
+{Evaluating Flexibility in Embedded Automotive Product Lines Using Real Options};7
+{A software binding application tool based on the orthogonal variability description language for software product line development};7
+{HATS abstract behavioral specification: The architectural view};23
+{Systematic synthesis of delta modeling languages};25
+{Evolving delta-oriented software product line architectures};25
+{Validated test models for software product lines: Featured finite state machines};17
+{Automotive software engineering: A systematic mapping study};30
+{Semi-automated architectural abstraction specifications for supporting software evolution};25
+{Fuzzy AHP based design decision for Product Line architecture};5
+{Feature combination and interaction detection via foreground/background models};20
+{Capturing variability in business process models: the Provop approach};27
+{A development framework and methodology for self-adapting applications in ubiquitous computing environments};19
+{Survey of Non-Functional Requirements modeling and verification of Software Product Lines};5
+{Fast Directional Handoff and lightweight retransmission protocol for enhancing multimedia quality in indoor {\{}WLANs{\}}};14
+{Reachability analysis of complex planar hybrid systems};25
+{Software Entropy in Agile Product Evolution};9
+{A longitudinal case study of an emerging software ecosystem: Implications for practice and theory};11
+{Agile software product line engineering: Enabling factors};14
+{Process fusion: An industrial case study on agile software product line engineering};11
+{Search Based Software Engineering for Software Product Line Engineering: A Survey and Directions for Future Work};13
+{Towards a multi-criteria decision support method for consumer electronics software ecosystems};22
+{Using MDA for integration of heterogeneous components in software supply chains};17
+{Using MDA for integration of heterogeneous components in software supply chains};15
+{Risk Based Testing for Software Product Line Engineering};4
+{The changing industry structure of software development for consumer electronics and its consequences for software architectures};14
+{An Extension of Fault-prone Filtering Using Precise Training and a Dynamic Threshold};9
+{CVL: Common Variability Language};1
+{Identified adjustability dimensions when generating a product specific requirements specification by requirements reuse};14
+{Model-based Product Line Engineering -- Enabling Product Families with Variants};12
+{Decision-Driven Product Development};15
+{Finding and documenting the specialization interface of an application framework};22
+{Transition to a product line infrastructure: experience at Akari Software};6
+{Relating feature models to other models of a software product line: A comparative study of FeatureMapper and VML};45
+{Simulating evolution in model-based product line engineering};11
+{A review of methods for evaluation of maturity models for process improvement};18
+{Coevolution of Variability Models and Code: An Industrial Case Study};9
+{Abstract Delta Modeling: My Research Plan};7
+{Reverse engineering variability in source code using clone detection: A case study for linux variants of consumer electronic devices};9
+{Bypassing the Combinatorial Explosion: Using Similarity to Generate and Prioritize T-Wise Test Configurations for Software Product Lines};20
+{Multi-objective Test Generation for Software Product Lines};9
+{A framework for evaluating reusability of core asset in product line engineering};20
+{Code Generation with the Exemplar Flexibilization Language};9
+{Improving the accuracy of {\{}COPLIMO{\}} to estimate the payoff of a software product line};9
+{Augmenting measure sensitivity to detect essential, dispensable and highly incompatible features in mass customization};11
+{A bibliometric analysis of 20 years of research on software product lines};14
+{PACOGEN: Automatic Generation of Pairwise Test Configurations from Feature Models};9
+{Practical minimization of pairwise-covering test configurations using constraint programming};17
+{Automatic Locality-friendly Interface Extension of Numerical Functions};9
+{Modularization of Software as a Service Products: A Case Study of the Configuration Management Tool Puppet};7
+{Using meta-modeling in design and implementation of component-based systems: the SOFA case study};16
+{Systematic literature reviews in agile software development: A tertiary study};12
+{{\{}API{\}} documentation with executable examples};13
+{Domain Specific Feature Modeling for Software Product Lines};9
+{A general model of software architecture design derived from five industrial approaches};20
+{A systematic review and an expert survey on capabilities supporting multi product lines};24
+{An Industrial Case Study of Project Management Using Cross Project Software Reliability Growth Model};1
+{A feature oriented approach to modeling and reusing requirements of software product lines};6
+{Product Line Architecture for Automatic Evolution of Multi-Tenant Applications};9
+{Closing the gap between the specification and enforcement of security policies};12
+{An automatic process for weaving functional quality attributes using a software product line approach};17
+{An approach for deploying and monitoring dynamic security policies};18
+{Surveying the Factors That Influence Maintainability: Research Design};3
+{Crowdsourcing: A taxonomy and systematic mapping study};26
+{Dynamic analysis and design pattern detection in Java programs};4
+{An accurate on-demand time synchronization protocol for wireless sensor networks};14
+{Evaluating a textual feature modelling language: Four industrial case studies};19
+{A Multiple Case Study on the Impact of Pair Programming on Product Quality};9
+{Preprocessor-based variability in open-source and industrial software systems: An empirical study};33
+{Avispa: a tool for analyzing software process models};16
+{MDE-based process tailoring strategy};17
+{MDE software process lines in small companies};18
+{Model-driven engineering practices in industry: Social, organizational and managerial factors that lead to success or failure};17
+{Requirements for successful software development with variability: A case study};9
+{Visualizing Variability Management in Requirements Engineering through Formal Concept Analysis};10
+{Formalising and analysing the control software of the Compact Muon Solenoid Experiment at the Large Hadron Collider};17
+{Software process improvement in a financial organization: An action research approach};11
+{A model-based method to design an application common platform for enterprise information systems};14
+{Variability Analysis of Requirements: Considering Behavioral Differences and Reflecting Stakeholders? Perspectives};19
+{Assessing the Process of an Eastern European Software SME Using Systemic Analysis, GQM, and Reliability Growth Models: A Case Study};8
+{A constraint-based variability modeling framework};19
+{Developing mobile browsers in a product line};7
+{Evaluating the usability of a visual feature modeling notation};18
+{Orthogonal to support multi-cloud application configuration};12
+{Flex-eWare: a flexible model driven solution for designing and implementing embedded distributed systems};27
+{Managing changes in requirements: an empirical investigation};10
+{Documenting after the fact: Recovering architectural design decisions};21
+{Integrated development and maintenance for the release, delivery, deployment, and customization of product software: a case study in mass-market ERP software};18
+{Product Families On-Chip {\&}{\#}8212; Combining the Software Product Family Paradigm with Run-Time Reprogrammable Hardware Technology};1
+{Engineering Reconfigurable Product Families - Architecting the Variability Infrastructure of a Product Family On-Chip};7
+{Architecting product diversification - formalizing variability dependencies in software product family engineering};7
+{Expressing product diversification - Categorizing and classifying variability in software product family engineering};21
+{Variability dependencies in product family engineering};16
+{Representing variability in software product lines: A case study};21
+{Modeling Variability and Testability Interaction in Software Product Line Engineering};9
+{Representing variability in a family of MRI scanners};31
+{The brave new world of design requirements};16
+{Research Journey Towards Industrial Application of Reuse Technique};3
+{How Java {\{}APIs{\}} break – An empirical study};17
+{Identifying issues and concerns in software reuse in software product lines};9
+{A tool for facilitating the teaching of smart home applications};8
+{Tracking Degradation in Software Product Lines Through Measurement of Design Rule Violations};5
+{Integrating deployment architectures and resource consumption in timed object-oriented models};24
+{Developing Product Lines with Third-Party Components};17
+{A feature model of actor, agent, functional, object, and procedural programming languages};19
+{Can Clone Detection Support Quality Assessments of Requirements Specifications?};9
+{An information systems design product theory for the class of integrated requirements and release management systems};20
+{A case study implementing features using AspectJ};9
+{A Model of Refactoring Physically and Virtually Separated Features};9
+{Granularity in Software Product Lines};9
+{Obstacles in Data Distribution Service Middleware: A Systematic Review};19
+{A high-level electrical energy ontology with weighted attributes};9
+{Apples and Oranges: Comparing Top-down and Bottom-up Language Product Lines};9
+{Abstracts};11
+{2.3.2 Verification of Selection from Product Line Requirements};9
+{Agents, clusters and components: A synergistic approach to the {\{}GSP{\}}};11
+{Multiple Software Product Lines for Service Oriented Architecture};5
+{Feature model for the service provider in the service oriented architecture};5
+{Approximating the evolution history of software from source code};8
+{Extraction of Product Evolution Tree from Source Code of Product Variants};9
+{Testing scientific software: A systematic literature review};13
+{Feature-oriented re-engineering of legacy systems into product line assets - A case study};11
+{Systematic Software Product Line Test Case Derivation for Test Data Reuse};7
+{A Family of Test Adequacy Criteria for Database-driven Applications};9
+{From extended feature models to constraint logic programming};17
+{Investigating the relationship between schedules and knowledge transfer in software testing};14
+{Evolutionary robust optimization for software product line scoping: An explorative study};21
+{A Search Based Approach Towards Robust Optimization in Software Product Line Scoping};1
+{Using Feature Models for Creating Families of Documents};3
+{Predicting the maintainability of {\{}XSL{\}} transformations};15
+{Case Study of Applying SPLE to Development of Network Switch Products};9
+{Class inheritance structures and software maintenance activities - an empirical analysis};4
+{Software component and the semantic Web: An in-depth content analysis and integration history};17
+{Fuzzy Multi-criteria Approach for Component Selection of Fault Tolerant Software System under Consensus Recovery Block Scheme};9
+{Managing the Quality of Software Product Line Architectures Through Reusable Model Transformations};9
+{The essential components of software architecture design and analysis};9
+{Interface-based Similarity Analysis of Software Components for the Automotive Industry};9
+{Optimized composition of performance-aware parallel components};17
+{Dependable wireless sensor networks for reliable and secure humanitarian relief applications};12
+{Using coordinated actors to model families of distributed systems};14
+{A systematic review of domain analysis solutions for product lines};21
+{The software value map — an exhaustive collection of value aspects for the development of software intensive products};30
+{VCU: The three dimensions of reuse};15
+{From proprietary to open source—Growing an open source ecosystem};11
+{An approach to feature-based software construction for enhancing maintainability};25
+{A comparison of software product line traceability approaches from end-to-end traceability perspectives};37
+{Goal and scenario based domain requirements analysis environment};12
+{DRAMA: A framework for domain requirements analysis and modeling architectures in software product lines};18
+{A case study on architectural maturity evaluation: Experience in the consumer electronics domain};9
+{A Case Study on SW Product Line Architecture Evaluation: Experience in the Consumer Electronics Domain};5
+{Building Software Product Line from the Legacy Systems "Experience in the Digital Audio and Video Domain"};9
+{Building software product line from the legacy systems "experience in the digital audio {\&} video domain"};9
+{Managing requirements conflicts in software product lines: A goal and scenario based approach};15
+{A distributed logic for Networked Cyber-Physical Systems};14
+{EURECA: End-user requirements engineering with collaborative animation};11
+{Which Warnings Should I Fix First?};9
+{A feature-based approach for modeling role-based access control systems};17
+{Memories of Bug Fixes};10
+{Dealing with Noise in Defect Prediction};9
+{Extending ATAM to assess product line architecture};7
+{Combining Systematic Reuse with Agile Development: Experience Report};4
+{Test-case design by feature trees};15
+{Program dependency analysis for consolidating customized product copies};4
+{Industrial-strength Software Product-line Engineering};1
+{On the Use of Test Cases in Model-based Software Product Line Development};4
+{An Efficient Migration to Model-driven Development (MDD)};10
+{The Evaluation Knowledge of Standard Software Asset using The Seven Samurai Framework};8
+{OATools: An ArcMap add-in for the orientation analysis of geological structures};8
+{Experiences with Commonality Control Procedures to Develop Clinical Instrument System};9
+{Modes in component behavior specification via EBP and their application in product lines};10
+{Guidelines for using aspects in product lines};5
+{Evaluation of Variability Concepts for Simulink in the Automotive Domain};9
+{Refactoring a legacy component for reuse in a software product line: A case study};23
+{A case study in refactoring a legacy component for reuse in a product line};9
+{A Comparison of Product-based, Feature-based, and Family-based Type Checking};9
+{VxBPEL: Supporting variability for Web services in {\{}BPEL{\}}};11
+{Assessing systems adaptability to a product family};9
+{An Introduction to Global Product Line Requirements Engineering};1
+{Domain-Specific Languages: A Systematic Mapping Study};14
+{Large-scale inter-system clone detection using suffix trees and hashing};22
+{Incremental reflexion analysis};36
+{DeltaJ 1.5: Delta-oriented Programming for Java 1.5};11
+{Explaining Anomalies in Feature Models};11
+{Sustainability Evaluation of Software Architectures: A Systematic Review};9
+{Performance evaluation of component-based software systems: A survey};24
+{Experiences from Identifying Software Reuse Opportunities by Domain Analysis};9
+{Assessing software product line potential: an exploratory industrial case study};37
+{Evolving industrial software architectures into a software product line: A case study};16
+{Mathematical Model for Simulating an Application Integration Solution in the Academic Context of Uniju{\'{i}} University};6
+{Using Document-oriented GUIs in Dynamic Software Product Lines};9
+{Comparing Algorithms for Efficient Feature-model Slicing};4
+{Enabling system evolution through configuration management on the hardware/software boundary};31
+{Empirical Evaluation of Reliability Improvement in an Evolving Software Product Line};9
+{Predicting failure-proneness in an evolving software product line};16
+{HomeAway's Transition to Software Product Line Practice: Engineering and Business Results in 60 Days};9
+{A survey on engineering approaches for self-adaptive systems};22
+{An Exploratory Study of Forces and Frictions Affecting Large-scale Model-driven Development};15
+{Crafting a software process improvement approach—a retrospective systematization};31
+{On the use of variability operations in the V-Modell XT software process line};12
+{Flexible software process lines in practice: A metamodel-based approach to effectively construct and manage families of software process models};22
+{The crosscutting impact of the {\{}AOSD{\}} Brazilian research community};28
+{Quantifying requirements volatility effects};39
+{Perils of opportunistically reusing software module};13
+{Model Driven Development of Business Applications: A Practitioner's Perspective};9
+{Towards Business Application Product Lines};16
+{Locking the door but leaving the computer vulnerable: Factors inhibiting home users' adoption of software firewalls};10
+{Test case prioritization techniques for software product line: A survey};5
+{Test case prioritization techniques for software product line: A survey};5
+{Runtime evolution of service-based multi-tenant SaaS applications};14
+{Testing Environment for {\{}CPS{\}} by Cooperating Model Checking with Execution Testing};9
+{Software product line adoption - Guidelines from a case study};14
+{Recovering management information from source code};38
+{Control version system process anxd software product line: Software residence experience};5
+{Increasing software development efficiency and maintainability for complex industrial systems – A case study};16
+{A scoped approach to traceability management};14
+{Observations from the recovery of a software product family};13
+{A systematic mapping study on software product line evolution: From legacy system reengineering to product line refactoring};24
+{Mobile communicators for disabled people};7
+{UML support for designing software product lines: The package merge mechanism};19
+{Engaging Software Estimation Education Using LEGOs: A Case Study};6
+{An encompassing life cycle centric survey of software inspection};26
+{Systematic review on Software Product Line Testing};13
+{PROW: A Pairwise algorithm with constRaints, Order and Weight};18
+{Effectively Testing for a Software Product Line with OTM3 Organizational Testing Management Maturity Model};5
+{Effectively testing for a software product line with OTM3 organizational testing management maturity model};5
+{Software Quality Modeling Experiences at an Oil Company};3
+{4.6.3 Affordable Systems: Balancing the Capability, Schedule, Flexibility, and Technical Debt Tradespace};14
+{Process models for service-based applications: A systematic literature review};15
+{Visualization-based Analysis of Quality for Large-scale Software Systems};9
+{Research notes on the architectural evolution of a software product line};5
+{Architectural evolution of a software product line: An experience report};5
+{Experiences with ALMA: Architecture-Level Modifiability Analysis};10
+{Model-based Functional Size Measurement};9
+{An Empirical Investigation of Perceived Reliability of Open Source Java Programs};5
+{A case study of TTCN-3 test scripts clone analysis in an industrial telecommunication setting};13
+{Iterative Identification of Fault-prone Binaries Using In-process Metrics};6
+{Experience report on using a domain model-based extractive approach to software product line asset development};12
+{VULCAN: Architecture-model-based Workbench for Product Line Engineering};4
+{A Survey on Software Product Line Testing};9
+{A feature-oriented approach for developing reusable product line assets of service-based systems};13
+{What situational information would help developers when using a graphical code recommender?};18
+{Clustering navigation sequences to create contexts for guiding code navigation};11
+{Modeling Variant User Interfaces for Web-Based Software Product Lines};33
+{An approach to analyzing commonality and variability of features using ontology in a software product line engineering};7
+{An approach to managing feature dependencies for product releasing in software product lines};14
+{A Feature Oriented Approach to Managing Domain Requirements Dependencies in Software Product Lines};8
+{Continuous, Lean, and Wasteless: Minimizing Lead Time from Development Done to Production Use};4
+{Improving Domain Representation with Multi-paradigm Modeling};7
+{Evaluation studies of software testing research in Brazil and in the world: A survey of two premier software engineering conferences};18
+{Feature modeling of two large-scale industrial software systems: Experiences and lessons learned};9
+{Mining Families of Android Applications for Extractive SPL Adoption};4
+{Model-based systems product line engineering with physical design variability for aircraft systems};5
+{Experiences and Results from Initiating Field Defect Prediction and Product Test Prioritization Efforts at ABB Inc.};9
+{Characterizing the Differences Between Pre- and Post- Release Versions of Software};9
+{Improving software testing process: feature prioritization to make winners of success-critical stakeholders};18
+{Efficient allocation of resources in multiple heterogeneous Wireless Sensor Networks};13
+{Application of knowledge-based approaches in software architecture: A systematic mapping study};17
+{An Empirical Investigation of Modularity Metrics for Indicating Architectural Technical Debt};9
+{A complete approach for {\{}CIM{\}} modelling and model formalising};16
+{An evolutionary methodology for optimized feature selection in software product lines};3
+{SAT-based Analysis of Large Real-world Feature Models is Easy};9
+{An analysis of the variability in forty preprocessor-based software product lines};9
+{Experiences from Reengineering and Modularizing a Legacy Software Generator with a Projectional Language Workbench};7
+{Improved prediction of non-functional properties in Software Product Lines with domain context};13
+{Investigating Country Differences in Mobile App User Behavior and Challenges for Software Engineering};24
+{Product Line Architecture Recovery: An Approach Proposal};1
+{GPU-Based Acceleration of Regression Test Suite Reduction};5
+{Measurement of the complexity of variation points in software product lines};4
+{Comparing Software Metrics Tools};11
+{A Variability Aware Configuration Management and Revision Control Platform};3
+{Recovering Traceability Between Features and Code in Product Variants};9
+{A systematic review of domain analysis tools};12
+{A Case Study in Software Product: Lines An Educational Experience};7
+{Safety analysis of software product lines using state-based modeling};13
+{Risk management in software product line engineering: A mapping study};35
+{Risk management in software product lines: An industrial case study};9
+{Specification and automated validation of staged reconfiguration processes for dynamic software product lines};27
+{Delta-oriented model-based integration testing of large-scale systems};21
+{Incremental model checking of delta-oriented software product lines};22
+{Model-based pairwise testing for feature interaction coverage in software product line engineering};37
+{Incremental model-based testing of delta-oriented software product lines};15
+{Optimization of variability in software product lines};9
+{Restructuring variability in software product lines using concept analysis of product configurations};9
+{Lean and efficient system software product lines: Where aspects beat objects};28
+{Detecting inconsistencies in multi-view models with variability};15
+{A systematic mapping study of search-based software engineering for software product lines};18
+{An assessment of search-based techniques for reverse engineering feature models};16
+{Code reuse with language oriented programming};15
+{Graph modelling of a refactoring process for Product Line Architecture design};11
+{BAREMO: How to Choose the Appropriate Software Component Using the Analytic Hierarchy Process};7
+{Nonconformity Resolving Recommendations for Product Line Configuration};11
+{Contributions to the emergence and consolidation of Agent-oriented Software Engineering};14
+{Software reuse: The Brazilian industry scenario};17
+{User interfaces metamodel based on graphs};33
+{On building architecture-centric product line architecture};20
+{Improving software performance and reliability in a distributed and concurrent environment with an architecture-based self-adaptive framework};17
+{Feature dependency modeling for software product line};4
+{Analysis of a software product line architecture: an experience report};14
+{Harmonizing architectural decisions with component view models using reusable architectural knowledge transformations and constraints};16
+{Leveraging Software Product Lines Engineering in the development of external DSLs: A systematic literature review};29
+{A Software Metric for Coherence of Class Roles in Java Programs};9
+{Special issue on ProSim 2005, The 6th international workshop on software process simulation and modeling, St. Louis, Missouri, USA may 2005};4
+{Efficient testing of software product lines via centralization (short paper)};3
+{Efficient Testing of Software Product Lines via Centralization (Short Paper)};3
+{Change impact analysis for software product lines};16
+{Managing infinite variability in mobile terminal software};24
+{Adaptable platform-based engineering: Key enablers and outlook for the future};12
+{Migrating legacy software to the cloud: approach and verification by means of two medical software use cases};23
+{Autogenerator: Generation and execution of programming code on demand};12
+{Collaboration optimization in software process composition};14
+{Reconciling software development models: A quasi-systematic review};18
+{Variability in quality attributes of service-based software systems: A systematic literature review};23
+{An industrial study on the importance of software component documentation: A system integratorʼs perspective};7
+{Validating pragmatic reuse tasks by leveraging existing test suites};31
+{Special issue on search-based techniques and their hybridizations in software engineering};1
+{On the application of search-based techniques for software engineering predictive modeling: A systematic review and future directions};24
+{Binary multi-objective PSO and GA for adding new features into an existing product line};4
+{Embedded Systems Security: A Survey of EU Research Efforts};20
+{Revisiting software ecosystems Research: A longitudinal literature study};19
+{Towards evolvable software architectures based on systems theoretic stability};27
+{The transformation of requirements into software primitives: Studying evolvability based on systems theoretic stability};12
+{Using parameters and discriminants for product line requirements};19
+{Towards integrated variant management in global software engineering: An experience report};4
+{Operational pattern based code generation for management information system: An industrial case study};5
+{E-contracting with price configuration for Web services and QoS};27
+{Empirically Based Evolution of a Variability Management Approach at UML Class Level};9
+{Systematic functional decomposition in a product line using aspect-oriented software development: A case study};22
+{Case study on systematic functional decomposition in a product line using aspect oriented software development};5
+{Preserving architectural styles in the search based design of software product line architectures};16
+{A systematic review on search-based refactoring};20
+{Optimizing aspect-oriented product line architectures with search-based algorithms};14
+{Practical Pairwise Testing for Software Product Lines};8
+{Reusing knowledge in embedded systems modelling};14
+{Deriving scientific workflows from algebraic experiment lines: A practical approach};16
+{MobiLine: A Nested Software Product Line for the domain of mobile and context-aware applications};17
+{Benefits and drawbacks of software reference architectures: A case study};15
+{Software product line engineering approach for enhancing agile methodologies};1
+{Estimating and Predicting Average Likability on Computer-Generated Artwork Variants};1
+{Bottom-up Adoption of Software Product Lines: A Generic and Extensible Approach};9
+{Feature Relations Graphs: A Visualisation Paradigm for Feature Constraints in Software Product Lines};9
+{A Multiple Case Study of Continuous Architecting in Large Agile Companies: Current Gaps and the CAFFEA Framework};9
+{Investigating Architectural Technical Debt accumulation and refactoring over time: A multiple-case study};16
+{A multiple case study on the inter-group interaction speed in large, embedded software companies employing agile};22
+{Communication Factors for Speed and Reuse in Large-scale Agile Software Development};9
+{Enablers and Inhibitors for Speed with Reuse};9
+{Towards an Effective Integrated Reuse Environment};5
+{3.2.2 Enhancing the System Development Process Performance: a Value-Based Approach};14
+{Test strategies in distributed software development environments};8
+{Evaluating the portability and maintainability of software product family architecture: terminal software case study};3
+{Stability assessment of evolving industrial object-oriented frameworks};23
+{Towards Systems and Software Product Line Management Implementation in Extended Enterprise};14
+{Something(s) old and something(s) new: Modeling drivers of global virtual team effectiveness};23
+{WDMES: A Comprehensive Measurement System for Web Application Development};7
+{Conformance checking with constraint logic programming: The case of feature models};9
+{Automated feature discovery via sentence selection and source code summarization};25
+{Gaspar: a compositional aspect-oriented approach for cluster applications};20
+{Providing value to customers in software development through lean principles};8
+{A Feature Oriented Approach to Modeling and Reusing Requirements of Software Product Lines};6
+{Data Flow Testing of Service Choreography};9
+{Data Flow Testing of Service-oriented Workflow Applications};9
+{Test Case Prioritization for Regression Testing of Service-oriented Business Applications};9
+{Interfacing the hardware {\{}API{\}} with a feature-based operating system family};7
+{Security requirements engineering framework for software product lines};23
+{Applying a security domain requirements engineering process for software product lines [Aplicando un proceso de ingenier{\'{i}}a de requisitos de seguridad de dominio para l{\'{i}}neas de producto software]};7
+{Towards security requirements management for software product lines: A security domain requirements engineering process};10
+{Security Requirements Engineering Process for Software Product Lines: A Case Study};5
+{Applying a Security Domain Requirements Engineering Process for Software Product Lines};7
+{Secure Tropos framework for software product lines requirements engineering};11
+{On the Usage and Usefulness of OO Design Principles};1
+{QoS management in service-oriented architectures};17
+{An evaluation of code similarity identification for the grow-and-prune model};26
+{Do Adaptation Rules Improve Web Cost Estimation?};10
+{Decision-making coordination and efficient reasoning techniques for feature-based configuration};21
+{Socio-technical Developer Networks: Should We Trust Our Measurements?};9
+{Secure Open Source Collaboration: An Empirical Study of Linus' Law};9
+{Predicting Failures with Developer Networks and Social Network Analysis};10
+{Guest editorial for the Special Section on {\{}BEST{\}} {\{}PAPERS{\}} from the 2011 conference on Predictive Models in Software Engineering (PROMISE)};1
+{Software Product Line Engineering and Variability Management: Achievements and Challenges};14
+{A framework for evolution of modelling languages};23
+{Supporting Online Updates of Software Product Lines: A Controlled Experiment};9
+{Systematic derivation of correct variability-aware program analyses};25
+{An approach to developing domain requirements as a core asset based on commonality and variability analysis in a product line};18
+{Modelling families of business process variants: A decomposition driven method};17
+{Transitioning the SWFTS Program Combat System Product Family from Traditional Document-Centric to Model-Based Systems Engineering};16
+{4.4.3 Efficiently Managing Product Baseline Configurations in the Model-Based System Development of a Combat System Product Family};10
+{A framework for context-aware self-adaptive mobile applications {\{}SPL{\}}};15
+{Training on Errors Experiment to Detect Fault-prone Software Modules by Spam Filter};9
+{Organizational Volatility and Its Effects on Software Defects};9
+{Empirical Estimates of Software Availability of Deployed Systems};9
+{Two Case Studies of Open Source Software Development: Apache and Mozilla};37
+{Predicting risk of software changes};11
+{Combining service-orientation and software product line engineering: A systematic mapping study};14
+{Definitions and approaches to model quality in model-based software development – A review of literature};23
+{Tracing SPLs Precisely and Efficiently};9
+{Knowledge networking to support medical new product development};18
+{Traceability-based knowledge integration in group decision and negotiation activities};21
+{Improving change management in software development: Integrating traceability and software configuration management};14
+{Supporting dynamic group decision and negotiation processes: A traceability augmented peer-to-peer network approach};12
+{A systematic review of quality attributes and measures for software product lines};61
+{Requirement-driven evolution in software product lines: A systematic mapping study};33
+{Success Factors and Failure Causes in Projects: Analysis of Cluster Patterns Using Self-organizing Maps};8
+{Towards evidence-based recommendations to guide the evolution of component-based product families};7
+{Refining the Axiomatic Definition of Internal Software Attributes};9
+{Evaluation of SPL Approaches for WebGIS Development: SIGTel, a Case Study};9
+{Transforming and tracing reused requirements models to home automation models};24
+{Analysis of the Reliability of a Subset of Change Metrics for Defect Prediction};2
+{“Adore�?, a logical meta-model supporting business process evolution};19
+{REFAS: A PLE Approach for Simulation of Self-adaptive Systems Requirements};4
+{Conjoint Analysis of Software Product Lines: A Feature Based Approach};3
+{4.2.1 Process Tailoring in Iterative Development};7
+{A Systematically Conducted Literature Review: Quality Attribute Variability in Software Product Lines};4
+{Inter-organisational approach in rapid software product family development - A case study};13
+{Purposeful Performance Variability in Software Product Lines: A Comparison of Two Case Studies};9
+{Performance Variability in Software Product Lines: A Case Study in the Telecommunication Domain};9
+{Performance variability in software product lines: proposing theories from a case study};46
+{InCoME: Integrated cost model for product line engineering};7
+{Inferring Variability from Customized Standard Software Products};9
+{A Comparison of Strategies for Tolerating Inconsistencies During Decision-making};9
+{Architectural Flexibility in a Software-system's Life-cycle: Systematic Construction and Exploitation of Flexibility};9
+{Mining configuration constraints: Static analyses and empirical results};11
+{The Linux kernel: a case study of build system variability};16
+{A Case Study of Applying Software Product Line Engineering to the Air Conditioner Domain};6
+{Toward a Software Testing and Reliability Early Warning Metric Suite};2
+{Static Analysis Tools As Early Indicators of Pre-release Defect Density};6
+{Use of Relative Code Churn Measures to Predict System Defect Density};8
+{Using Historical In-Process and Product Metrics for Early Estimation of Software Failures};12
+{Mining Metrics to Predict Component Failures};9
+{The Influence of Organizational Structure on Software Quality: An Empirical Case Study};9
+{Complexity Metric for Multidimensional Models for Data Warehouse};5
+{Relevance and perspectives of {\{}AAL{\}} in Brazil};11
+{An aspect-oriented reference architecture for Software Engineering Environments};14
+{A cost effective approach for analyzing software product lines};11
+{ArCMAPE: A Software Product Line Infrastructure to Support Fault-Tolerant Composite Services};7
+{A Case Study in Software Product Lines - The Case of the Mobile Game Domain};7
+{Fault-tolerant context development and requirement validation in {\{}ERP{\}} systems};10
+{Automated extraction of product comparison matrices from informal product descriptions};21
+{Matrix miner: A red pill to architect informal product descriptions in the matrix};3
+{Towards an early software estimation using log-linear regression and a multilayer perceptron model};16
+{Reconciling run-time evolution and resource-constrained embedded systems through a component-based development framework};25
+{Automated requirements-based generation of test cases for product families};3
+{Evolving strategies for software architecture and reuse};14
+{A design rule language for aspect-oriented programming};23
+{A software product lines system test case tool and its initial evaluation};7
+{Analyzing the effectiveness of a system testing tool for software product line engineering};4
+{Designing service-based applications in the presence of non-functional properties: A mapping study};21
+{Safe evolution templates for software product lines};16
+{Integrating software engineering theory and practice using essence: A case study};12
+{Automated verification and testing of user-interactive undo features in database applications};20
+{A web services variability description language (WSVL) for business users oriented service customization};13
+{On the generation of requirements specifications from software engineering models: A systematic literature review};16
+{An optimization-based tool to support the cost-effective production of software architecture documentation};25
+{User profiles for context-aware reconfiguration in software product lines};15
+{Capturing quality requirements of product family architecture};13
+{Integration of {\{}DSLs{\}} and Migration of Models: A Case Study in the Cloud Computing Domain};13
+{Concept analysis for product line requirements};11
+{A Systems Approach to Product Line Requirements Reuse};9
+{Aspect-Oriented Modeling for Variability Management};9
+{A Decision-making Process for Exploring Architectural Variants in Systems Engineering};9
+{A Case for Product Lines};15
+{A collaborative method for reuse potential assessment in reengineering-based product line adoption};14
+{Agile product line planning: A collaborative approach and a case study};14
+{Source code metrics: A systematic mapping study};33
+{History-sensitive recovery of product line features};1
+{Heuristic expansion of feature mappings in evolving program families};34
+{Assessment of the design modularity and stability of multi-agent system product lines};29
+{Comparing Stability of Implementation Techniques for Multi-agent System Product Lines};3
+{A domain analysis approach for multi-agent systems product lines};11
+{The impacts of agile and lean practices on project constraints: A tertiary study};21
+{The Pro-PD Process Model for Product Derivation within software product lines};14
+{An agile process model for product derivation in software product line engineering};10
+{Product lines for digital information products};30
+{A stratified framework for handling conditional preferences: An extension of the analytic hierarchy process};21
+{Comparison of Exact and Approximate Multi-objective Optimization for Software Product Lines};9
+{Adoption of software product line to a voice user interface environment};3
+{Evaluating Lehman's laws of software evolution within software product lines: A preliminary empirical study};15
+{Defining and validating a feature-driven requirements engineering approach};25
+{ReuseTool—An extensible tool support for object-oriented framework reuse};18
+{Remodularizing Java programs for improved locality of feature implementations in source code};20
+{Extending the ATAM Architecture Evaluation to Product Line Architectures};11
+{A holistic architecture assessment method for software product lines};14
+{Customization of software for an unprepared environment and maintaining software stability};4
+{Horizontal communication: a style to compose control software};33
+{Applying Composable Architectures to the Design and Development of a Product Line of Complex Systems};12
+{Ecosystem requirements for composability and reuse: An investigation into ecosystem factors that support adoption of composable practices for engineering design};13
+{Search-based software library recommendation using multi-objective optimization};20
+{Theorizing about software development practices};11
+{A proposed model for reuse of software requirements in requirements catalog};20
+{A semi-automatic end-user programming approach for smart space application development};19
+{Organizational evolution of digital signal processing software development};12
+{Object oriented extensions of IEC 61131–3 as an enabling technology of software product lines};7
+{Multi-objective test case prioritization in highly configurable systems: A case study};23
+{Automated test generation technique for aspectual features in AspectJ};30
+{Mobile situation-aware framework for developing smart mobile software};19
+{UML design pattern metamodel-level constraints for the maintenance of software evolution};31
+{Unifying design and runtime software adaptation using aspect models};13
+{An SOA Approach for Automating Software Product Line Adoption};7
+{Applying multiobjective evolutionary algorithms to dynamic software product lines for reconfiguring mobile applications};19
+{Self-adaptation of mobile systems driven by the Common Variability Language};17
+{Coevolution of Variability Models and Related Artifacts: A Case Study from the Linux Kernel};9
+{Automated Testing of Software-as-a-service Configurations Using a Variability Language};9
+{Identifying Improvement Potential in Evolving Product Line Infrastructures: 3 Case Studies};9
+{A Model to Guide Dynamic Adaptation Planning in Self-Adaptive Systems};21
+{Designing and managing evolving systems using a {\{}MAS{\}} product line approach};15
+{Analysis of software binaries for reengineering-driven product line architecture - An industrial case study};11
+{N4: computing with neural receptive fields};18
+{A model of job satisfaction for collaborative development processes};13
+{Self-tuning of software systems through dynamic quality tradeoff and value-based feedback control loop};12
+{Improving feature location using structural similarity and iterative graph mapping};12
+{Analyzing evolution of variability in a software product line: From contexts and requirements to features};14
+{Runtime Collaborative-based Configuration of Software Product Lines};2
+{Quantitative and qualitative empirical analysis of three feature modeling tools};22
+{A Feature-based Personalized Recommender System for Product-line Configuration};11
+{Framing program comprehension as fault localization};22
+{A Bayesian Network Approach to Assist on the Interpretation of Software Metrics};5
+{Building reliable and maintainable Dynamic Software Product Lines: An investigation in the Body Sensor Network domain};16
+{Guidelines for conducting systematic mapping studies in software engineering: An update};17
+{Editorial};11
+{Industrial Experience with Building a Web Portal Product Line Using a Lightweight, Reactive Approach};9
+{SiPL - A delta-based modeling framework for software product line engineering};5
+{SiPL -- A Delta-Based Modeling Framework for Software Product Line Engineering};5
+{BPMNt: A {\{}BPMN{\}} extension for specifying software process tailoring};20
+{Deriving detailed design models from an aspect-oriented {\{}ADL{\}} using {\{}MDD{\}}};20
+{Specifying aspect-oriented architectures in AO-ADL};17
+{Can Developer-module Networks Predict Failures?};10
+{How Do Software Ecosystems Evolve? A Quantitative Assessment of the R Ecosystem.};9
+{Model-driven support for product line evolution on feature level};13
+{A Case Study on Variability in User Interfaces};4
+{Bottom-up modeling for a software product line: An experience report on agile modeling of governmental mobile networks};9
+{Measuring the structural complexity of feature models};10
+{RCDA: Architecting as a risk- and cost management discipline};18
+{When the context changes, so does my transportation application: {\{}VESPA{\}}};7
+{Model-driven generation of context-specific feature models};5
+{Aligning the economic modeling of software reuse with reuse practices};9
+{Product line requirements engineering in the context of process aspects in organizations with various domains};8
+{SPI of the requirements engineering process for embedded systems using SPICE};5
+{Systematic scalability assessment for feature oriented multi-tenant services};14
+{An Object-oriented Metrics Suite for Ada 95};9
+{Product Metrics for Object-oriented Systems};30
+{Asset-based requirement analysis in telecom service delivery platform domain};3
+{Pattern mining of cloned codes in software systems};10
+{Application Engineering of Service-based Software Product Lines};1
+{Experiences with Software Product Line Development in Risk Management Software};9
+{Consistency Checking for the Evolution of Cardinality-based Feature Models};9
+{SALOON: A platform for selecting and configuring cloud environments};23
+{Automated selection and configuration of cloud environments using software product lines principles};7
+{Cardinality-based Feature Models with Constraints: A Pragmatic Approach};4
+{Exposure Model for Prediction of Number of Customer Reported Defects};2
+{Characterizing configurable software product families and their derivation};19
+{A case study of two configurable software product families};18
+{A Prototype-based Approach for Managing Clones in Clone-and-own Product Lines};9
+{Requirements for product derivation support: Results from a systematic literature review and an expert survey};22
+{Key activities for product derivation in software product lines};15
+{ICSSP 2011 Special issue: processes for tomorrow's systems and software engineering: an evolving dynamic domain};1
+{Examining process design and change};1
+{Towards generic representation of web applications: solutions and trade-offs};29
+{IEEE International Conference on Software Maintenance (ICSM2005)};1
+{Commonality and variability analysis in industrial practice for product line improvement};9
+{From software product lines to system of systems: Analysis of an evolution path};7
+{Reengineering legacy systems towards system of systems development};6
+{Embedded software revitalization through component mining and software product line techniques};20
+{Software clone detection: A systematic review};34
+{Optimizing generated aspect-oriented assertion checking code for {\{}JML{\}} using program transformations: An empirical study};19
+{Towards automatization of domain modeling};24
+{Comprehensibility of Orthogonal Variability Modeling Languages: The Cases of CVL and OVM};9
+{Investigating styles in variability modeling: Hierarchical vs. constrained styles};21
+{Comprehensibility of UML-based software product line specifications A controlled experiment};35
+{Utilizing domain models for application design and validation};14
+{Comparing functionality of software systems: An ontological approach};18
+{A Case Study on a Quality Assurance Process for a Scientific Framework};8
+{Model-based system testing of software product families};15
+{How have we evaluated software pattern application? A systematic mapping study of research design practices};24
+{On the Impact of Feature Dependencies when Maintaining Preprocessor-based Software Product Lines};9
+{Inner Source in Platform-Based Product Engineering};15
+{Method to Identify Corrections of Defects on Product Line Models};20
+{An ontological rule-based approach for analyzing dead and false optional features in feature models};21
+{Modeling and Analysis of Product-line Variants};5
+{Logic Verification of Product-Line Variant Requirements};4
+{A profile-based approach for maintaining software architecture: an industrial experience report};17
+{Predicting the changeability of software product lines for business application};11
+{A case study of software product line for business applications changeability prediction};15
+{A lightweight and distributed middleware to provide presence awareness in mobile ubiquitous systems};16
+{A collaborative testbed web tool for learning model transformation in software engineering education};7
+{Modeling and Verification for Probabilistic Properties in Software Product Lines};7
+{Dependability analysis in the Ambient Assisted Living Domain: An exploratory case study};19
+{Evaluating the representation of user interface elements in feature models: An empirical study};5
+{The v-algorithm for discovering software process lines};16
+{Refactoring the documentation of software product lines};12
+{Configurable multi-perspective business process models};27
+{A configurable reference modelling language};22
+{Tailor-made data management for embedded systems: A case study on Berkeley {\{}DB{\}}};19
+{Multilingual component programming in racket};9
+{Tailoring Dynamic Software Product Lines};9
+{Assessing architectural drift in commercial software development: a case study};23
+{Software performance tuning of software product family architectures: Two case studies in the real-time embedded systems domain};18
+{Towards Scalable Configuration Testing in Variable Software};11
+{Cloned product variants: from ad-hoc to managed software product lines};19
+{Managing Cloned Variants: A Framework and Experience};9
+{Quality of Service Conflict During Web Service Monitoring: A Case Study};14
+{Uses and applications of Software {\&} Systems Process Engineering Meta-Model process models. A systematic mapping study};26
+{Behavioral Compatibility of Simulink Models for Product Line Maintenance and Evolution};9
+{Software Product Line Testing -- A 3D Regression Testing Problem};4
+{Automatic Feature Selection in Large-scale System-software Product Lines};9
+{A Proposed Method to Evaluate and Compare Fault Predictions Across Studies};9
+{Leveraging Variability Modeling Techniques for Architecture Trade Studies and Analysis};15
+{Software processes for a changing world};4
+{Automatic library migration for the generation of hardware-in-the-loop models};12
+{From Teleo-Reactive specifications to architectural components: A model-driven approach};14
+{Reducing the model checking cost of product lines using static analysis techniques};16
+{Efficient verification of evolving software product lines};7
+{The experimental applications of search-based techniques for model-based testing: Taxonomy and systematic literature review};23
+{Empirical validating the cognitive effectiveness of a new feature diagrams visual syntax};25
+{Evaluating the Cognitive Effectiveness of the Visual Syntax of Feature Diagrams};14
+{Lifting Model Transformations to Product Lines};11
+{ContextErlang: A language for distributed context-aware self-adaptive applications};23
+{Context-oriented programming: A software engineering perspective};16
+{6.3.1 Threads of Reasoning: A Case Study};14
+{Mapping problem-space to solution-space features: A feature interaction approach};9
+{Qualitative optimization in software engineering: A short survey};7
+{Model-Driven Engineering as a new landscape for traceability management: A systematic literature review};16
+{Test-based SPL Extraction: An Exploratory Study};5
+{Variability management of plugin-based systems using feature models};11
+{Automated Domain-Specific Modeling Languages for Generating Framework-Based Applications};9
+{RiPLE-HC: Javascript Systems Meets Spl Composition};9
+{EA-tracer: Identifying Traceability Links Between Code Aspects and Early Aspects};7
+{Towards Customer-Centric Software Development: A Multiple-Case Study};8
+{Developing Platforms for Multiple Software Product Lines};8
+{Towards a Generic Design Space Exploration Framework};7
+{On the value of user preferences in search-based software engineering: A case study in software product lines};9
+{Building information system variants with tailored database schemas using features};15
+{Systematic management of software product lines};15
+{EASy-Producer: From Product Lines to Variability-rich Software Ecosystems};1
+{Introducing the puLSE Approach to an Embedded System Population at Testo AG};8
+{Similarity Management of 'Cloned and Owned' Variants};5
+{Generic semantics of feature diagrams};23
+{Feature Diagrams: A survey and a formal semantics};9
+{An Empirical Analysis of Input Validation Mechanisms in Web Applications and Languages};7
+{Predicting Component Failures at Design Time};9
+{Multi-perspectives on Feature Models};16
+{Open Source vs. Closed Source Software: Towards Measuring Security};7
+{Architecture Challenges for Internal Software Ecosystems: A Large-scale Industry Case Study};10
+{Code clones in feature-oriented software product lines};9
+{Code Clones in Feature-oriented Software Product Lines};9
+{Filtered model-driven product line engineering with superMod: The home automation case};22
+{Multi-variant Model Transformations - A problem statement};6
+{Experience with the architectural design of a modest product family};23
+{A Reference Architecture for Mobile SOA};18
+{Automated metamorphic testing of variability analysis tools};25
+{Mutation testing on an object-oriented framework: An experience report};12
+{Automated metamorphic testing on the analyses of feature models};13
+{Automated generation of computationally hard feature models using evolutionary algorithms};17
+{Automated Variability Analysis and Testing of an E-commerce Site.: An Experience Report};11
+{Generative software product line development using variability-aware design patterns};22
+{Generative Software Product Line Development Using Variability-aware Design Patterns};9
+{A component-based middleware platform for reconfigurable service-oriented architectures};24
+{11.4.1 Generating Predictive Models Using Decision Trees and Neural Networks for Large-Scale Systems Engineering};11
+{Managing requirements inter-dependency for software product line derivation};14
+{Testing a data-intensive system with generated data interactions: The Norwegian customs and excise case study};14
+{An Investigation on the Evolutionary Nature of Exception Handling Violations in Software Product Lines};7
+{Requirements modeling languages for software product lines: A systematic literature review};20
+{A UML Profile for Delta-oriented Programming to Support Software Product Line Engineering};4
+{Business Value through Product Line Engineering - A Case Study};7
+{Towards feature-oriented variability reconfiguration in dynamic software product lines};16
+{Feature-driven and incremental variability generalization in software product line};10
+{The Scientific Basis for Prediction Research};1
+{Integration testing of software product lines using compositional symbolic execution};14
+{An Empirical Model to Predict Security Vulnerabilities Using Code Complexity Metrics};2
+{Analyzing Inspection Data for Heuristic Effectiveness};3
+{4.4.2 The Mission Analysis Discipline: Bringing focus to the fuzziness about Attaining Good Architectures};10
+{Ontology of systems and software engineering};1
+{Scalable prediction of non-functional properties in software product lines: Footprint and memory consumption};16
+{A language for generic programming in the large};42
+{Extending Variability Management to the Next Level};9
+{Measures for mobile users: an architecture};12
+{Managing non-invasive measurement tools};7
+{An ontology-based model for driving the building of software product lines in an ITS context};4
+{Model-driven engineering: A survey supported by the unified conceptual model};16
+{Refactoring of Crosscutting Concerns with Metaphor-Based Heuristics};20
+{An Empirical Study on How Developers Reason About Module Cohesion};11
+{Team building criteria in software projects: A mix-method replicated study};24
+{Six years of systematic literature reviews in software engineering: An updated tertiary study};14
+{Agile software product lines: a systematic mapping study};21
+{Software product line scoping and requirements engineering in a small and medium-sized enterprise: An industrial case study};17
+{A systematic review on search based mutation testing};16
+{Representing process variation with a process family};11
+{Generation, Composition, and Verification of Families of Human-intensive Systems};9
+{Characterizing Process Variation (NIER Track)};3
+{Industrial validation of {\{}COVAMOF{\}}};16
+{Questioning Software Maintenance Metrics: A Comparative Case Study};3
+{The root of the problem – malice, misuse or mistake?};3
+{Evolving an Industrial Analytics Product Line Architecture};9
+{A document driven methodology for developing a high quality Parallel Mesh Generation Toolbox};12
+{Rigorous engineering of product-line requirements: A case study in failure management};17
+{Comparing approaches to analyze refactoring activity on software repositories};16
+{Analysis of non-functional properties in software product lines: A systematic review};7
+{Quantifying structural attributes of system decompositions in 28 feature-oriented software product lines: An exploratory study};35
+{Extracting reusable design decisions for UML-based domain-specific languages: A multi-method study};32
+{Automated Planning for Feature Model Configuration Based on Functional and Non-functional Requirements};9
+{Managing variability of self-customizable systems through composable components};18
+{An Approach to Identify Commonalities in Web Application Engineering for a Web Content Management System};7
+{Study of advanced separation of concerns approaches using the GoF design patterns: A quantitative and qualitative comparison};14
+{On the use of feature-oriented programming for evolving software product lines - A comparative study};20
+{Extending Feature Models with Relative Cardinalities};9
+{Knowledge management initiatives in software testing: A mapping study};13
+{Evidence of software inspection on feature specification for software product lines};18
+{Applying a dynamic threshold to improve cluster detection of {\{}LSI{\}}};13
+{Analysis of feature models using alloy: A survey};14
+{Test case prioritization of build acceptance tests for an enterprise cloud application: An industrial case study};13
+{Enhancing ISO/IEC 15288 with reuse and product management: An add-on process reference model};11
+{Extending ISO/IEC 12207 with software product management: A process reference model proposal};13
+{Integrating ISO/IEC 15504 conformant process assessment and organizational reuse enhancement};17
+{Developing measurement systems: an industrial case study};18
+{Characterizing the Roles of Classes and Their Fault-proneness Through Change Metrics};9
+{Preference-based Feature Model Configuration with Multiple Stakeholders};9
+{Towards a Software Product Line of Trie-based Collections};4
+{Model-centric software architecture reconstruction};30
+{System components of a general theory of software engineering};23
+{A comparative study of challenges in integrating Open Source Software and Inner Source Software};17
+{Domain model-driven software engineering: A method for discovery of dependency links};10
+{An approach for the systematic development of domain-specific languages};39
+{Deriving products for variability test of Feature Models with a hyper-heuristic approach};10
+{Coordination in co-located agile software development projects};16
+{Evaluating the productivity of a reference-based programming approach: A controlled experiment};12
+{Practical assessment of the models for identification of defect-prone classes in object-oriented commercial systems using design metrics};11
+{Integrating Product-Line Fault Tree Analysis into AADL Models};7
+{Cloud service selection: State-of-the-art and future research directions};16
+{Automating the maintenance of nonfunctional system properties using demonstration-based model transformation};21
+{A taxonomy of variability realization techniques};49
+{Conditions and restrictions for product line generation migration};11
+{Developing a software product line for train control: A case study of CVL};14
+{Analyzing impact of experience curve on {\{}ROI{\}} in the software product line adoption process};12
+{Empirical evaluation of a decision support model for adopting software product line engineering};24
+{A systematic review on the functional testing of semantic web services};12
+{An Aspect-Oriented Feature Modelling Framework for Software Product Line Engineering};4
+{Using aspect-oriented approach for software product line development};5
+{Modeling Quality Attributes in Software Product Line Architecture};4
+{Improving Product Configuration in Software Product Line Engineering};8
+{Optimizing Selection of Competing Features via Feedback-directed Evolutionary Algorithms};10
+{A comparative study of architecture knowledge management tools};18
+{StiCProb: A novel feature mining approach using conditional probability};10
+{Automating feature model refactoring: A Model transformation approach};19
+{A Feature Model Based Framework for Refactoring Software Product Line Architecture};35
+{Systematic analyses and comparison of development performance and product quality of Incremental Process and Agile Process};17
+{Automated Webpage Evaluation};5
+{Component documentation—a key issue in software product lines};11
+{Integrating performance analysis in the model driven development of software product lines};14
+{Automatic derivation of a product performance model from a software product line model};9
+{The Role of Architectural Styles in Successful Software Ecosystems};2
+{Safe composition of configuration knowledge-based software product lines};15
+{Software architecture reliability analysis using failure scenarios};17
+{Quantitative analysis of probabilistic models of software product lines with statistical model checking};14
+{Current state and potential of variability management practices in software-intensive SMEs: Results from a regional industrial survey};10
+{Potential Synergies of Theorem Proving and Model Checking for Software Product Lines};9
+{Product-line Maintenance with Emergent Contract Interfaces};9
+{Family-based deductive verification of software product lines};9
+{Family-based Deductive Verification of Software Product Lines};9
+{Assessing the Impact of Refactoring Activities on the JHotDraw Project};1
+{Scaling up the fitness function for reverse engineering feature models};14
+{Quality assessment method for software development process document based on software document characteristics metric};6
+{Topological properties for characterizing well-formedness of process components};30
+{Identifying and Exploiting the Similarities between Rationale Management and Variability Management};9
+{Rationale-based variability management in product line requirements engineering};5
+{A mixed-method approach for the empirical evaluation of the issue-based variability modeling};18
+{Issue-based variability management};17
+{Empirical evaluation of issue based variability modeling using the experimental survey technique};7
+{Software architecture constraint reuse-by-composition};16
+{On the business value and technical challenges of adopting Web services};19
+{Reuse: Reducing Test Effort};10
+{Components meet aspects: Assessing design stability of a software product line};15
+{Past and future of software architectural decisions – A systematic mapping study};22
+{A three-dimensional model for system design evolution};9
+{Agile, Web Engineering and Capability Maturity Model Integration: A systematic literature review.};15
+{A storage and retrieval of requirement model and analysis model for software product line};5
+{Using Model-driven Engineering to Complement Software Product Line Engineering in Developing Software Defined Radio Components and Applications};7
+{Using Model-Driven Engineering to Complement Software Product Line Engineering in Developing Software Defined Radio Components and Applications};10
+{Incremental product configuration in software product line engineering};7
+{Incremental product configuration in software product line engineering};7
+{Automated error analysis for the agilization of feature modeling};13
+{Feature Oriented Model Driven Development: A Case Study for Portlets};9
+{Governing Bot-as-a-Service in Sustainability Platforms – Issues and Approaches};7
+{{\{}DRE{\}} system performance optimization with the {\{}SMACK{\}} cache efficiency metric};18
+{Special Issue on Feature interaction in communications and software systems};3
+{XANA: An End User Software Product Line Framework for Smart Spaces};9
+{Context-dependent product line engineering with lightweight formal approaches};15
+{ReMINDER: An approach to modeling Non-Functional properties in dynamic software product lines};8
+{Decision support for moving from a single product to a product portfolio in evolving software systems};16
+{Why Do Programmers Avoid Metrics?};9
+{Constructing Feature Models Using Goal-Oriented Analysis};5
+{Software architecture awareness in long-term software product evolution};15
+{A conceptual framework for SPI evaluation};28
+{Managing a Software Ecosystem Using a Multiple Software Product Line: A Case Study on Digital Signage Systems};7
+{A product-line model-driven engineering approach for generating feature-based mobile applications};31
+{A taxonomy of model-based testing approaches};15
+{A comprehensive pattern-oriented approach to engineering security methodologies};30
+{ASE: A comprehensive pattern-driven security methodology for distributed systems};25
+{Criteria and Guidelines to Improve Software Maintainability in Software Product Lines};5
+{Software product lines traceability: A systematic mapping study};17
+{Twenty-eight years of component-based software engineering};20
+{Underestimation in the "when it gets worse before it gets better" phenomenon in process improvement};7
+{Empirical Comparison of Regression Methods for Variability-aware Performance Prediction};4
+{Variability Middleware for Multi-tenant SaaS Applications: A Research Roadmap for Service Lines};4
+{Supporting software architects to improve their software system's decomposition – lessons learned};13
+{Success Management as a {\{}PM{\}} Knowledge Area – Work-in-Progress};7
+{Towards the automatic and optimal selection of risk treatments for business processes using a constraint programming approach};25
+{Integrating security mechanisms into embedded systems by domain-specific modelling};17
+{Toward Robust Product Realisation in Software Product Lines};9
+{A case-based reasoning approach to derive object-oriented models from software architectures};23
+{PERFORMANCE IMPROVEMENT USING ADAPTIVE LEARNING ITINERARIES};26
+{Automated mass maintenance of a software portfolio};30
+{Towards lightweight checks for mass maintenance transformations};34
+{Constructing software asset variants by composing pre-existing components};5
+{Modelling of Internet of Things units for estimating security-energy-performance relationships for quality of service and environment awareness};15
+{Quantifying the effects of IT-governance rules};30
+{Five Years of Product Line Engineering in a Small Company};9
+{Domain-Specific Modeling Languages to improve framework instantiation};16
+{Flexible and Scalable Consistency Checking on Product Line Variability Models};9
+{Requirements monitoring frameworks: A systematic review};20
+{ReMinds : A flexible runtime monitoring framework for systems of systems};13
+{Integration between requirements engineering and safety analysis: A systematic literature review};24
+{Evaluation of a method for proactively managing the evolving scope of a software product line};14
+{A Survey on Software Variability Management Approaches};9
+{Enhancing Predictive Models Using Principal Component Analysis and Search Based Metric Selection: A Comparative Study};2
+{Product Line Implementation using Aspect-Oriented and Model-Driven Software Development};9
+{Evolution of software in automated production systems: Challenges and research directions};30
+{Modularity and architecture of PLC-based software for automated production Systems: An analysis in industrial companies};27
+{Variability management for automated production systems using product lines and feature models};6
+{A Case Study Using AOP and Components to Build Software Product Lines in Android Platform};3
+{Automatic optimisation of system architectures using EAST-ADL};20
+{Projectional Editing of Variational Software};9
+{Problems and their mitigation in system and software architecting};14
+{Policy-driven customization of cross-organizational features in distributed service systems};18
+{Efficient customization of multi-tenant Software-as-a-Service applications with service lines};14
+{On-the-fly construction of provably correct service compositions – templates and proofs};21
+{SmartFixer: Fixing Software Configurations Based on Dynamic Priorities};8
+{3.3.1 A Generalized Systems Engineering Reuse Framework and Its Cost Estimating Relationship};23
+{Product assurance framework and technologies of electronic information system};4
+{Verifying feature models using {\{}OWL{\}}};12
+{How developers perform feature location tasks: a human-centric and process-oriented exploratory study};31
+{Predicting Defect Numbers Based on Defect State Transition Models};9
+{Developing a Holistic Modeling Approach for Search-based System Architecting};9
+{Computational System Architecture Development Using a Holistic Modeling Approach};7
+{Open source libraries and frameworks for biological data visualisation: A guide for developers};18
+{Cost-effective test suite minimization in product lines using search techniques};21
+{Minimizing Test Suites in Software Product Lines Using Weight-based Genetic Algorithms};7
+{Using Feature Model to Support Model-Based Testing of Product Lines: An Industrial Case Study};9
+{Multi-objective Test Prioritization in Software Product Line Testing: An Industrial Case Study};9
+{Assimilation of agile practices in use};20
+{A PLA-based privacy-enhancing user modeling framework and its evaluation};41
+{Experiment on automatic functional requirements analysis with the EFRF's semantic cases};6
+{Experiments on Quality Evaluation of Embedded Software in Japan Robot Software Design Contest};9
+{Refactoring large process model repositories};19
+{Propagating changes between aligned process models};13
+{Architecture of product lines};0
+{Decision-model-based code generation for SPLE};9
+{Feature-based customisation of tool environments for model-driven software development};9
+{The maturity of maturity model research: A systematic mapping study};22
+{Advances in business process management};7
+{An architectural approach to support online updates of software product lines};9
+{Automated diagnosis of feature model configurations};13
+{Evolving feature model configurations in software product lines};17
+{Improving domain-specific language reuse with software product line techniques};6
+{Automated Diagnosis of Product-Line Configuration Errors in Feature Models};9
+{Classifying product families using platform coverage and variation mechanisms};31
+{Evolving a product family in a changing context};17
+{RIPE: Runtime Intrusion Prevention Evaluator};9
+{An evaluation of CMMI process areas for small- to medium-sized software development organisations};12
+{Identifying variability in object-oriented code using model-based code mining};15
+{Characterizing software architecture changes: A systematic review};20
+{Think Big for Reuse};5
+{Obsolete software requirements};19
+{Exploring factors affecting decision outcome and lead time in large-scale requirements engineering};26
+{Bridges and barriers to hardware-dependent software ecosystem participation – A case study};14
+{On the reliability of mapping studies in software engineering};16
+{The ABS tool suite: Modelling, executing and analysing distributed adaptable object-oriented systems};21
+{Modelling adaptable distributed object oriented systems using the HATS approach: A fredhopper case study};17
+{An assessment of systems and software engineering scholars and institutions (2002–2006)};3
+{An assessment of systems and software engineering scholars and institutions (2001–2005)};3
+{Quantitative Analysis of Faults and Failures with Multiple Releases of Softpm};7
+{Architecture evolution in software product line: An industrial case study};15
+{Recovering object-oriented framework for software product line reengineering};15
+{An optimization model for reuse scenario selection considering reliability and cost in software product line development};30
+{An optimization framework for reuse component selection in software product line};4
+{Constructing domain knowledge through cross product line analysis};15
+{IBED: Combining IBEA and DE for optimal feature selection in software product line engineering};16
+{An exploratory study in communication in Agile Global Software Development};13
+{Phase Distribution of Software Development Effort};8
+{Domain Feature Model Recovery from Multiple Applications Using Data Access Semantics and Formal Concept Analysis};9
+{The SPD approach to deploy service-based applications in the cloud};17
+{Measuring the Effects of Aspect-oriented Refactoring on Component Relationships: Two Case Studies};11
+{A semantic framework for configurable business process as a service in the cloud};16
+{Defining a Strategy to Introduce a Software Product Line Using Existing Embedded Systems};9
+{FAVE: Factor Analysis Based Approach for Detecting Product Line Variability from Change History};7
+{Managing Variability for Software Product-Line};7
+{Model-driven development of adaptive web service processes with aspects and rules};19
+{TDL: A Transformation Description Language from Feature Model to Use Case for Automated Use Case Derivation};9
+{Cyber-physical System Product Line Engineering: Comprehensive Domain Analysis and Experience Report};9
+{Software test-code engineering: A systematic mapping};24
+{An approach for identifying and implementing aspectual features in Software Product Lines};5
+{A Tabu Search hyper-heuristic strategy for t-way test suite generation};17
+{Resource–usage–aware configuration in software product lines};26
+{Capturing consumer preferences as requirements for software product lines};19
+{Tailorable language for behavioral composition and configuration of software components};26
+{Code-based Variability Model Extraction for Software Product Line Improvement};7
+{Variability Evolution and Erosion in Industrial Product Lines: A Case Study};9
+{Incremental and iterative reengineering towards Software Product Line: An industrial case study};9
+{Quality attribute modeling and quality aware product configuration in software product lines};36
+{Toward trustworthy software process models: an exploratory study on transformable process modeling};22
+{STPSO: Optimal configuration for cloud environments};10
+{A classification and comparison of model checking software architecture techniques};21
+{An Aspect-Oriented Language for Product Family Speci�?cation};7
+{Enhancing intelligence and dependability of a product line enabled pervasive middleware};19
+{A product line enhanced unified process};7
+{A class loading sensitive approach to detection of runtime type errors in component-based Java programs};9
+{A Mathematical Model of Performance-relevant Feature Interactions};9
+{Accelerating sequential programs on commodity multi-core processors};8
+{A New Approach for Software Testability Analysis};3
+{A pattern language for designing e-business architecture};15
+{Toward SLA-constrained service composition: An approach based on a fuzzy linguistic preference model and an evolutionary algorithm};26
+{Mapping Features to Source Code through Product Line Architecture: Traceability and Conformance};9
+{Towards a Language-independent Approach for Reverse-engineering of Software Product Lines};7
+{Predicting Defects Using Network Analysis on Dependency Graphs};9
+{Cross-project Defect Prediction: A Large Scale Experiment on Data vs. Domain vs. Process};9

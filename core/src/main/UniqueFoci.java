@@ -25,11 +25,12 @@ public class UniqueFoci {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		String CURRENT_DIR = "C:\\Users\\malawito\\Documents\\Repositorios\\sms-gazpacho\\core\\";
 		String R_HOME = "C:\\Program Files\\R\\R-3.3.2\\bin\\x64";
-		Properties prop = new Properties();
-		prop.load(new FileReader("./data/abbreviation"));
+	//	Properties prop = new Properties();
+	//	prop.load(new FileReader("./data/abbreviation"));
 		Parser p = new Parser();
-		BibTeXDatabase db = p.readDatabase("./output_data/done.bib");
-		FileWriter csvwriter = new FileWriter(new File("./output_data/conferenceTable.tex"));
+//		BibTeXDatabase db = p.readDatabase("./output_data/done.bib");
+		BibTeXDatabase db = p.readDatabase("./data_ana/greater_equal_10.bib");
+		FileWriter csvwriter = new FileWriter(new File("./data_ana/unique_doci_greater_equal_10.csv"));
 
 		Map<String, Integer> conferences = new HashMap<String, Integer>();
 		Map<String, Integer> journals = new HashMap<String, Integer>();
@@ -61,17 +62,23 @@ public class UniqueFoci {
 		System.out.println("There are: " + conferences.size() + " conferences and " + journals.size());
 		conferences=sortByValue(conferences);
 		for (Entry<String, Integer> e : conferences.entrySet()) {
-			csvwriter.write(i + " & " + e.getValue() + " & " + prop.getProperty(e.getKey()) + "\\\\ \\hline \r\n");
+//			csvwriter.write(i + " & " + e.getValue() + " & " + prop.getProperty(e.getKey()) + "\\\\ \\hline \r\n");
+			//csvwriter.write(i + " & " + e.getValue() + " & " + e.getKey() + "\\\\ \\hline \r\n");
+			csvwriter.write(i + "; " + e.getValue() + " ; " + e.getKey() + "; \r\n");
+
 			c += e.getValue();
 			i++;
 		}
 		System.out.println("There is a total of " + c + "conference papers");
 		i = 1;
 		int j = 0;
-		csvwriter.write("Journals\\\r\n");
+		csvwriter.write("Journals;;;\r\n");
 		journals=sortByValue(journals);
 		for (Entry<String, Integer> e : journals.entrySet()) {
-			csvwriter.write(i + " & " +e.getValue() + " & " + prop.getProperty(e.getKey()) + "\\\\ \\hline \r\n");
+			//csvwriter.write(i + " & " +e.getValue() + " & " + prop.getProperty(e.getKey()) + "\\\\ \\hline \r\n");
+//			csvwriter.write(i + " & " +e.getValue() + " & " + e.getKey() + "\\\\ \\hline \r\n");
+			csvwriter.write(i + " ; " +e.getValue() + " ; " + e.getKey() + "; \r\n");
+
 			j += e.getValue();
 			i++;
 		}
