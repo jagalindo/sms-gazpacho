@@ -8,7 +8,7 @@ script.dir <- dirname(sys.frame(1)$ofile)
 setwd(script.dir);
 #------------- Read data ----------
 
-data = read.csv("../output_data/barplot2.csv", header = TRUE,sep=';')
+data = read.csv("../data_marga/trends.csv", header = TRUE,sep=';')
 map_facets<-c(
   "k-evaluation" = "Evaluation\nResearch", 
   "k-experience" = "Experience\nReport",
@@ -25,7 +25,7 @@ map_facets<-c(
 )
 
 #Order like in the rest of sections
-data$type <- factor(data$type, levels = c("k-configuration","k-testing","k-reverse","k-mmodel","k-modeling","k-vis"))
+#data$type <- factor(data$type, levels = c("k-configuration","k-testing","k-reverse","k-mmodel","k-modeling","k-vis"))
 
 #------------- Generate Graph ----------
 
@@ -40,8 +40,8 @@ plot<-ggplot(data, aes(x = as.numeric(year), y = papers))  +
   xlab("Year of publication") + 
   labs(shape = "Variablity facet")+
   theme(legend.position="bottom",legend.text=element_text(size=15)) +
-  scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016)) + theme(aspect.ratio=0.45)+
+  scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016,2017)) + theme(aspect.ratio=0.45)+
   theme(text = element_text(size=13),axis.text.x = element_text(angle=60, hjust=1))+guides(shape=guide_legend(nrow=1,byrow=TRUE))
 #------------- Write to pdf ----------
 
-ggsave("temporal_var.pdf",  width = 12)
+ggsave("../data_marga/trends.pdf",  width = 12)

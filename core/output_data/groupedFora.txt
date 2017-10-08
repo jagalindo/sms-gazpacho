@@ -1,0 +1,11 @@
+Rank;#Papers;Journal;Acronym;
+1;14;Information and Software Technology;IST;
+2;10;Journal of Systems and Software;JSS;
+3;8;Software Quality Journal;SQJ;
+4;7;Science of Computer Programming;SCP;
+5;6;IEEE Transactions on Software Engineering;TSE;
+6;5;International Journal on Software Tools for Technology Transfer;STTT;
+7;4;International Journal of Software Engineering and Knowledge Engineering;IJSEKE;
+8;4;Expert Systems with Applications;ESA;
+9;4;International Journal on Software and Systems Modeling;SOSYM;
+10;3;Journal of Universal Computer Science;JUCS;

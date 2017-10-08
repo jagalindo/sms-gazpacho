@@ -8,7 +8,7 @@ script.dir <- dirname(sys.frame(1)$ofile)
 setwd(script.dir);
 #------------- Read data ----------
 
-data = read.csv("../output_data/heatmap.csv", header = TRUE,sep=';')
+data = read.csv("../data_marga/heatmap.csv", header = TRUE,sep=';')
 
 map_facets<-c(
   "k-evaluation" = "Evaluation\nResearch", 
@@ -26,8 +26,8 @@ map_facets<-c(
   )
 
 #Order like in the rest of sections
-data$vf <- factor(data$vf, levels = rev(c("k-configuration","k-testing","k-reverse","k-mmodel","k-modeling","k-vis")))
-data$rf <- factor(data$rf, levels = c("k-opinion","k-philosophical","k-solution","k-evaluation","k-validation","k-experience"))
+#data$vf <- factor(data$vf, levels = rev(c("k-configuration","k-testing","k-reverse","k-mmodel","k-modeling","k-vis")))
+#data$rf <- factor(data$rf, levels = c("k-opinion","k-philosophical","k-solution","k-evaluation","k-validation","k-experience"))
 
 ggplot(data, aes(rf, vf)) + 
   geom_tile(aes(fill = count),colour = "white") + 
@@ -36,8 +36,8 @@ ggplot(data, aes(rf, vf)) +
   ylab("Variability context facet") + 
   xlab("Research facet")+ 
   theme(legend.position="right") +
-  scale_x_discrete(labels=map_facets)+
-  scale_y_discrete(labels=map_facets)+
+#  scale_x_discrete(labels=map_facets)+
+#  scale_y_discrete(labels=map_facets)+
   theme(axis.text=element_text(size=10), axis.title=element_text(size=11,face="bold"))+
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(), 
@@ -45,4 +45,4 @@ ggplot(data, aes(rf, vf)) +
 
 #------------- Write to pdf ----------
 
-ggsave("heatmap.pdf",  width = 10, height = 4)
+ggsave("../data_marga/heatmap.pdf",  width = 10, height = 4)

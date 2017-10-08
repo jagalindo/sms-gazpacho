@@ -18,7 +18,7 @@ plot<-ggplot(data, aes(x = as.numeric(year), y = papers,fill=factor(type)))  +
   geom_bar(stat = "identity", position=position_dodge()) +
   geom_text(aes(x=year, y=papers, label=papers),vjust=1.2, 
             position = position_dodge(width=0.95)) +
-  ylab("Number of papers") + 
+  ylab("Number of papers of a kind / # papers of a year") + 
   xlab("Year of publication") + 
   theme(legend.position="bottom") +
   scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016))  + theme(aspect.ratio=0.5)

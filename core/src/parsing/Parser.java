@@ -6,12 +6,18 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.StringTokenizer;
+import java.util.Map.Entry;
 
 import org.jbibtex.BibTeXDatabase;
 import org.jbibtex.BibTeXEntry;
@@ -241,6 +247,96 @@ public class Parser {
 		return res;
 	}
 
+	//Venue, set of contrib
+	public Map<String,Collection<BibTeXEntry>> groupContributionsByVenue(Collection<BibTeXEntry> db) {
+
+		Map<String,Collection<BibTeXEntry>> groupedPapers= new HashMap<String,Collection<BibTeXEntry>>();
+		
+		for (BibTeXEntry bte : db) {
+			
+			//Get the venue name
+			String venueName="";
+			if (bte.getType().getValue().equals("Article")) {
+				venueName= bte.getField(BibTeXEntry.KEY_JOURNAL).toUserString();
+			} else if (bte.getType().getValue().equals("InProceedings")) {
+				venueName = bte.getField(BibTeXEntry.KEY_BOOKTITLE).toUserString();
+			}
+			
+			Collection<BibTeXEntry> group = groupedPapers.get(venueName);
+			if (group == null) {
+				group= new LinkedList<>();
+			}
+			group.add(bte);
+			groupedPapers.put(venueName, group);
+		}
+		return groupedPapers;
+	}
+	
+	//group by authos
+	public Map<String,Collection<BibTeXEntry>> groupByAuthor(Collection<BibTeXEntry> db,boolean onlyFirstAuthor){
+		
+		Map<String,Collection<BibTeXEntry>> groupedPapers= new HashMap<String,Collection<BibTeXEntry>>();
+		for (BibTeXEntry bte : db) {
+			String authors = bte.getField(org.jbibtex.BibTeXEntry.KEY_AUTHOR).toUserString();
+			
+			if(onlyFirstAuthor) {
+				int indexOf = authors.indexOf("and");
+				//It does have more than one author
+				if (indexOf > 0) {
+					authors = authors.substring(0, indexOf);
+				}
+				authors=authors.trim();
+				//this thing here is to take into account only the surname and the first letter of the name
+				//TODO aqui hay que hacer que meta el nombre largo para despues poder sacar bien la institucion
+				if(authors.contains(",")) {
+					authors=authors.substring(0, authors.indexOf(", ")+3);
+				}
+				Collection<BibTeXEntry> collection = groupedPapers.get(authors);
+				if(collection==null) {
+					collection=new LinkedList<BibTeXEntry>();
+				}
+				collection.add(bte);
+				groupedPapers.put(authors, collection);
+				
+			}else if(!onlyFirstAuthor){
+				StringTokenizer tokenizer = new StringTokenizer(authors, "and");
+				while(tokenizer.hasMoreTokens()) {
+					String author = tokenizer.nextToken().trim();
+					if(author.contains(",")) {
+						author=authors.substring(0, author.indexOf(",")+3);
+					}
+					Collection<BibTeXEntry> collection = groupedPapers.get(author);
+					if(collection==null) {
+						collection=new LinkedList<BibTeXEntry>();
+					}
+					collection.add(bte);
+					groupedPapers.put(author, collection);
+					
+				}
+			}
+		}
+		return groupedPapers;
+	}
+	
+	public Collection<Entry<String, Collection<BibTeXEntry>>> orderedByValueSize (Map<String,Collection<BibTeXEntry>> groupedContributions){
+			//Create a comparator for the entry set of the venues
+			Comparator<Entry<String,  Collection<BibTeXEntry>>> sizeValueReverseComparator = new Comparator<Entry<String, Collection<BibTeXEntry>>>() {
+	        @Override
+	            public int compare(Entry<String,  Collection<BibTeXEntry>> e1, Entry<String,  Collection<BibTeXEntry>> e2) {
+	            	Integer v1 = e1.getValue().size();
+	            	Integer v2 = e2.getValue().size();
+	                return v2.compareTo(v1);
+	            }
+	        };
+	        
+	        
+	        List<Entry<String, Collection<BibTeXEntry>>> listOfEntries = new ArrayList<Entry<String, Collection<BibTeXEntry>>>(groupedContributions.entrySet());
+
+			//order that list 
+	        Collections.sort(listOfEntries,sizeValueReverseComparator);
+	        return listOfEntries;
+	}
+	
 	public Collection<BibTeXEntry> filterConferences(Collection<BibTeXEntry> values) {
 		Collection<BibTeXEntry> res = new LinkedList<BibTeXEntry>();
 
@@ -253,4 +349,5 @@ public class Parser {
 		return res;
 	}
 
+	
 }
