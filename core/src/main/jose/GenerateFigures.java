@@ -131,7 +131,7 @@ public class GenerateFigures {
 		Table authorTable= new Table(new String[] {"#papers","author"});
 		for(Entry<String, Collection<BibTeXEntry>> author:orderedByValueSize) {
 			System.out.println(toolkit.getAffiliation(author.getKey().replaceAll(" ", "+").replaceAll(",", "")));
-		//	authorTable.addRow(new Object[] {author.getValue().size(),author.getKey()});
+
 		}
 		//authorTable.reduceToRows(10);
 		//System.out.println(authorTable.printLatexTable());
