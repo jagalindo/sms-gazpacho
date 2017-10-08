@@ -28,5 +28,27 @@
 			<artifactId>commons-csv</artifactId>
 			<version>1.4</version>
 		</dependency>
+		<dependency>
+			<groupId>com.moodysalem</groupId>
+			<artifactId>phantomjs-wrapper</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.moodysalem</groupId>
+			<artifactId>phantomjs-wrapper-windows-binary</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.moodysalem</groupId>
+			<artifactId>phantomjs-wrapper-linux-binary</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.moodysalem</groupId>
+			<artifactId>phantomjs-wrapper-macosx-binary</artifactId>
+			<version>3.1.2</version>
+		</dependency>
 	</dependencies>
 </project>

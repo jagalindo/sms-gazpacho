@@ -8,5 +8,6 @@ page.open(url, function(status) {
 	 
   });
   console.log(title);
+  //print(title);
   phantom.exit();
 });

@@ -50,8 +50,8 @@ public class GenerateFigures {
 		//------------------------------------------------------
 		//------Research question 2: Who are the authors--------
 		//------------------------------------------------------
-		listFirstAuthors(fullBibPath);
-		
+	//	listFirstAuthors(fullBibPath);
+		getInstitution(fullBibPath);
 	}
 
 	public static void generateJournalTable(String DBPath, Properties abbreviation, List<String> SMSDimmensions) {
@@ -104,20 +104,38 @@ public class GenerateFigures {
 	public static void listFirstAuthors(String DBPath) {
 		Parser p = new Parser();
 		BibTeXDatabase db = p.readDatabase(DBPath);
-		SMSToolkit toolkit = new SMSToolkit();
 		
 		Map<String, Collection<BibTeXEntry>> groupByAuthor = p.groupByAuthor(db.getEntries().values(), true);
+		groupByAuthor=p.getLongestKey(groupByAuthor);
 		Collection<Entry<String,Collection<BibTeXEntry>>> orderedByValueSize = p.orderedByValueSize(groupByAuthor);
-		
-		
+	
 		
 		Table authorTable= new Table(new String[] {"#papers","author"});
 		for(Entry<String, Collection<BibTeXEntry>> author:orderedByValueSize) {
-			//System.out.println(toolkit.getAffiliation(author.getKey().replaceAll(" ", "+")));
 			authorTable.addRow(new Object[] {author.getValue().size(),author.getKey()});
 		}
 		//authorTable.reduceToRows(10);
 		System.out.println(authorTable.printLatexTable());
 		
 	}
+	
+	public static void getInstitution(String DBPath) {
+		Parser p = new Parser();
+		BibTeXDatabase db = p.readDatabase(DBPath);
+		
+		Map<String, Collection<BibTeXEntry>> groupByAuthor = p.groupByAuthor(db.getEntries().values(), true);
+		groupByAuthor=p.getLongestKey(groupByAuthor);
+		Collection<Entry<String,Collection<BibTeXEntry>>> orderedByValueSize = p.orderedByValueSize(groupByAuthor);
+	
+		
+		Table authorTable= new Table(new String[] {"#papers","author"});
+		for(Entry<String, Collection<BibTeXEntry>> author:orderedByValueSize) {
+			System.out.println(toolkit.getAffiliation(author.getKey().replaceAll(" ", "+").replaceAll(",", "")));
+		//	authorTable.addRow(new Object[] {author.getValue().size(),author.getKey()});
+		}
+		//authorTable.reduceToRows(10);
+		//System.out.println(authorTable.printLatexTable());
+		
+	}
+
 }

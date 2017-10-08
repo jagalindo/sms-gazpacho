@@ -1,8 +1,7 @@
 package parsing;
 
-import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
@@ -13,38 +12,26 @@ import java.util.Properties;
 import org.jbibtex.BibTeXDatabase;
 import org.jbibtex.BibTeXEntry;
 
+import com.moodysalem.phantomjs.wrapper.CommandLineArgument;
+import com.moodysalem.phantomjs.wrapper.PhantomJS;
+import com.moodysalem.phantomjs.wrapper.beans.PhantomJSExecutionResponse;
+import com.moodysalem.phantomjs.wrapper.beans.PhantomJSOptions;
+
 public class SMSToolkit {
-	public String phantomPath="C:\\Users\\malawito\\Documents\\Workspaces\\SMS\\sms-gazpacho\\core\\lib\\phantomjs\\";
+	// public String
+	// phantomPath="C:\\Users\\malawito\\Documents\\Workspaces\\SMS\\sms-gazpacho\\core\\lib\\phantomjs\\";
+	public String phantomPath = "C:\\Users\\jagal\\Documents\\Repositories\\sms-gazpacho\\core\\lib\\phantomjs\\";
+
 	public String getAffiliation(String author) {
-		String affiliation = "";
 
 		try {
-			String call=phantomPath+"phantomjs.exe getaffiliation.js "+author.replaceAll(" ", "+");
-			System.out.println("Calling "+call);
-			Process	process = Runtime.getRuntime().exec(call);
-			int exitStatus = process.waitFor();
-			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-
-			String currentLine = null;
-			StringBuilder stringBuilder = new StringBuilder(exitStatus == 0 ? "SUCCESS:" : "ERROR:");
-			currentLine = bufferedReader.readLine();
-			while (currentLine != null) {
-				stringBuilder.append(currentLine);
-				currentLine = bufferedReader.readLine();
-			}
-			System.out.println(stringBuilder.toString());
-		} catch (IOException | InterruptedException e) {
-			// TODO Auto-generated catch block
+			PhantomJSExecutionResponse response = PhantomJS.exec(new FileInputStream(phantomPath + "getaffiliation.js"),
+			PhantomJSOptions.DEFAULT, new CommandLineArgument(author));
+			return response.getStdOut().replaceAll("Verified email at ", "").replaceAll("\r\n", "");
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-
-		// Document doc =
-		// Jsoup.connect("http://scholar.google.com/citations?mauthors="+author+"&hl=en&view_op=search_authors").get();
-		// Elements newsHeadlines = doc.select(".gsc_1usr_emlb");
-		// affiliation=newsHeadlines.text();
-
-		return affiliation;
+		return "";
 	}
 
 	// Those here are to remain TODO find a good name
