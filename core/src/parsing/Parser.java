@@ -1,6 +1,7 @@
 package parsing;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -27,6 +28,11 @@ import org.jbibtex.ParseException;
 import org.jbibtex.StringValue;
 import org.jbibtex.TokenMgrException;
 import org.jbibtex.Value;
+
+import com.moodysalem.phantomjs.wrapper.CommandLineArgument;
+import com.moodysalem.phantomjs.wrapper.PhantomJS;
+import com.moodysalem.phantomjs.wrapper.beans.PhantomJSExecutionResponse;
+import com.moodysalem.phantomjs.wrapper.beans.PhantomJSOptions;
 
 public class Parser {
 
@@ -249,6 +255,31 @@ public class Parser {
 		return res;
 	}
 
+	public Map<String, Collection<BibTeXEntry>> groupByInstitution(Collection<BibTeXEntry> db) {
+
+		Map<String, Collection<BibTeXEntry>> groupByAuthor = groupByAuthor(db, true);
+		groupByAuthor = getLongestKey(groupByAuthor);
+		Collection<Entry<String, Collection<BibTeXEntry>>> orderedByValueSize = orderedByValueSize(groupByAuthor);
+
+		Map<String, Collection<BibTeXEntry>> institutionsPapers = new HashMap<String, Collection<BibTeXEntry>>();
+
+		for (Entry<String, Collection<BibTeXEntry>> authorEntry : orderedByValueSize) {
+			String author = authorEntry.getKey();
+			Collection<BibTeXEntry> authorPapers = authorEntry.getValue();
+			String institution = getAffiliation(author.replaceAll(" ", "+").replaceAll(",", ""));
+
+			Collection<BibTeXEntry> papers = institutionsPapers.get(institution);
+			if (papers == null) {
+				papers = new ArrayList<BibTeXEntry>();
+			}
+			papers.addAll(authorPapers);
+
+			institutionsPapers.put(institution, papers);
+		}
+
+		return institutionsPapers;
+	}
+
 	// Venue, set of contrib
 	public Map<String, Collection<BibTeXEntry>> groupContributionsByVenue(Collection<BibTeXEntry> db) {
 
@@ -377,4 +408,16 @@ public class Parser {
 		return res;
 	}
 
+	private String getAffiliation(String author) {
+
+		try {
+			PhantomJSExecutionResponse response = PhantomJS.exec(
+					new FileInputStream("./src/scripts/getaffiliation.js"), PhantomJSOptions.DEFAULT,
+					new CommandLineArgument(author));
+			return response.getStdOut().replaceAll("Verified email at ", "").replaceAll("\r\n", "");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return "";
+	}
 }

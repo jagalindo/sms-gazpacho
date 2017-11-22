@@ -18,8 +18,6 @@ import parsing.Parser;
 public class GenerateBarPlot {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		String CURRENT_DIR="C:\\Users\\malawito\\Documents\\Repositorios\\sms-gazpacho\\core\\";
-		String R_HOME="C:\\Program Files\\R\\R-3.3.2\\bin\\x64";
 		
 		Parser p = new Parser();
 		BibTeXDatabase db = p.readDatabase("./output_data/done.bib");

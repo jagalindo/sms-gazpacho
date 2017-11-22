@@ -31,10 +31,16 @@ public class Table {
 		this.rows=new LinkedList<>(rows.subList(0, n));
 	}
 	
+	public Table cloneTable() {
+		Table res = new Table(headers);
+		res.rows.addAll(rows);
+		return res;
+	}
+	
 	public void reduceToColumns(String[] desiredHeaders) {
 		List<Integer> desiredColumns= new LinkedList<Integer>();
 		
-		//select the columns to keep TODO CORRECT THIS
+
 		for(String desiredHeader:desiredHeaders) {
 			for(int c=0;c<headers.length;c++) {
 				if((headers[c].equals(desiredHeader))&&!desiredColumns.contains(c)) {
@@ -43,8 +49,7 @@ public class Table {
 				}
 			}
 		}
-		//System.out.println("Desired: "+desiredColumns.size()+" Total: "+headers.length1);
-//aqui hay un problema de actualizacion de indices
+
 		String[] newHeader=new String[desiredColumns.size()];
 		LinkedList<Object[]> newrows= new LinkedList<Object[]>();
 
