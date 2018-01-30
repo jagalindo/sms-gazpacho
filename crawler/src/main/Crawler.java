@@ -18,9 +18,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Crawler {
 
+	// Search string google "feature model" AND ("reasoning" OR "analysis" OR "automated" OR "analyses")
+	// Search string scopus "feature model" AND {"reasoning" OR "analysis" OR "automated" OR "analyses"}
+	
 	static String file = "30-01-2018.bib";
 	static String urlDavid = "https://scholar.google.es/scholar?cites=8673778080292292169&as_sdt=2005&sciodt=0,5&hl=en";
-	static String urlSearch = "https://scholar.google.es/scholar?cites=8673778080292292169&as_sdt=2005&sciodt=0,5&hl=en";
+	static String urlSearch = "https://scholar.google.es/scholar?hl=en&as_sdt=0%2C5&q=%22feature+model%22+AND+%28%22reasoning%22+OR+%22analysis%22+OR+%22automated%22+OR+%22analyses%22&btnG=";
 	
 	
 	static WebDriver driver;
@@ -35,7 +38,7 @@ public class Crawler {
 		out = new PrintWriter(file);
 		r= new Random();
 	
-
+		
 		waitForEnter();
 
 		boolean hasMore = false;
