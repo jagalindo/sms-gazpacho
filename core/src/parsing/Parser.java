@@ -138,6 +138,15 @@ public class Parser {
 		return db;
 	}
 
+	public boolean hasPaperWithTitle(String title, BibTeXDatabase db) {
+		
+		for(BibTeXEntry e:db.getEntries().values()) {
+			org.jbibtex.Value t = e.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
+			if (t.toUserString().equalsIgnoreCase(title)){return true;}
+		}
+		return false;
+	}
+	
 	public int countNumberOfPapersWithReview(BibTeXDatabase database, String... conditions) {
 		int count = 0;
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = database.getEntries();

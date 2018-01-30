@@ -38,17 +38,20 @@
 			<artifactId>phantomjs-wrapper-windows-binary</artifactId>
 			<version>3.1.2</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.moodysalem</groupId>
 			<artifactId>phantomjs-wrapper-linux-binary</artifactId>
 			<version>3.1.2</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.moodysalem</groupId>
 			<artifactId>phantomjs-wrapper-macosx-binary</artifactId>
 			<version>3.1.2</version>
+		</dependency>
+			<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.26-incubating</version>
 		</dependency>
 	</dependencies>
 </project>

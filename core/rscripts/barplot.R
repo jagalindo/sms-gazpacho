@@ -4,11 +4,9 @@ library(ggplot2)
 library(gridExtra)
 library(ggthemes)
 
-script.dir <- dirname(sys.frame(1)$ofile)
-setwd(script.dir);
 #------------- Read data ----------
 
-data = read.csv("../output_data/barplot.csv", header = TRUE,sep=';')
+data = read.csv("${data.origin}", header = TRUE,sep=';')
 
 #------------- Generate Graph ----------
 
@@ -21,8 +19,8 @@ plot<-ggplot(data, aes(x = as.numeric(year), y = papers,fill=factor(type)))  +
   ylab("Number of papers of a kind / # papers of a year") + 
   xlab("Year of publication") + 
   theme(legend.position="bottom") +
-  scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016))  + theme(aspect.ratio=0.5)
+  scale_x_continuous(breaks=c(<#list data.years as year>${year}<#if year?has_next>,</#if></#list>))  + theme(aspect.ratio=0.5)
 
 #------------- Write to pdf ----------
 
-ggsave("temporal.pdf",  width = 10)
+ggsave("${data.destination}",  width = 10)
