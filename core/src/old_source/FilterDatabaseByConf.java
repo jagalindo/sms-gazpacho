@@ -1,4 +1,4 @@
-package main.jose;
+package old_source;
 
 import java.util.Collection;
 import java.util.LinkedList;
@@ -12,7 +12,7 @@ public class FilterDatabaseByConf {
 
 	public static void main(String[] args) {
 		Parser p = new Parser();
-		BibTeXDatabase db = p.readDatabase("./output_data/done.bib");
+		BibTeXDatabase db = p.readDatabase("C:\\Users\\malawito\\Dropbox (US)\\Papers\\jagalindo18-computing\\bibtex-02-2018\\all.bib");
 		System.out.println("Initial size :"+db.getEntries().size());
 		String[] selectedConferences = { "SPLC", "ICSE", "VAMOS", "ASE" };
 		Collection<BibTeXEntry> filtered = new LinkedList<BibTeXEntry>();
@@ -28,7 +28,7 @@ public class FilterDatabaseByConf {
 		for (BibTeXEntry e : filtered) {
 			db2.addObject(e);
 		}
-		p.writeDatabase(db2,"./output_data/filtered.bib");
+		p.writeDatabase(db2,"C:\\Users\\malawito\\Dropbox (US)\\Papers\\jagalindo18-computing\\bibtex-02-2018\\selectedConfsAndJournals.2.bib");
 		System.out.println("End size :"+db2.getEntries().size());
 	}
 

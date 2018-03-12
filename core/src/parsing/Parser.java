@@ -147,6 +147,16 @@ public class Parser {
 		return false;
 	}
 	
+	
+	public BibTeXEntry getPaperWithTitle(String title, BibTeXDatabase db) {
+		
+		for(BibTeXEntry e:db.getEntries().values()) {
+			org.jbibtex.Value t = e.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
+			if (t.toUserString().equalsIgnoreCase(title)){return e;}
+		}
+		return null;
+	}
+	
 	public int countNumberOfPapersWithReview(BibTeXDatabase database, String... conditions) {
 		int count = 0;
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = database.getEntries();
@@ -185,7 +195,7 @@ public class Parser {
 		return res;
 	}
 
-	private boolean contains(BibTeXDatabase res, BibTeXEntry in) {
+	public boolean contains(BibTeXDatabase res, BibTeXEntry in) {
 		Value in_value = in.getField(org.jbibtex.BibTeXEntry.KEY_TITLE);
 
 		Map<org.jbibtex.Key, org.jbibtex.BibTeXEntry> entryMap = res.getEntries();
@@ -236,7 +246,7 @@ public class Parser {
 		Collection<BibTeXEntry> res = new LinkedList<BibTeXEntry>();
 
 		for (BibTeXEntry entry : values) {
-			if (entry.getType().getValue().equals("InProceedings")) {
+			if (entry.getType().getValue().equalsIgnoreCase("InProceedings")) {
 				Value booktitle = entry.getField(BibTeXEntry.KEY_BOOKTITLE);
 				String conferenceName = booktitle.toUserString();
 				if (conferenceName.equalsIgnoreCase(rf)) {

@@ -34,15 +34,15 @@ public class GScholar {
 	// Search string scopus "feature model" AND {"reasoning" OR "analysis" OR
 	// "automated" OR "analyses"}
 
-	static String bibtexFile = "02-02-2018-bena(961).bib";
+	static String bibtexFile = "02-02-2018-search-from2015.bib";
 
 	static String urlDavid = "https://scholar.google.es/scholar?cites=8673778080292292169&as_sdt=2005&sciodt=0,5&hl=en";
 	static String urlSearch = "https://scholar.google.es/scholar?hl=en&as_sdt=0%2C5&q=%22feature+model%22+AND+%28%22reasoning%22+OR+%22analysis%22+OR+%22automated%22+OR+%22analyses%22&btnG=";
 
-	static int pagesToProcess = 19;
+	static int pagesToProcess = 5;
 	static WebDriver driver;
 	// static Collection<String> referencesToDownload = new LinkedList<String>();
-	static PrintWriter bibtexWriter, citationWriter;
+	static PrintWriter bibtexWriter;
 	static Random r;
 	static public HashMap<String, String> ref_cites = new HashMap<String, String>();
 
@@ -52,13 +52,13 @@ public class GScholar {
 		driver = new ChromeDriver();
 		bibtexWriter = new PrintWriter(bibtexFile);
 		r = new Random();
-		driver.get(urlDavid);
+		driver.get(urlSearch);
 
 		waitForEnter();
 
 		do {
 			processPage();
-			Thread.sleep(100000 + r.nextInt(20000));
+			Thread.sleep(10000 + r.nextInt(20000));
 			try {
 				WebElement findElement = driver.findElement(By.linkText("Next"));
 				findElement.click();
@@ -79,7 +79,6 @@ public class GScholar {
 
 		processBibtexs();
 		bibtexWriter.close();
-		citationWriter.close();
 
 		// Close the browser
 		driver.quit();
@@ -102,7 +101,7 @@ public class GScholar {
 
 	private static void processBibtexs() throws InterruptedException, ObjectResolutionException, TokenMgrException, ParseException, IOException {
 		for (Entry<String, String> e : ref_cites.entrySet()) {
-			Thread.sleep(100000 + r.nextInt(20000));
+			Thread.sleep(r.nextInt(3000));
 			driver.get(e.getKey());
 			String bibtex = driver.findElement(By.tagName("pre")).getText();
 			//-----------
